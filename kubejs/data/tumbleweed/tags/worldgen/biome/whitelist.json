@@ -1,0 +1,18 @@
+{
+    "replace": false,
+    "values": [
+        "bloom_arti:ruined_wasteland",
+        {
+            "id": "#forge:is_dry",
+            "required": false
+        },
+        {
+            "id": "#forge:is_sandy",
+            "required": false
+        },
+        {
+            "id": "#c:climate_dry",
+            "required": false
+        }
+    ]
+}

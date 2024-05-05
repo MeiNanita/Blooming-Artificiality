@@ -1,0 +1,33 @@
+{
+    "name": "bloom_arti:lone_buildings",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "location": "bloom_arti:ruined_house_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 9,
+            "element": {
+                "location": "bloom_arti:ruined_house_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:lw_radio_tower_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}

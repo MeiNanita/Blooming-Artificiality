@@ -1,0 +1,32 @@
+{
+    "values": [
+        "gtceu:lp_steam_solid_boiler",
+        "gtceu:hp_steam_solid_boiler",
+        "gtceu:lp_steam_liquid_boiler",
+        "gtceu:hp_steam_liquid_boiler",
+        "gtceu:lp_steam_solar_boiler",
+        "gtceu:hp_steam_solar_boiler",
+        "gtceu:steam_machine_casing",
+        "gtceu:industrial_steam_casing",
+        "gtceu:lp_steam_extractor",
+        "gtceu:hp_steam_extractor",
+        "gtceu:lp_steam_macerator",
+        "gtceu:hp_steam_macerator",
+        "gtceu:lp_steam_compressor",
+        "gtceu:hp_steam_compressor",
+        "gtceu:lp_steam_forge_hammer",
+        "gtceu:hp_steam_forge_hammer",
+        "gtceu:lp_steam_furnace",
+        "gtceu:hp_steam_furnace",
+        "gtceu:lp_steam_alloy_smelter",
+        "gtceu:hp_steam_alloy_smelter",
+        "gtceu:lp_steam_rock_crusher",
+        "gtceu:hp_steam_rock_crusher",
+        "gtceu:steam_miner",
+        "gtceu:steam_input_bus",
+        "gtceu:steam_output_bus",
+        "gtceu:steam_input_hatch",
+        "gtceu:steam_grinder",
+        "gtceu:steam_oven"
+    ]
+}

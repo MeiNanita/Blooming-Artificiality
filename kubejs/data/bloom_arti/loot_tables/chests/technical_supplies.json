@@ -1,0 +1,95 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_plate",
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:copper_single_wire",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_small_fluid_pipe",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:tin_single_wire",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:lead_foil",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:redstone",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bucket",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_hammer",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_file",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_screwdriver",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_saw",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_wrench",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_wire_cutter",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "gtceu:bronze_crowbar",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.25
+                }
+            ]
+        }
+    ]
+}
+  

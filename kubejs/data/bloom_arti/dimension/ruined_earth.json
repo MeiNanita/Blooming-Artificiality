@@ -1,0 +1,11 @@
+{
+    "type": "bloom_arti:dim_type_ruined_earth",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bloom_arti:noise",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "bloom_arti:ruined_wasteland"
+        }
+    }
+}

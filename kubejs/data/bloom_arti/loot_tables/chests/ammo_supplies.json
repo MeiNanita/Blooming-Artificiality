@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 1,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pointblank:ammo357",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
+  
