@@ -1,0 +1,88 @@
+{
+	autofocus_id: "43A1E6FA8FD00EB7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_info"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "0EAB7DDC3068E83C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Hello and welcome to 'Blooming Artificiality' !"
+				""
+				"I'm MeiNanita, the creator of this modpack and it is quite a pleasure for me to welcome you here!"
+				"In this modpack, you'll experience a captivating sci-fi story where you will gradually uncover the secrets and lurking dangers that this ruined wasteland holds."
+				"You'll end up progressing technologically and scientifically, not only ensuring your own survival in the process, but also at some point  gradually terraforming this ruined earth back into its vivacious former self."
+				""
+				"My personal motivations and inspirations behind this modpack come from the anime 'Dr. Stone' and the game 'Horizon Zero Dawn', as well as the modpack 'Planetary'."
+				"I just like games and stories that utilize the concept of research and terraforming in some way, sprinkled with a captivating story in between."
+				"And well... since I couldn't find a modpack that quite filled this craving I had, that's how I eventually ended up creating this modpack."
+				""
+				"If that all sounds quite interesting to you, then I'm fairly certain that you'll enjoy this modpack for a long time!"
+			]
+			icon: "minecraft:writable_book"
+			id: "43A1E6FA8FD00EB7"
+			rewards: [{
+				id: "6C91614EA3669714"
+				item: {
+					Count: 1b
+					id: "pamhc2foodextended:ramenitem"
+					tag: {
+						display: {
+							Name: "{\"text\":\"Senku's space ramen\",\"color\":\"green\",\"italic\":\"true\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "25E7248AF0309398"
+				title: "Welcome to Blooming Artificiality!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43A1E6FA8FD00EB7"]
+			description: [
+				"Here goes all the honorific mentionings towards people who, while not part of the dev-team, still provided valuable contributions towards this modpack!"
+				""
+				"WIP"
+			]
+			icon: "pamhc2trees:starfruititem"
+			id: "62B80D1CD6EE6AEA"
+			shape: "hexagon"
+			tasks: [{
+				id: "4289D7042FEC1FA2"
+				title: "Special thanks"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43A1E6FA8FD00EB7"]
+			description: [
+				"In here goes all the credits and mentioning of members who are part of the dev-team of this modpack."
+				""
+				"WIP"
+			]
+			icon: "gtceu:computer_monitor_cover"
+			id: "4503DB46A7650A6F"
+			shape: "hexagon"
+			tasks: [{
+				id: "7A80B132DBCEB357"
+				title: "Dev-team credits"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	title: "Useful info"
+}

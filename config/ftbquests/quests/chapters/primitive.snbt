@@ -1,0 +1,66 @@
+{
+	autofocus_id: "3E1855C76ADE48D2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "primitive"
+	group: "1A79B9C146AB3481"
+	id: "7C8E006136B1D3BF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"My memory is still a bit foggy... I still remember how I went to cryosleep just a moment ago."
+				"Just... where am I?"
+				"W-where's the cryosleep-facility?"
+				"Why am I outside?"
+			]
+			icon: "biomesoplenty:dried_salt"
+			id: "3E1855C76ADE48D2"
+			shape: "square"
+			tasks: [
+				{
+					icon: "biomesoplenty:dried_salt"
+					id: "3E4A9450CC56D8C5"
+					observe_type: 0
+					timer: 100L
+					title: "Observe dried salt for 5 seconds"
+					to_observe: "biomesoplenty:dried_salt"
+					type: "observation"
+				}
+				{
+					icon: "biomesoplenty:dead_log"
+					id: "5F6B42F4212FD401"
+					observe_type: 0
+					timer: 100L
+					title: "Analyse a dead log for 5 seconds"
+					to_observe: "biomesoplenty:dead_log"
+					type: "observation"
+				}
+				{
+					icon: "minecraft:dead_bush"
+					id: "05185C4184833C19"
+					observe_type: 0
+					timer: 100L
+					title: "Analyse a dead bush for 5 seconds"
+					to_observe: "minecraft:dead_bush"
+					type: "observation"
+				}
+			]
+			title: "A rude awakening"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3A27C216E858FB79"
+			tasks: [{
+				id: "310351DDE7AEB84B"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Primitive"
+}
