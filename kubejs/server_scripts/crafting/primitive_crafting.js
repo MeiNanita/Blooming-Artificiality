@@ -57,4 +57,32 @@ ServerEvents.recipes(event => {
         M: 'exnihilosequentia:flint_mesh'
     });
 
+    event.remove({output: 'immersive_weathering:plate_iron'});
+    event.shaped(Item.of('immersive_weathering:plate_iron', 4), [
+        'BB',
+        'BB'
+    ], {
+        B: 'minecraft:iron_block'
+    });
+
+    event.shaped(Item.of('xkdeco:factory_block_rusted', 3), [
+        'SS',
+        'SS'
+    ], {
+        S: 'xkdeco:factory_stairs_rusted'
+    });
+
+    event.shaped(Item.of('xkdeco:factory_block_rusted'), [
+        'S',
+        'S'
+    ], {
+        S: 'xkdeco:factory_slab_rusted'
+    });
+
+    event.shapeless(Item.of('xkdeco:factory_slab_rusted'), [
+        'xkdeco:factory_trapdoor_rusted',
+        'xkdeco:factory_trapdoor_rusted',
+        'xkdeco:factory_trapdoor_rusted'
+    ]);
+
 });
