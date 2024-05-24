@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_engineering"
+	group: "5C5118AC7703F47F"
+	icon: "gtceu:bronze_gearbox"
+	id: "712F308AE19A0DDC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"No matter how I look at it, as long as I'm limited to manual labor, survival will remain tough and arduous. "
+			"But... if I could build some machines, then maybe, just maybe... "
+			"I could automate some tasks that could aid in my survival."
+			""
+			"While scouting the wasteland, I noticed a few &6ruined buildings&r."
+			"Maybe they'll have some &6metals&r with which I could build some sturdy machines."
+			"As for the power-source... one of the oldest forms of energy is &6steam&r, which should work perfectly to power my machines for now."
+		]
+		icon: "gtceu:lp_steam_solid_boiler"
+		id: "1BEB4EE9017D3F96"
+		rewards: [
+			{
+				auto: "invisible"
+				icon: "gtceu:bronze_gear"
+				id: "407C1B230CD63A13"
+				ignore_reward_blocking: true
+				stage: "machinery_steam"
+				title: "Unlock steam machines"
+				type: "gamestage"
+			}
+			{
+				id: "00BC5BD2F4D82A0A"
+				item: "minecraft:bucket"
+				type: "item"
+			}
+		]
+		shape: "gear"
+		tasks: [
+			{
+				count: 16L
+				id: "1A298B1CDA766A1B"
+				item: { Count: 16b, id: "gtceu:bronze_plate" }
+				type: "item"
+			}
+			{
+				count: 8L
+				id: "172466D1FAA20C1D"
+				item: { Count: 8b, id: "gtceu:bronze_small_fluid_pipe" }
+				type: "item"
+			}
+			{
+				count: 4L
+				id: "78CC68C0D8128D1E"
+				item: { Count: 4b, id: "minecraft:piston" }
+				type: "item"
+			}
+			{
+				id: "77B1F32251BF9987"
+				item: "gtceu:steam_bucket"
+				type: "item"
+			}
+			{
+				count: 2L
+				id: "0B8E1CDA551EF095"
+				item: { Count: 2b, id: "gtceu:bronze_gear" }
+				type: "item"
+			}
+		]
+		title: "Steam-powered machines"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Industry"
+}

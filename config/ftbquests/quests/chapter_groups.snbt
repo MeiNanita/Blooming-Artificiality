@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "1A79B9C146AB3481", title: "Progression" }]
+	chapter_groups: [
+		{ id: "1A79B9C146AB3481", title: "Progression" }
+		{ id: "5C5118AC7703F47F", title: "Tech Tree" }
+	]
 }

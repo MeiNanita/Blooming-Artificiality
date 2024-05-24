@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "military"
+	group: "5C5118AC7703F47F"
+	icon: "pointblank:m4sopmodii"
+	id: "1B323A8CB8681E7F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Military"
+}
