@@ -38,32 +38,37 @@
 		shape: "gear"
 		tasks: [
 			{
+				consume_items: true
 				count: 16L
 				id: "1A298B1CDA766A1B"
-				item: { Count: 16b, id: "gtceu:bronze_plate" }
+				item: "gtceu:bronze_plate"
 				type: "item"
 			}
 			{
+				consume_items: true
 				count: 8L
 				id: "172466D1FAA20C1D"
-				item: { Count: 8b, id: "gtceu:bronze_small_fluid_pipe" }
+				item: "gtceu:bronze_small_fluid_pipe"
 				type: "item"
 			}
 			{
+				consume_items: true
 				count: 4L
 				id: "78CC68C0D8128D1E"
-				item: { Count: 4b, id: "minecraft:piston" }
+				item: "minecraft:piston"
 				type: "item"
 			}
 			{
+				consume_items: true
 				id: "77B1F32251BF9987"
 				item: "gtceu:steam_bucket"
 				type: "item"
 			}
 			{
+				consume_items: true
 				count: 2L
 				id: "0B8E1CDA551EF095"
-				item: { Count: 2b, id: "gtceu:bronze_gear" }
+				item: "gtceu:bronze_gear"
 				type: "item"
 			}
 		]

@@ -1,5 +1,6 @@
+const PositionYCondition = Java.loadClass("com.gregtechceu.gtceu.common.recipe.PositionYCondition");
+
 ServerEvents.recipes(event => {
-    const PositionYCondition = Java.loadClass("com.gregtechceu.gtceu.common.recipe.PositionYCondition");
 
     for (let i = 0; i < 16; i++) {
         event.recipes.gtceu.downhole_heat_exchanger(`water_steam_${32 + ((i-1) * 4)}_${31 + (i * 4)}`) // default height 60 - 63 -> 16 mb => 2560 mB steam (eq. 1A MV)
