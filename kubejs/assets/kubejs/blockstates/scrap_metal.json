@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/scrap_metal"
+            },
+            {
+                "model": "kubejs:block/scrap_metal",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/scrap_metal",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/scrap_metal",
+                "y": 270
+            }
+        ]
+    }
+}

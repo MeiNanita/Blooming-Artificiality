@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/trashbag"
+            },
+            {
+                "model": "kubejs:block/trashbag",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/trashbag",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/trashbag",
+                "y": 270
+            }
+        ]
+    }
+}

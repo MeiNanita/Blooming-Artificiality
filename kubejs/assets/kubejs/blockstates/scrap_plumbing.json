@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/scrap_plumbing"
+            },
+            {
+                "model": "kubejs:block/scrap_plumbing",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/scrap_plumbing",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/scrap_plumbing",
+                "y": 270
+            }
+        ]
+    }
+}

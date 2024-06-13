@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/scrap_cable"
+            },
+            {
+                "model": "kubejs:block/scrap_cable",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/scrap_cable",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/scrap_cable",
+                "y": 270
+            }
+        ]
+    }
+}
