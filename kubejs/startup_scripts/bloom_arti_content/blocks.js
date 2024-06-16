@@ -90,7 +90,9 @@ StartupEvents.registry("block", (event) => {
             }
         });
         blockInfo.clientTick(180, 0, event => {
-            event.level.spawnParticles('minecraft:dripping_water', true, event.blockPos.x + 0.5, event.blockPos.y + 1.15, event.blockPos.z + 0.5, 0, 0.3, 0, 1, 1);
+            if (event.getLevel().isNight()) {
+                event.level.spawnParticles('minecraft:dripping_water', true, event.blockPos.x + 0.5, event.blockPos.y + 1.15, event.blockPos.z + 0.5, 0, 0.3, 0, 1, 1);
+            }
         });
     })
     .displayName("Fog collector")
