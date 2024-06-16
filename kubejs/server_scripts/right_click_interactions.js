@@ -3,7 +3,7 @@ BlockEvents.rightClicked('kubejs:fog_collector', event => {
     if (hand !== 'main_hand') return;
     if (item.id !== 'minecraft:bucket' && item.id !== 'notreepunching:ceramic_bucket') return;
     const water = block.entity.persistentData.getInt('water') || 0;
-    if (water < 10) return;
+    if (water < 1000) return;
     event.player.swing('main_hand');
     block.entity.persistentData.putInt('water', 0);
     if (item.id === 'minecraft:bucket') block.popItemFromFace(Item.of('minecraft:water_bucket', 1), Direction.UP);
