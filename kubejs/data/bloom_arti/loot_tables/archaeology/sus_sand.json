@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:clay",
+                    "weight": 14
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pointblank:ammo357",
+                    "weight": 5
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
