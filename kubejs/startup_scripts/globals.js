@@ -25,3 +25,14 @@ global.getFluid = (be) => {
     console.log(currentWater)
     return Fluid.water(currentWater)
 }
+
+global.fog_collector_items = {
+    'minecraft:bucket': {
+        'output': 'minecraft:water_bucket',
+        'amount': 1000
+    },
+    'notreepunching:ceramic_bucket': {
+        'output': 'notreepunching:ceramic_water_bucket',
+        'amount': 1000
+    }
+}
