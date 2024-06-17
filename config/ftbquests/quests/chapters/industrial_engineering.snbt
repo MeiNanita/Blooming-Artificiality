@@ -30,7 +30,7 @@
 				type: "gamestage"
 			}
 			{
-				id: "00BC5BD2F4D82A0A"
+				id: "37F686433D328B06"
 				item: "minecraft:bucket"
 				type: "item"
 			}
@@ -60,15 +60,15 @@
 			}
 			{
 				consume_items: true
-				id: "77B1F32251BF9987"
-				item: "gtceu:steam_bucket"
+				count: 2L
+				id: "0B8E1CDA551EF095"
+				item: "gtceu:bronze_gear"
 				type: "item"
 			}
 			{
 				consume_items: true
-				count: 2L
-				id: "0B8E1CDA551EF095"
-				item: "gtceu:bronze_gear"
+				id: "08C0EAB6C2FAD3A3"
+				item: "minecraft:water_bucket"
 				type: "item"
 			}
 		]

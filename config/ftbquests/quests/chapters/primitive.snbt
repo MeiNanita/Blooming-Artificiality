@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "primitive"
 	group: "1A79B9C146AB3481"
+	icon: "minecraft:campfire"
 	id: "7C8E006136B1D3BF"
 	order_index: 0
 	quest_links: [ ]
