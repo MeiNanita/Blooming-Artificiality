@@ -1,7 +1,7 @@
 StartupEvents.registry("block", (event) => {
     
-    event.create("scrap_metal")
-    .displayName("Scrap metal")
+    event.create('scrap_metal')
+    .displayName('Scrap metal')
     .mapColor('METAL')
     .model('kubejs:block/scrap_metal')
     .box(0, 0, 0, 16, 4, 16)
@@ -13,8 +13,8 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout();
 
 
-    event.create("scrap_plumbing")
-    .displayName("Scrap plumbing")
+    event.create('scrap_plumbing')
+    .displayName('Scrap plumbing')
     .mapColor('METAL')
     .model('kubejs:block/scrap_plumbing')
     .soundType('copper')
@@ -25,8 +25,8 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout();
 
 
-    event.create("scrap_electronics")
-    .displayName("Scrap electronics")
+    event.create('scrap_electronics')
+    .displayName('Scrap electronics')
     .mapColor('METAL')
     .model('kubejs:block/scrap_electronics')
     .soundType('copper')
@@ -37,8 +37,8 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout();
 
 
-    event.create("scrap_cable")
-    .displayName("Scrap cable")
+    event.create('scrap_cable')
+    .displayName('Scrap cable')
     .mapColor('METAL')
     .model('kubejs:block/scrap_cable')
     .box(0, 0, 0, 16, 8, 16)
@@ -50,8 +50,8 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout();
 
 
-    event.create("trashbag")
-    .displayName("Trashbag")
+    event.create('trashbag')
+    .displayName('Trashbag')
     .mapColor('COLOR_BLACK')
     .model('kubejs:block/trashbag')
     .soundType('azalea_leaves')
@@ -60,7 +60,7 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout();
 
 
-    event.create("fog_collector", "cardinal")
+    event.create('fog_collector', 'cardinal')
     .blockEntity(blockInfo => {
         blockInfo.attachCapability(CapabilityBuilder.FLUID.customBlockEntity()
             .getCapacity(be => 1000)
@@ -100,7 +100,7 @@ StartupEvents.registry("block", (event) => {
             }
         });
     })
-    .displayName("Fog collector")
+    .displayName('Fog collector')
     .mapColor('PODZOL')
     .model('kubejs:block/fog_collector')
     .soundType('bamboo')
@@ -108,6 +108,28 @@ StartupEvents.registry("block", (event) => {
     .resistance(1.0)
     .defaultCutout();
 
+    event.create('wasteland_soil', 'falling') // needs a texture
+    .displayName('Wasteland soil')
+    .mapColor('color_orange')
+    .soundType('suspicious_sand')
+    .hardness(0.5)
+    .resistance(0.5)
+    .tagBlock('forge:mineable/shovel')
+    .requiresTool(false)
+    .tagBlock('dead_bush_may_place_on')
+    .tagBlock('valid_spawn')
+    .fullBlock(true);
+
+    event.create('wasteland_undersoil') // needs a texture
+    .displayName('Wasteland undersoil')
+    .mapColor('color_orange')
+    .soundType('tuff')
+    .hardness(0.8)
+    .resistance(0.8)
+    .tagBlock('forge:mineable/shovel')
+    .requiresTool(false)
+    .tagBlock('dead_bush_may_place_on')
+    .fullBlock(true);
 
 });
 
