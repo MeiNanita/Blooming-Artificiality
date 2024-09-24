@@ -85,4 +85,46 @@ ServerEvents.recipes(event => {
         'xkdeco:factory_trapdoor_rusted'
     ]);
 
+
+    // ===================================================================
+
+    event.shapeless(
+        Item.of('gtceu:iron_screw'), [
+            'kubejs:scrap_metal',
+            '#forge:tools/screwdrivers'
+        ]
+    )
+    .damageIngredient( '#forge:tools/screwdrivers' );
+
+
+    event.shapeless(
+        Item.of('gtceu:iron_plate'), [
+            'kubejs:scrap_metal',
+            '#forge:tools/hammers',
+            '#forge:tools/crowbars'
+        ]
+    )
+    .damageIngredient( '#forge:tools/hammers' )
+    .damageIngredient( '#forge:tools/crowbars' );
+
+
+    event.shapeless(
+        Item.of('gtceu:small_iron_gear'), [
+            'kubejs:scrap_metal',
+            '#forge:tools/wrenches',
+            '#forge:tools/crowbars'
+        ]
+    )
+    .damageIngredient( '#forge:tools/wrenches' )
+    .damageIngredient( '#forge:tools/crowbars' );
+
+
+    event.shapeless(
+        Item.of('gtceu:iron_rod'), [
+            'kubejs:scrap_metal',
+            '#forge:tools/files'
+        ]
+    )
+    .damageIngredient( '#forge:tools/files' );
+
 });
