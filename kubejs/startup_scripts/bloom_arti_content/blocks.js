@@ -1,4 +1,5 @@
 StartupEvents.registry("block", (event) => {
+    
     event.create("scrap_metal")
     .displayName("Scrap metal")
     .mapColor('METAL')
@@ -7,6 +8,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('chain')
     .hardness(1.0)
     .resistance(1.0)
+    .tagBlock('forge:mineable/pickaxe')
+    .requiresTool(false)
     .defaultCutout();
 
 
@@ -17,6 +20,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('copper')
     .hardness(1.0)
     .resistance(1.0)
+    .tagBlock('forge:mineable/pickaxe')
+    .requiresTool(false)
     .defaultCutout();
 
 
@@ -27,6 +32,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('copper')
     .hardness(1.0)
     .resistance(1.0)
+    .tagBlock('forge:mineable/pickaxe')
+    .requiresTool(false)
     .defaultCutout();
 
 
@@ -38,6 +45,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('wool')
     .hardness(1.0)
     .resistance(1.0)
+    .tagBlock('forge:mineable/pickaxe')
+    .requiresTool(false)
     .defaultCutout();
 
 
@@ -48,10 +57,6 @@ StartupEvents.registry("block", (event) => {
     .soundType('azalea_leaves')
     .hardness(0.2)
     .resistance(0.2)
-    .blockEntity(blockInfo => {
-        blockInfo.inventory(9, 1);
-        blockInfo.rightClickOpensInventory();
-    })
     .defaultCutout();
 
 

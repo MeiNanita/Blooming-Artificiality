@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "mob": "minecraft:pig",
+        "biome": "bloom_arti:ruined_wasteland",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:cow",
+        "biome": "bloom_arti:ruined_wasteland",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:chicken",
+        "biome": "bloom_arti:ruined_wasteland",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:rabbit",
+        "biome": "bloom_arti:ruined_wasteland",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:bat",
+        "biome": "bloom_arti:ruined_wasteland",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:squid",
+        "biome": "bloom_arti:ruined_wasteland",
+        "result": "deny"
+    }
+]
