@@ -51,9 +51,11 @@
       [],
       [
         "minecraft:patch_dead_bush_2",
-        "biomesoplenty:trees_wasteland",
         "biomesoplenty:flower_wasteland",
-        "biomesoplenty:wasteland_grass_2"
+        "biomesoplenty:wasteland_grass_2",
+        "bloom_arti:dead_tree_wasteland",
+        "bloom_arti:dying_tree_wasteland",
+        "bloom_arti:dune_grass_patch"
       ],
       [
         "minecraft:freeze_top_layer"

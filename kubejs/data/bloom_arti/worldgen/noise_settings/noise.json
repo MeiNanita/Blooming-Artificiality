@@ -120,14 +120,14 @@
 									"then_run": {
 										"type": "minecraft:block",
 										"result_state": {
-											"Name": "biomesoplenty:dried_salt"
+											"Name": "kubejs:wasteland_soil"
 										}
 									}
 								},
 								{
 									"type": "minecraft:block",
 									"result_state": {
-										"Name": "minecraft:sand"
+										"Name": "immersive_weathering:earthen_clay"
 									}
 								}
 							]
@@ -145,7 +145,7 @@
 						"then_run": {
 							"type": "minecraft:block",
 							"result_state": {
-								"Name": "minecraft:gravel"
+								"Name": "kubejs:wasteland_undersoil"
 							}
 						}
 					},
