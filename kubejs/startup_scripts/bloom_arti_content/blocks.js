@@ -59,6 +59,17 @@ StartupEvents.registry("block", (event) => {
     .resistance(0.2)
     .defaultCutout();
 
+    event.create('tool_crate')
+    .model('kubejs:block/tool_crate')
+    .displayName('Tool crate')
+    .mapColor('wood')
+    .soundType('wood')
+    .hardness(2)
+    .resistance(3)
+    .tagBlock('forge:mineable/axes')
+    .requiresTool(false)
+    .fullBlock(true);
+
 
     event.create('fog_collector', 'cardinal')
     .blockEntity(blockInfo => {

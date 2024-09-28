@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bucket"
+				},
+                {
+					"type": "minecraft:item",
+					"name": "gtceu:bronze_hammer"
+				},
+                {
+					"type": "minecraft:item",
+					"name": "gtceu:bronze_screwdriver"
+				},
+                {
+					"type": "minecraft:item",
+					"name": "gtceu:bronze_crowbar"
+				},
+                {
+					"type": "minecraft:item",
+					"name": "gtceu:bronze_wrench"
+				}
+			]
+		}
+	]
+}
