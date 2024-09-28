@@ -12,9 +12,18 @@
             }
         },
         {
-            "weight": 9,
+            "weight": 10,
             "element": {
                 "location": "bloom_arti:ruined_house_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bloom_arti:pump_jack",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
