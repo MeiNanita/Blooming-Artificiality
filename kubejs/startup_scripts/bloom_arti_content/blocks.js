@@ -134,6 +134,23 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('dead_bush_may_place_on')
     .fullBlock(true);
 
+    event.create('dead_grass')
+    .model('kubejs:block/dead_grass')
+    .box(2, 0, 2, 14, 13, 14)
+    .displayName('Dead grass')
+    .mapColor('sand')
+    .soundType('grass')
+    .hardness(0)
+    .resistance(0)
+    .tagBlock('forge:mineable/shears')
+    .tagBlock('forge:mineable/knives')
+    .tagBlock('replaceable')
+    .tagBlock('inside_step_sound_blocks')
+    .tagBlock('valid_spawn')
+    .requiresTool(false)
+    .noCollision()
+    .defaultCutout();
+
 });
 
 
