@@ -7,41 +7,26 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:dead_bush",
-                    "weight": 90
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stick",
-                    "weight": 90
+                    "weight": 45
                 },
                 {
                     "type": "minecraft:item",
                     "name": "biomesoplenty:dead_sapling",
-                    "weight": 78
+                    "weight": 6
                 },
                 {
                     "type": "minecraft:item",
                     "name": "pamhc2foodextended:ediblerootitem",
-                    "weight": 20
+                    "weight": 6
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:rabbit_hide",
-                    "weight": 10
+                    "weight": 1
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:feather",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:charcoal",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_nugget",
                     "weight": 1
                 },
                 {
