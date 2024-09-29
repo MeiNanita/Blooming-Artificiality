@@ -1,4 +1,4 @@
-const PositionYCondition = Java.loadClass("com.gregtechceu.gtceu.common.recipe.PositionYCondition");
+const PositionYCondition = Java.loadClass("com.gregtechceu.gtceu.common.recipe.condition.PositionYCondition");
 
 ServerEvents.recipes(event => {
 
@@ -15,7 +15,8 @@ ServerEvents.recipes(event => {
             .inputFluids(Fluid.of('gtceu:distilled_water', (16 - i) * 4))
             .outputFluids(Fluid.of('gtceu:steam', (16 - i) * 640))
             .duration(5)
-            .addCondition(new PositionYCondition((i == 0 ? -64 : (32 + ((i-1) * 4))), 31 + (i * 4)));  
+            .addCondition(new PositionYCondition((i == 0 ? -64 : (32 + ((i-1) * 4))), 31 + (i * 4)))
+            
     }
 
     /*
