@@ -12,14 +12,14 @@
 	strictCoordinatesMode = false
 	# There you can define if UltimateSpawn should spawn players below this Y level. In rare cases may be shifted to speed up the search of the safe spawn spot. If this value is lower than lower bound, then it will be ignored and throw an error in chat.
 	#Range: -64.0 ~ 320.0
-	yUpperBound = 100.0
+	yUpperBound = 80.0
 	# There you can define if UltimateSpawn should spawn players above this Y level. In rare cases may be shifted to speed up the search of the safe spawn spot. If this value is higher than higher bound, then it will be ignored and throw an error in chat.
 	#Range: -64.0 ~ 320.0
-	yLowerBound = 60.0
+	yLowerBound = 32.0
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	x = 4.9E-324
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
-	y = 100.0
+	y = 80.0
 	#Range: 4.9E-324 ~ 1.7976931348623157E308
 	z = 4.9E-324
 
