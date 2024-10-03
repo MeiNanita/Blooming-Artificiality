@@ -1,0 +1,158 @@
+{
+    "variants": {
+        "": [
+            { 
+                "model": "kubejs:block/wasteland_soil", 
+                "weight": 80 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil", 
+                "y": 90, 
+                "weight": 80
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil", 
+                "y": 180,
+                "weight": 80
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil", 
+                "y": 270, 
+                "weight": 80
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_1",
+                "weight": 10 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_1", 
+                "y": 90,
+                "weight": 10  
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_1", 
+                "y": 180,
+                "weight": 10 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_1", 
+                "y": 270,
+                "weight": 10 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_2",
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_2", 
+                "y": 90,
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_2", 
+                "y": 180,
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_2", 
+                "y": 270,
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_3",
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_3", 
+                "y": 90,
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_3", 
+                "y": 180, 
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_3", 
+                "y": 270, 
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_4", 
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_4", 
+                "y": 90, 
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_4", 
+                "y": 180, 
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_4", 
+                "y": 270, 
+                "weight": 5 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_5", 
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_5", 
+                "y": 90, 
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_5", 
+                "y": 180,
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_5", 
+                "y": 270,
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_6",
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_6", 
+                "y": 90,
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_6", 
+                "y": 180,
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_6", 
+                "y": 270,
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_7",
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_7", 
+                "y": 90,
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_7", 
+                "y": 180,
+                "weight": 1 
+            },
+            { 
+                "model": "kubejs:block/wasteland_soil_7", 
+                "y": 270,
+                "weight": 1 
+            }
+        ]
+    }
+}

@@ -120,7 +120,7 @@ StartupEvents.registry("block", (event) => {
     .defaultCutout();
 
     event.create('wasteland_soil', 'falling') // needs a texture
-    .model('immersive_weathering:block/sandy_dirt')
+    //.model('immersive_weathering:block/sandy_dirt')
     .displayName('Wasteland soil')
     .mapColor('color_orange')
     .soundType('suspicious_sand')
@@ -134,7 +134,7 @@ StartupEvents.registry("block", (event) => {
     .fullBlock(true);
 
     event.create('wasteland_undersoil') // needs a texture
-    .model('xkdeco:block/sandy_cobblestone') // placeholder-texture
+    //.model('xkdeco:block/sandy_cobblestone') // placeholder-texture
     .displayName('Wasteland undersoil')
     .mapColor('color_orange')
     .soundType('tuff')
