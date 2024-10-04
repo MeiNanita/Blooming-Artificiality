@@ -1,0 +1,185 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "tries": 64,
+        "xz_spread": 8,
+        "y_spread": 3,
+        "feature": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "weight": 10,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_small",
+                                    "Properties": {
+										"facing": "east"
+									}
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_small",
+                                    "Properties": {
+										"facing": "north"
+									}
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_small",
+                                    "Properties": {
+										"facing": "south"
+									}
+                                }
+                            },
+                            {
+                                "weight": 10,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_small",
+                                    "Properties": {
+										"facing": "west"
+									}
+                                }
+                            },
+                            {
+                                "weight": 5,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_medium",
+                                    "Properties": {
+										"facing": "east"
+									}
+                                }
+                            },
+                            {
+                                "weight": 5,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_medium",
+                                    "Properties": {
+										"facing": "north"
+									}
+                                }
+                            },
+                            {
+                                "weight": 5,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_medium",
+                                    "Properties": {
+										"facing": "south"
+									}
+                                }
+                            },
+                            {
+                                "weight": 5,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_medium",
+                                    "Properties": {
+										"facing": "west"
+									}
+                                }
+                            },
+                            {
+                                "weight": 4,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_large",
+                                    "Properties": {
+										"facing": "east"
+									}
+                                }
+                            },
+                            {
+                                "weight": 4,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_large",
+                                    "Properties": {
+										"facing": "north"
+									}
+                                }
+                            },
+                            {
+                                "weight": 4,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_large",
+                                    "Properties": {
+										"facing": "south"
+									}
+                                }
+                            },
+                            {
+                                "weight": 4,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_large",
+                                    "Properties": {
+										"facing": "west"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_x_large",
+                                    "Properties": {
+										"facing": "east"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_x_large",
+                                    "Properties": {
+										"facing": "north"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_x_large",
+                                    "Properties": {
+										"facing": "south"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "naturaldecormod:rock_decor_x_large",
+                                    "Properties": {
+										"facing": "west"
+									}
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:air"
+                    }
+                },
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_block_tag",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "tag": "bloom_arti:wasteland_surface"
+                    }
+                }
+            ]
+        }
+    }
+}

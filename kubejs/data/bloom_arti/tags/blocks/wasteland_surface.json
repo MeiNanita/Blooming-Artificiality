@@ -1,5 +1,6 @@
 {
     "values": [
-        "kubejs:wasteland_soil"
+        "#bloom_arti:wasteland_surface_soil",
+        "#bloom_arti:wasteland_lakebed"
     ]
 }

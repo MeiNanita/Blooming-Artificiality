@@ -1,16 +1,16 @@
 {
-    "feature": "biomesoplenty:dying_tree_wasteland",
+    "feature": "bloom_arti:scattered_rocks",
     "placement": [
         {
             "type": "minecraft:rarity_filter",
-            "chance": 10
+            "chance": 4
         },
         {
             "type": "minecraft:in_square"
         },
         {
             "type": "minecraft:heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
+            "heightmap": "WORLD_SURFACE"
         },
         {
 			"type": "minecraft:block_predicate_filter",
@@ -21,7 +21,7 @@
 					-1,
 					0
 				],
-				"tag": "bloom_arti:wasteland_surface_soil"
+				"tag": "bloom_arti:wasteland_surface"
 			}
 		}
     ]
