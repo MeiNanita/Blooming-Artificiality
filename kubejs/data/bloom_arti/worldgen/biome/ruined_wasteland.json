@@ -3,7 +3,7 @@
     "temperature": 2.0,
     "downfall": 0.0,
     "effects": {
-      "fog_color": 14409153,
+      "fog_color": 15521704,
       "foliage_color": 11904876,
       "grass_color": 11375460,
       "mood_sound": {
@@ -22,9 +22,9 @@
         "options": {
           "type": "minecraft:mycelium"
         },
-        "probability": 0.00357
+        "probability": 0.004
       },
-      "sky_color": 9020343,
+      "sky_color": 7960418,
       "water_color": 4405025,
       "water_fog_color": 789507
     },
