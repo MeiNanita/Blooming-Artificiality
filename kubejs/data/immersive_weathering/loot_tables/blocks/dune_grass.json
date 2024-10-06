@@ -9,6 +9,10 @@
 					"name": "notreepunching:plant_fiber",
 					"conditions": [
 						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						},
+						{
 							"condition": "minecraft:match_tool",
 							"predicate": {
 								"tag": "forge:tools/knives"
@@ -23,7 +27,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "biomesoplenty:wilted_lily",
+					"name": "immersive_weathering:dune_grass",
 					"conditions": [
 						{
 							"condition": "minecraft:match_tool",

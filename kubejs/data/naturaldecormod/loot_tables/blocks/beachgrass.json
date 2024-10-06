@@ -23,7 +23,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "biomesoplenty:wilted_lily",
+					"name": "naturaldecormod:beachgrass",
 					"conditions": [
 						{
 							"condition": "minecraft:match_tool",
