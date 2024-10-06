@@ -9,7 +9,7 @@ StartupEvents.registry("block", (event) => {
     .hardness(1.0)
     .resistance(1.0)
     .tagBlock('forge:mineable/pickaxe')
-    .requiresTool(false)
+    .requiresTool(true)
     .defaultCutout();
 
 
@@ -21,7 +21,7 @@ StartupEvents.registry("block", (event) => {
     .hardness(1.0)
     .resistance(1.0)
     .tagBlock('forge:mineable/pickaxe')
-    .requiresTool(false)
+    .requiresTool(true)
     .defaultCutout();
 
 
@@ -33,7 +33,7 @@ StartupEvents.registry("block", (event) => {
     .hardness(1.0)
     .resistance(1.0)
     .tagBlock('forge:mineable/pickaxe')
-    .requiresTool(false)
+    .requiresTool(true)
     .defaultCutout();
 
 
@@ -46,7 +46,7 @@ StartupEvents.registry("block", (event) => {
     .hardness(1.0)
     .resistance(1.0)
     .tagBlock('forge:mineable/pickaxe')
-    .requiresTool(false)
+    .requiresTool(true)
     .defaultCutout();
 
 
@@ -67,7 +67,7 @@ StartupEvents.registry("block", (event) => {
     .hardness(2)
     .resistance(3)
     .tagBlock('forge:mineable/axes')
-    .requiresTool(false)
+    .requiresTool(true)
     .fullBlock(true);
 
 
