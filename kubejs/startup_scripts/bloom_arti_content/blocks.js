@@ -8,7 +8,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('chain')
     .hardness(1.0)
     .resistance(1.0)
-    .tagBlock('forge:mineable/pickaxe')
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('needs_stone_tool')
     .requiresTool(true)
     .defaultCutout();
 
@@ -20,7 +21,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('copper')
     .hardness(1.0)
     .resistance(1.0)
-    .tagBlock('forge:mineable/pickaxe')
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('needs_stone_tool')
     .requiresTool(true)
     .defaultCutout();
 
@@ -32,7 +34,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('copper')
     .hardness(1.0)
     .resistance(1.0)
-    .tagBlock('forge:mineable/pickaxe')
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('needs_stone_tool')
     .requiresTool(true)
     .defaultCutout();
 
@@ -45,7 +48,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('wool')
     .hardness(1.0)
     .resistance(1.0)
-    .tagBlock('forge:mineable/pickaxe')
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('needs_stone_tool')
     .requiresTool(true)
     .defaultCutout();
 
@@ -66,7 +70,8 @@ StartupEvents.registry("block", (event) => {
     .soundType('wood')
     .hardness(2)
     .resistance(3)
-    .tagBlock('forge:mineable/axes')
+    .tagBlock('mineable/axe')
+    .tagBlock('needs_stone_tool')
     .requiresTool(true)
     .fullBlock(true);
 
@@ -119,29 +124,28 @@ StartupEvents.registry("block", (event) => {
     .resistance(1.0)
     .defaultCutout();
 
-    event.create('wasteland_soil', 'falling') // needs a texture
-    //.model('immersive_weathering:block/sandy_dirt')
+    event.create('wasteland_soil', 'falling')
     .displayName('Wasteland soil')
     .mapColor('color_orange')
     .soundType('suspicious_sand')
     .hardness(0.5)
     .resistance(0.5)
-    .tagBlock('forge:mineable/shovel')
+    .tagBlock('mineable/shovel')
     .requiresTool(false)
     .tagBlock('dead_bush_may_place_on')
     .tagBlock('sand')
     .tagBlock('valid_spawn')
     .fullBlock(true);
 
-    event.create('wasteland_undersoil') // needs a texture
-    //.model('xkdeco:block/sandy_cobblestone') // placeholder-texture
+    event.create('wasteland_undersoil')
     .displayName('Wasteland undersoil')
     .mapColor('color_orange')
     .soundType('tuff')
     .hardness(0.8)
     .resistance(0.8)
-    .tagBlock('forge:mineable/shovel')
-    .requiresTool(false)
+    .tagBlock('mineable/shovel')
+    .tagBlock('needs_stone_tool')
+    .requiresTool(true)
     .tagBlock('dead_bush_may_place_on')
     .fullBlock(true);
 
