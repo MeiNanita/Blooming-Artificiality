@@ -19,6 +19,29 @@ ServerEvents.recipes(event => {
         K: '#forge:tools/knives'
     });
 
+    event.shaped(Item.of('minecraft:campfire'), [
+        ' S ',
+        'SFS',
+        'WWW'
+    ], {
+        W: '#minecraft:logs',
+        S: 'minecraft:stick',
+        F: 'notreepunching:fire_starter'
+    });
+
+    event.campfireCooking('minecraft:stone', 'minecraft:cobblestone');
+    event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone');
+
+    event.shaped(Item.of('minecraft:furnace'), [
+        'CCC',
+        'CFC',
+        'SSS'
+    ], {
+        C: 'minecraft:cobblestone',
+        S: 'minecraft:smooth_stone',
+        F: 'minecraft:campfire'
+    });
+
     event.replaceInput({ id: 'minecraft:stonecutter' },
         'minecraft:iron_ingot',
         'gtceu:iron_buzz_saw_blade'
