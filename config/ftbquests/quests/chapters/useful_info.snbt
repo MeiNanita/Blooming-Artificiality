@@ -28,7 +28,7 @@
 			rewards: [{
 				id: "6C91614EA3669714"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "pamhc2foodextended:ramenitem"
 					tag: {
 						display: {

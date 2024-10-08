@@ -4,10 +4,6 @@
 		{
 			"rolls": 1,
 			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:bucket"
-				},
                 {
 					"type": "minecraft:item",
 					"name": "gtceu:bronze_hammer"

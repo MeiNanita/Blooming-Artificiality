@@ -16,17 +16,17 @@
 				"W-where's the cryosleep-facility?"
 				"Why am I outside?"
 			]
-			icon: "biomesoplenty:dried_salt"
+			icon: "kubejs:wasteland_soil"
 			id: "3E1855C76ADE48D2"
 			shape: "square"
 			tasks: [
 				{
-					icon: "biomesoplenty:dried_salt"
+					icon: "kubejs:wasteland_soil"
 					id: "3E4A9450CC56D8C5"
 					observe_type: 0
 					timer: 100L
-					title: "Observe dried salt for 5 seconds"
-					to_observe: "biomesoplenty:dried_salt"
+					title: "Stare at the wasteland soil for 5 seconds"
+					to_observe: "kubejs:wasteland_soil"
 					type: "observation"
 				}
 				{
@@ -50,17 +50,635 @@
 			]
 			title: "A rude awakening"
 			x: 0.0d
-			y: 0.0d
+			y: 3.5d
 		}
 		{
-			id: "3A27C216E858FB79"
+			dependencies: ["3E1855C76ADE48D2"]
+			description: [
+				"Whereever I look, not even a single sign of life is visible."
+				"The trees are dead, "
+				"plants have wilted, "
+				"animals are gone"
+				"and not even a drop of water can be found... "
+				""
+				"Did the climate restoration project fail?"
+				"Maybe I can find some hints, but first, I need to ensure my survival!"
+				""
+				"First of all, I need &6sticks&r and some kind of &6sharp stone&r..."
+				"With those, I might be able to craft a fairly &6primitive tool&r..."
+			]
+			icon: "minecraft:dead_bush"
+			id: "5AD939C451A10FFD"
+			rewards: [{
+				id: "380CA825B83900E7"
+				item: {
+					Count: 1
+					id: "gtceu:flint_knife"
+					tag: {
+						DisallowContainerItem: 0b
+						Enchantments: [{
+							id: "minecraft:fire_aspect"
+							lvl: 2s
+						}]
+						GT.Behaviours: { }
+						GT.Tool: {
+							AttackDamage: 1.0f
+							AttackSpeed: 3.0f
+							Damage: 0
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: true
+					id: "121FB93BC8940789"
+					item: "minecraft:stick"
+					title: "Collect a sturdy enough stick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4D4EE606BF4A8EB0"
+					item: "minecraft:flint"
+					title: "Collect a sharp stone"
+					type: "item"
+				}
+			]
+			title: "A grim realization"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E1855C76ADE48D2"]
+			description: [
+				"&oCarefully you ventured into one of the ruined structures you saw in the distance.&r"
+				"&oThe walls have long since crumbled,&r"
+				"&otrash, scrap and rocks litter the ground&r"
+				"&oand yet... it seems like not a single soul has lived here for years now...&r "
+				""
+				"&oAs you ventured through even more ruins, &r"
+				"&othe same sight haunts you over and over.&r"
+				"&oYour breath felt chocked, &r"
+				"&oa cold shiver ran down your spine.&r"
+				""
+				"&oYou have a feeling that something terrible must've happened..."
+				"&r"
+			]
+			icon: "kubejs:scrap_metal"
+			id: "461692C72A1380E1"
+			shape: "square"
+			tasks: [
+				{
+					icon: "kubejs:scrap_metal"
+					id: "0CF1692AA1DEC389"
+					observe_type: 0
+					timer: 20L
+					title: "Spot some scrap metal"
+					to_observe: "kubejs:scrap_metal"
+					type: "observation"
+				}
+				{
+					icon: "kubejs:scrap_plumbing"
+					id: "3982CF1276B765B3"
+					observe_type: 0
+					timer: 20L
+					title: "Spot some scrap pipes"
+					to_observe: "kubejs:scrap_plumbing"
+					type: "observation"
+				}
+				{
+					icon: "kubejs:scrap_cable"
+					id: "070678219A1449B6"
+					observe_type: 0
+					timer: 20L
+					title: "Spot some scrap cables"
+					to_observe: "kubejs:scrap_cable"
+					type: "observation"
+				}
+				{
+					icon: "kubejs:scrap_electronics"
+					id: "417B0EE6C37B3BF5"
+					observe_type: 0
+					timer: 20L
+					title: "Spot some scrap electronics"
+					to_observe: "kubejs:scrap_electronics"
+					type: "observation"
+				}
+				{
+					icon: "kubejs:trashbag"
+					id: "0BAFECDB2771E81D"
+					observe_type: 0
+					timer: 20L
+					title: "Find some trash"
+					to_observe: "kubejs:trashbag"
+					type: "observation"
+				}
+			]
+			title: "Ashes of the past"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["461692C72A1380E1"]
+			description: [
+				"For now, I'm unable to break any of the scrap-piles until I have better tools. "
+				"However those &6trashbags&r look pretty fragile..."
+				""
+				"Maybe I'll be able to find something &auseful&r in there to help my survival?"
+			]
+			icon: "kubejs:trashbag"
+			id: "4D52AFE383138664"
+			shape: "square"
+			tasks: [
+				{
+					id: "5438117FF0C742A8"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					id: "5A272E8E7019F43B"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "575E2C53A9E7147E"
+					item: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
+					type: "item"
+				}
+				{
+					id: "005D0B7D57651B9E"
+					item: "pamhc2foodextended:cheezepuffsitem"
+					type: "item"
+				}
+				{
+					id: "77071CB58A4787E0"
+					item: "pamhc2foodextended:cornchipsitem"
+					type: "item"
+				}
+			]
+			title: "A racoon's lifestyle"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E1855C76ADE48D2"]
+			description: [
+				"I've noticed some movement in the distance... "
+				"Unfortunately, it's just a bunch of tumbleweeds tumblin' in the wind."
+				""
+				"... on second thought, maybe those tumbleweeds might have something useful..."
+			]
+			icon: "biomesoplenty:dead_sapling"
+			id: "2BB3297C063E4532"
+			rewards: [{
+				count: 3
+				id: "5961FA1B30291F90"
+				item: "pamhc2foodextended:ediblerootitem"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					entity: "tumbleweed:tumbleweed"
+					id: "643C63B610BF7BDF"
+					title: "Break a bunch of tumbleweeds"
+					type: "kill"
+					value: 10L
+				}
+				{
+					id: "2EA338794DE5854E"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+				{
+					id: "7F87201F71EF5D6B"
+					item: "biomesoplenty:dead_sapling"
+					type: "item"
+				}
+				{
+					id: "20DB315CFB8A4D21"
+					item: "pamhc2foodextended:ediblerootitem"
+					type: "item"
+				}
+				{
+					id: "355D7A86B76AC91A"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "6171E0DAABBCE19C"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "79CA91BA4763C62A"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			title: "Just like in the wild west..."
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AD939C451A10FFD"]
+			description: [
+				"Now that I have a working knife, I can start to cut down some of those wilted plants to gather some plant-fiber."
+				"With those, I should be able to get plant-strings which will be necessary for better tools!"
+			]
+			icon: "notreepunching:plant_string"
+			id: "74B96428A9A52060"
+			rewards: [{
+				id: "2F2329BF30204CAA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: false
+					count: 16L
+					icon: "notreepunching:plant_fiber"
+					id: "31AFBB79B2569ABC"
+					item: "notreepunching:plant_fiber"
+					title: "Gather some plant fiber"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					icon: "notreepunching:plant_string"
+					id: "2F36895D533785C5"
+					item: { Count: 4, id: "notreepunching:plant_string" }
+					only_from_crafting: true
+					title: "Craft some strings"
+					type: "item"
+				}
+			]
+			title: "A primitive tool-binder"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AD939C451A10FFD"]
+			description: [
+				"If I want better tools, I need to further process my flint."
+				"It might be a bit of a cavemen-method but... maybe I can sharpen my &6flint&r by &6hitting it against some stone&r."
+			]
+			id: "0BE077D650857667"
+			rewards: [{
+				count: 2
+				id: "66D027933216F32A"
+				item: "notreepunching:flint_shard"
+				type: "item"
+			}]
+			shape: "square"
 			tasks: [{
-				id: "310351DDE7AEB84B"
+				icon: "notreepunching:flint_shard"
+				id: "268EAFD9E33BA01A"
+				item: "notreepunching:flint_shard"
+				title: "Smash some flint into shards"
+				type: "item"
+			}]
+			title: "Sharper than before"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"74B96428A9A52060"
+				"0BE077D650857667"
+			]
+			description: [
+				"Perfect!"
+				"Now that I have flint-shards, plant-strings and sticks,"
+				"I can finally &6craft a primitive flint axe&r to chop down those dead trees for wood!"
+			]
+			icon: {
+				Count: 1
+				id: "notreepunching:flint_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "052CCB6358E4F8AD"
+			rewards: [{
+				id: "7EFA7F18DFFFAB1C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "684886E042FEF095"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "267C57A3246B5295"
+					item: { Count: 8, id: "biomesoplenty:dead_log" }
+					type: "item"
+				}
+			]
+			title: "A proper tool at last!"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["052CCB6358E4F8AD"]
+			description: [
+				"Manual-crafting without a proper work-station will only get me this far..."
+				"But now that I have some &6logs&r, a &6knife&r and an &6axe&r,"
+				"I can finally work on something that will aid in my survival... a &6crafting table&r!"
+			]
+			id: "57B606614B36774B"
+			rewards: [
+				{
+					id: "70E17D86B3E1D1F2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "1E496F71E14019E3"
+					item: "notreepunching:flint_shard"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: "minecraft:crafting_table"
+				id: "4B1FC17D00F806D0"
+				item: "minecraft:crafting_table"
+				title: "Assemble a crafting table"
+				type: "item"
+			}]
+			title: "Entering the era of crafting"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["57B606614B36774B"]
+			id: "744FE6723148330E"
+			rewards: [{
+				id: "7419207CD62ECC50"
+				item: {
+					Count: 1
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "25F4C7EA0CE401C0"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76109D5C6D5A3F5F"
+					item: {
+						Count: 1
+						id: "notreepunching:flint_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "271C5F9F33CF5BD9"
+					item: {
+						Count: 1
+						id: "notreepunching:fire_starter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "More tools!"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"052CCB6358E4F8AD"
+				"744FE6723148330E"
+			]
+			description: [
+				"I can feel the night slowly approaching... "
+				"Now that I have access to some &6logs, sticks and a fire-starter&r,"
+				"I should try to create a &6campfire&r."
+			]
+			id: "20ADE96671853A74"
+			rewards: [{
+				count: 4
+				id: "7958CE2A34CA7A4E"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "593AA4447EF30C1A"
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			title: "And then, there was fire!"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"461692C72A1380E1"
+				"744FE6723148330E"
+			]
+			description: [
+				"With a pickaxe in tow, I should be able to finally collect some scrap materials from the wasteland-ruins! "
+				""
+				"The metals I will be able to get from them should be very valuable for my progression!"
+			]
+			id: "0BD548EEDA83FF96"
+			rewards: [{
+				count: 8
+				id: "7CC8FF9293D74C9F"
+				item: "kubejs:scrap_metal"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					count: 8L
+					id: "5E0AA58E9AF15B25"
+					item: { Count: 8, id: "kubejs:scrap_metal" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "16215F6C8C1E5739"
+					item: { Count: 8, id: "kubejs:scrap_plumbing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "40F3242705B5981D"
+					item: "kubejs:scrap_cable"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "75051CE9E200706D"
+					item: { Count: 8, id: "kubejs:scrap_electronics" }
+					type: "item"
+				}
+			]
+			title: "Junkyard-scavenging"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["052CCB6358E4F8AD"]
+			description: [
+				"During my search in those ruined structures, I've noticed some large and sturdy wooden crates..."
+				"They were quite heavy to move and I swear I heard a faint &6metallic sound&r from within them!"
+				""
+				"Now that I have an axe though, I might be able to open them and find something &6valuable&r."
+			]
+			icon: "kubejs:tool_crate"
+			id: "6E789AB90E379250"
+			rewards: [
+				{
+					count: 4
+					id: "2865AB83F004BDEE"
+					item: "kubejs:scrap_metal"
+					type: "item"
+				}
+				{
+					id: "1302B1405EF49BC8"
+					item: "minecraft:lantern"
+					type: "item"
+				}
+				{
+					id: "5977AF9EA46CD4D9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					icon: "kubejs:tool_crate"
+					id: "47DB7007B9BC78B1"
+					observe_type: 0
+					timer: 20L
+					title: "Find a tool-crate"
+					to_observe: "kubejs:tool_crate"
+					type: "observation"
+				}
+				{
+					id: "7DA43DE3413A10D8"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7676F5DE36A5D524"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 191
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54182AE0626E359D"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "584963BC6F833BC5"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A gift from a bygone era"
+			x: 4.5d
+			y: 6.5d
 		}
 	]
 	title: "Primitive"
