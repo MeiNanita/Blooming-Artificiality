@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         'WW'
     ], {
         W: '#minecraft:logs',
-        A: '#forge:tools/axes',
+        A: '#minecraft/axes',
         K: '#forge:tools/knives'
     });
 
