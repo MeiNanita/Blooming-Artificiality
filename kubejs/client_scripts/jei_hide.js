@@ -1,7 +1,23 @@
 JEIEvents.hideItems(event => {
 
-    //event.hide('#notreepunching:knives');
-    //event.hide('#notreepunching:saws');
+    // notreepunching
+    event.hide('notreepunching:flint_knife');
+    event.hide('notreepunching:iron_knife');
+    event.hide('notreepunching:gold_knife');
+    event.hide('notreepunching:diamond_knife');
+    event.hide('notreepunching:netherite_knife');
+    event.hide('notreepunching:iron_saw');
+    event.hide('notreepunching:gold_saw');
+    event.hide('notreepunching:diamond_saw');
+    event.hide('notreepunching:netherite_saw');
     event.hide('#notreepunching:mattocks');
+
+
+    // gregtech
+    event.hide('gtceu:flint_pickaxe');
+    event.hide('gtceu:flint_shovel');
+    event.hide('gtceu:flint_axe');
+    event.hide('gtceu:flint_hoe');
+    event.hide('gtceu:flint_sword');
 
 });

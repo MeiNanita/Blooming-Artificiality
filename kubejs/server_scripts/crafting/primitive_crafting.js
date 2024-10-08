@@ -42,6 +42,15 @@ ServerEvents.recipes(event => {
         F: 'minecraft:campfire'
     });
 
+    event.shaped(Item.of('minecraft:clay'), [
+        'CCC',
+        'CTC',
+        'CCC'
+    ], {
+        C: 'minecraft:clay_ball',
+        T: 'notreepunching:clay_tool'
+    });
+
     event.replaceInput({ id: 'minecraft:stonecutter' },
         'minecraft:iron_ingot',
         'gtceu:iron_buzz_saw_blade'
