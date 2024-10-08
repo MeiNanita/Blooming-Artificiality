@@ -127,4 +127,44 @@ ServerEvents.recipes(event => {
     )
     .damageIngredient( '#forge:tools/files' );
 
+
+    event.shapeless(
+        'naturaldecormod:rock_decor_small', 
+        [
+            Item.of('kubejs:stone_pebble', 1)
+        ]
+    );
+
+
+    event.shapeless(
+        'naturaldecormod:rock_decor_medium', 
+        [
+            Item.of('kubejs:stone_pebble', 2)
+        ]
+    );
+
+
+    event.shapeless(
+        'naturaldecormod:rock_decor_large', 
+        [
+            Item.of('kubejs:stone_pebble', 4)
+        ]
+    );
+
+
+    event.shapeless(
+        'naturaldecormod:rock_decor_x_large', 
+        [
+            Item.of('kubejs:stone_pebble', 8)
+        ]
+    );
+
+
+    event.shapeless(
+        'minecraft:cobblestone', 
+        [
+            Item.of('kubejs:stone_pebble', 9)
+        ]
+    );
+
 });
