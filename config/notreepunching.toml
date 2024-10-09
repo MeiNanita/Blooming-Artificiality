@@ -51,7 +51,7 @@
     fireStarterCanMakeSoulCampfire = true
 
     # If the large ceramic vessel block keeps it's contents when broken (as opposed to dropping them on the ground
-    largeVesselKeepsContentsWhenBroken = true
+    largeVesselKeepsContentsWhenBroken = false
 
     # The sequence of blocks that can be created with the clay tool.
     # When the clay tool is used, if the block is present in this list, it may be converted to the next block in the list.
