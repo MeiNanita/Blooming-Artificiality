@@ -1,11 +1,11 @@
 [General]
     # Can backpacks be put inside other backpacks?
     # Allowed values: true, false - Default: true
-    allowBagInBag = true
+    allowBagInBag = false
 
     # How many layers deep can you place backpacks inside backpacks? -1 for infinite, 0 is the same as setting 'allowBagInBag' to false.
     # Allowed range: -1 ~ 5 - Default: -1
-    maxBagInBagLayer = -1
+    maxBagInBagLayer = 0
 
     # Should the backpack remain in the player's inventory if they die?
     # Allowed values: true, false - Default: false
@@ -27,7 +27,7 @@
 
         # How many columns does the basic backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
-        basicColumns = 9
+        basicColumns = 3
 
     [Backpacks.Iron]
         # Enable the iron backpack?
@@ -36,11 +36,11 @@
 
         # How many rows does the iron backpack have?
         # Allowed range: 1 ~ 9 - Default: 4
-        ironRows = 4
+        ironRows = 3
 
         # How many columns does the iron backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
-        ironColumns = 9
+        ironColumns = 5
 
     [Backpacks.Copper]
         # Enable the copper backpack?
