@@ -11,6 +11,10 @@ JEIEvents.hideItems(event => {
     event.hide('notreepunching:diamond_saw');
     event.hide('notreepunching:netherite_saw');
     event.hide('#notreepunching:mattocks');
+    event.hide('notreepunching:ceramic_small_vessel');
+    event.hide('notreepunching:ceramic_large_vessel');
+    event.hide('notreepunching:clay_small_vessel');
+    event.hide('notreepunching:clay_large_vessel');
 
 
     // gregtech

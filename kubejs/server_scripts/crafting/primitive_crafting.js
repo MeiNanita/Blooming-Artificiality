@@ -61,6 +61,30 @@ ServerEvents.recipes(event => {
         'gtceu:wrought_iron_plate'
     );
 
+    event.shaped(Item.of('minecraft:barrel'), [
+        'M_S',
+        'PRP',
+        'PRP'
+    ], {
+        M: '#forge:tools/mallets',
+        S: '#forge:tools/saws',
+        _: '#minecraft:wooden_slabs',
+        P: '#minecraft:planks',
+        R: 'gtceu:long_iron_rod'
+    });
+
+    event.shaped(Item.of('minecraft:chest'), [
+        '_M_',
+        'OSO',
+        'L_L'
+    ], {
+        M: '#forge:tools/mallets',
+        S: '#forge:tools/saws',
+        _: '#minecraft:wooden_slabs',
+        O: 'gtceu:iron_ring',
+        L: '#minecraft:logs'
+    });
+
 
     // ===================================================================
 

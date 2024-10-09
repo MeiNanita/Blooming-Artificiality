@@ -20,6 +20,10 @@ ServerEvents.recipes(event => {
     event.remove({id: 'notreepunching:plant_fiber_from_cactus_with_knife'});
     event.remove({id: 'notreepunching:string_from_wool_with_knife'});
     event.remove({id: 'notreepunching:melon_slices_with_knife'});
+    event.remove({id: 'notreepunching:smelting/large_vessel'});
+    event.remove({id: 'notreepunching:smelting/small_vessel'});
+    event.remove({id: 'notreepunching:campfire/large_vessel'});
+    event.remove({id: 'notreepunching:campfire/small_vessel'});
 
 
     // minecraft
@@ -62,6 +66,14 @@ ServerEvents.recipes(event => {
     event.remove({id: 'naturaldecormod:dark_oak_pot_recipe'});
     event.remove({id: 'naturaldecormod:hanging_planter_bamboo_recipe'});
     event.remove({id: 'naturaldecormod:hanging_planter_cherry_recipe'});
+    event.remove({id: 'naturaldecormod:cactus_chest_recipe'});
+    event.remove({id: 'naturaldecormod:cactus_axe_recipe'});
+    event.remove({id: 'naturaldecormod:cactus_shovel_recipe'});
+    event.remove({id: 'naturaldecormod:cactus_hoe_recipe'});
+    event.remove({id: 'naturaldecormod:cactus_pickaxe_recipe'});
+    event.remove({id: 'naturaldecormod:cactus_sword'});
+    event.remove({id: 'naturaldecormod:cactusplankstickrecipe'});
+    event.remove({id: 'naturaldecormod:cactus_wood_crafting_bench_recipe'});
 
 
     // gregtech
@@ -70,6 +82,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/axe_flint'});
     event.remove({id: 'gtceu:shaped/hoe_flint'});
     event.remove({id: 'gtceu:shaped/sword_flint'});
+    event.remove({id: 'gtceu:shaped/barrel'});
+    event.remove({id: 'gtceu:shaped/chest'});
 
     //event.remove({input: 'gtceu:impure_hematite_dust', type: 'minecraft:smelting'});
     //event.remove({input: 'gtceu:hematite_dust', type: 'minecraft:smelting'});
