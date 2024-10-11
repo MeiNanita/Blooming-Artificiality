@@ -244,13 +244,6 @@
 			shape: "square"
 			tasks: [
 				{
-					entity: "tumbleweed:tumbleweed"
-					id: "643C63B610BF7BDF"
-					title: "Break a bunch of tumbleweeds"
-					type: "kill"
-					value: 10L
-				}
-				{
 					id: "2EA338794DE5854E"
 					item: "minecraft:dead_bush"
 					type: "item"
@@ -679,6 +672,58 @@
 			title: "A gift from a bygone era"
 			x: 4.5d
 			y: 6.5d
+		}
+		{
+			dependencies: ["744FE6723148330E"]
+			description: [
+				"With a pickaxe in my hand, I can finally gather some much needed stone!"
+				"The various loose rocks I see on the surface should give me enough pebbles to craft some cobblestone."
+			]
+			icon: "naturaldecormod:rock_decor_x_large"
+			id: "7A784F6C67278A5B"
+			shape: "square"
+			tasks: [
+				{
+					count: 64L
+					id: "07601E5021086DF0"
+					item: "kubejs:stone_pebble"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6D60A69CCA7BC9EB"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "Welcome to the stone-age!"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7A784F6C67278A5B"
+				"20ADE96671853A74"
+			]
+			description: [
+				"Campfires are nice and all, but now that I have access to stone,"
+				"I can think about upgrading my campfires into a proper furnace!"
+			]
+			id: "3BAD1E02E7A2FE79"
+			rewards: [{
+				id: "3783519445B4B7B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3DCEE840067ED8BE"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "A primitive machine..."
+			x: 7.5d
+			y: 3.5d
 		}
 	]
 	title: "Primitive"
