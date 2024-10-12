@@ -85,8 +85,21 @@ ServerEvents.recipes(event => {
         L: '#minecraft:logs'
     });
 
+    event.shapeless(
+        'kubejs:plant_fiber_mesh', [
+            Item.of('notreepunching:plant_string', 4)
+        ]
+    );
 
-    // ===================================================================
+    event.shaped('kubejs:plant_fiber_sieve', [
+        'SMS',
+        'MMM',
+        'SMS'
+    ], {
+        M: 'kubejs:plant_fiber_mesh',
+        S: 'minecraft:stick'
+    });
+
 
     event.shapeless(
         Item.of('gtceu:iron_screw'), [
