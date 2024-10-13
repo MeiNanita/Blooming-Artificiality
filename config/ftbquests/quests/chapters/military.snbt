@@ -35,6 +35,7 @@
 		{
 			dependencies: ["39A41CD843ADE0F6"]
 			description: [
+				"&4[WIP]&r"
 				"Now that I found some ammo scattered in this wasteland, "
 				"I cannot shake that thought off that some armed conflict must've happened. "
 				"But if that's the case... then I'm pretty much a defenseless target right now should this danger still exist... "
@@ -45,13 +46,20 @@
 			icon: "pointblank:rhino"
 			id: "228053BE27C7AC05"
 			shape: "square"
-			tasks: [{
-				consume_items: true
-				count: 8L
-				id: "2B6018D55C8C7871"
-				item: "gtceu:steel_tiny_fluid_pipe"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "2B6018D55C8C7871"
+					item: "gtceu:steel_tiny_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "7087907CB643FD60"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
 			title: "Pistols I"
 			x: 0.0d
 			y: -1.0d

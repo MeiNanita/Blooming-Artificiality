@@ -8,13 +8,17 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
+		dependencies: [
+			"78A84E3611C6447D"
+			"6E789AB90E379250"
+			"762BC5C521C37151"
+		]
 		description: [
 			"No matter how I look at it, as long as I'm limited to manual labor, survival will remain tough and arduous. "
 			"But... if I could build some machines, then maybe, just maybe... "
 			"I could automate some tasks that could aid in my survival."
 			""
-			"While scouting the wasteland, I noticed a few &6ruined buildings&r."
-			"Maybe they'll have some &6metals&r with which I could build some sturdy machines."
+			"The &6ruined buildings&r in this wasteland have some &6scrap metals&r with which I could build some sturdy machines."
 			"As for the power-source... one of the oldest forms of energy is &6steam&r, which should work perfectly to power my machines for now."
 		]
 		icon: "gtceu:lp_steam_solid_boiler"
@@ -69,6 +73,13 @@
 				consume_items: true
 				id: "08C0EAB6C2FAD3A3"
 				item: "minecraft:water_bucket"
+				type: "item"
+			}
+			{
+				consume_items: true
+				count: 4L
+				id: "6A86E566C9D4420C"
+				item: "minecraft:charcoal"
 				type: "item"
 			}
 		]

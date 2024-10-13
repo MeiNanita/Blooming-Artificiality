@@ -826,6 +826,248 @@
 			x: 6.0d
 			y: 2.0d
 		}
+		{
+			dependencies: [
+				"3BAD1E02E7A2FE79"
+				"762BC5C521C37151"
+			]
+			description: [
+				"With the availability of metal at my fingertips, "
+				"I can upgrade my primitive furnace into a professional furnace!"
+			]
+			icon: "minecraft:blast_furnace"
+			id: "5E318C28709A9132"
+			rewards: [{
+				id: "5D9BED2799314341"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1C17E73AB4842E1C"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Next gen furnace"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3BAD1E02E7A2FE79"
+				"6E789AB90E379250"
+				"0BD548EEDA83FF96"
+			]
+			description: [
+				"Now that I have some &6tools&r and plenty of &6scrap-metals&r, "
+				"I should be able to recycle that scrap to get some much needed metal!"
+				""
+				"It's time to say goodbye to the caveman-days!"
+			]
+			id: "762BC5C521C37151"
+			rewards: [
+				{
+					count: 4
+					id: "6612FD1845B9AD18"
+					item: "kubejs:scrap_plumbing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "72C799E5621E3BE5"
+					item: "kubejs:scrap_cable"
+					type: "item"
+				}
+				{
+					id: "3663C04A278815D8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: false
+					count: 5L
+					id: "29859C5073EBAC2A"
+					item: "gtceu:iron_plate"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "3E102DC5DC9BD2C7"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5E3214FF5A2D28C6"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 3L
+					id: "4A019766256D75B0"
+					item: "gtceu:bronze_ingot"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "25E704430D7C51CC"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			title: "The metal from which industries are born"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["762BC5C521C37151"]
+			description: [
+				"Burning wood worked so far... but without a way to regrow those trees, "
+				"I'm sooner or later going to face some difficulties with this. "
+				""
+				"Fortunately, now that I have some iron and proper tools, "
+				"I can try to construct a coke-oven which will turn my wood into much more efficient charcoal!"
+				""
+				"During my travels in this wasteland, I encountered some &6dry lakebeds&r "
+				"at the valleys which were filled with dried up &6clay&r."
+				"I could use that clay to craft the necessary bricks for my coke-oven!"
+			]
+			icon: "gtceu:coke_oven"
+			id: "62798887DC312CA4"
+			rewards: [
+				{
+					id: "5A2CC13CD44F330F"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0818BBCE3C6706F8"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					consume_items: false
+					id: "18F163815698D0C0"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 25L
+					id: "1B907899465301AB"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "63FDC8C645EAAD57"
+					item: "biomesoplenty:dead_log"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5B7E10FE94C5765E"
+					item: "gtceu:creosote_bucket"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "58E6A5AF1DC59299"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			title: "Solid fuel refining"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["62798887DC312CA4"]
+			description: [
+				"I've been here in this wasteland for quite a while now... "
+				"And even though all I'm seeing are just dried up lakebeds, "
+				"the clouds above me and deep-rooted vegetation around me tells me one thing..."
+				""
+				"There has to be traces of water left somewhere! "
+				"I've managed to invent a crude and fairly primitive machine which, "
+				"similar to the pumpjacks I've encountered, should be able to pump any liquids it encounters upwards."
+				""
+				"I just hope that my intuition is correct and that I'll be able to find some ground-water..."
+			]
+			icon: "gtceu:primitive_pump"
+			id: "38393461091D34E0"
+			shape: "square"
+			tasks: [
+				{
+					consume_items: false
+					id: "3FA986697D607EF0"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 10L
+					id: "5344DF82FB6ADFC3"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "33076547383D0C47"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 10L
+					id: "754F0AAB80025014"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			title: "A tiny splash of hope"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38393461091D34E0"]
+			description: [
+				"&lI DID IT!&r"
+				""
+				"I've finally found some &9water&r in this hellish wasteland! "
+				"With this, my chances for survival have risen dramatically! "
+				""
+				"&oWhereever water is flowing, life will slowly bloom again!&r"
+			]
+			id: "78A84E3611C6447D"
+			rewards: [{
+				id: "50B4A1466DFD1DDA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "537D9413510C0520"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "A drop of water at last!"
+			x: 13.0d
+			y: 3.5d
+		}
 	]
 	title: "Primitive"
 }
