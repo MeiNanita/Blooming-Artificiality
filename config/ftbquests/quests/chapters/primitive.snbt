@@ -668,6 +668,61 @@
 					}
 					type: "item"
 				}
+				{
+					id: "6841CA1A63131928"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 191
+								ToolSpeed: 7.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "552DF77C1B8B68BA"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 191
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A15A5ADBD81D4E3"
+					item: {
+						Count: 1
+						id: "gtceu:bronze_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 191
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "A gift from a bygone era"
 			x: 4.5d
@@ -724,6 +779,52 @@
 			title: "A primitive machine..."
 			x: 7.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["57B606614B36774B"]
+			description: [
+				"This wasteland soil is quite loose... almost like sand in a way."
+				"However during my journey so far, I've seen various glistering tid-bits pocking out of it."
+				"I'm pretty sure that with some careful sieving, I can uncover &6valuable treasures&r!"
+				""
+				"( &aTo sieve, simply hold a sieve in your main-hand and right-click the wasteland-soil&r )"
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:plant_fiber_sieve"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2441CBB114F35BC2"
+			shape: "square"
+			tasks: [
+				{
+					id: "415816301229FC65"
+					item: {
+						Count: 1
+						id: "kubejs:plant_fiber_sieve"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3217EFF777C40913"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "106D48DF8BE7C0D6"
+					item: "biomesoplenty:orange_sand"
+					type: "item"
+				}
+			]
+			title: "Uncovering treasures"
+			x: 6.0d
+			y: 2.0d
 		}
 	]
 	title: "Primitive"

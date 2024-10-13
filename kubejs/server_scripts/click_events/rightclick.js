@@ -18,18 +18,6 @@ BlockEvents.rightClicked('kubejs:wasteland_soil', event => {
         player.damageHeldItem('main_hand', 1);
         event.block.set('biomesoplenty:orange_sand');
         event.level.runCommandSilent("/playsound minecraft:block.sand.break block @p[distance=..3] ~ ~ ~ 1 0.6");
-        
-        if (Math.random() < 0.25) {
-            player.give('kubejs:stone_pebble');
-        }
-
-        if (Math.random() < 0.25) {
-            player.give('minecraft:dead_bush');
-        }
-
-        if (Math.random() < 0.10) {
-            player.give('minecraft:paper');
-        }
 
         if (Math.random() < 0.05) {
             player.give('minecraft:bone');

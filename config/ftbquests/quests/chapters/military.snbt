@@ -7,6 +7,55 @@
 	id: "1B323A8CB8681E7F"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: [
+				"While I was sieving the wasteland-dust, I found some ammunition..."
+				"How peculiar... and also a bit concerning... "
+				"Could this be a sign that there used to be a war during my cryosleep?"
+			]
+			icon: "pointblank:ammo357"
+			id: "39A41CD843ADE0F6"
+			invisible: true
+			rewards: [{
+				id: "6C50F94161A6963B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7094970686AEEAED"
+				item: "pointblank:ammo357"
+				type: "item"
+			}]
+			title: "Find some ammo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39A41CD843ADE0F6"]
+			description: [
+				"Now that I found some ammo scattered in this wasteland, "
+				"I cannot shake that thought off that some armed conflict must've happened. "
+				"But if that's the case... then I'm pretty much a defenseless target right now should this danger still exist... "
+				""
+				"Maybe I can reverse-engineer a simple weapon that would make use of that ammo I found so far? "
+				"I will need quite a bit of &6metal&r though to do some trial and error..."
+			]
+			icon: "pointblank:rhino"
+			id: "228053BE27C7AC05"
+			shape: "square"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2B6018D55C8C7871"
+				item: "gtceu:steel_tiny_fluid_pipe"
+				type: "item"
+			}]
+			title: "Pistols I"
+			x: 0.0d
+			y: -1.0d
+		}
+	]
 	title: "Military"
 }

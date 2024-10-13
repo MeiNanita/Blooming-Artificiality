@@ -19,6 +19,18 @@
                 {
 					"type": "minecraft:item",
 					"name": "gtceu:bronze_wrench"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "gtceu:bronze_saw"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "gtceu:bronze_file"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "gtceu:bronze_wire_cutter"
 				}
 			]
 		}
