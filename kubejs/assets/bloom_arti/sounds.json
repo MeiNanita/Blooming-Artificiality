@@ -1,0 +1,7 @@
+{
+    "ps2_boot": {
+        "sounds": [
+            "bloom_arti:ps2_boot_sound"
+        ]
+    }
+}
