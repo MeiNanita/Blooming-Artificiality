@@ -1,5 +1,5 @@
 {
-    "type": "bloom_arti:dim_type_ruined_earth",
+    "type": "minecraft:overworld",
     "generator": {
         "type": "minecraft:noise",
         "settings": "bloom_arti:noise",
