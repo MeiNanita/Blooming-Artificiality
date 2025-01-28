@@ -1,5 +1,6 @@
 config/fml.toml
 config/jei/world/
+config/resourceful-config-web.json
 
 crash-reports/
 downloads/
