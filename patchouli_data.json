@@ -1,5 +1,15 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "dynamictrees:guide": {
+      "viewedEntries": [
+        "dynamictrees:mechanics/rooty_soil",
+        "dynamictrees:mechanics/dirt_bucket",
+        "dynamictrees:trees/apple_tree"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }
