@@ -152,6 +152,13 @@ enabled = true
 #Range: 0.01 ~ 100.0
 damage = 5.0
 
+[grenade]
+#Set to `false` to remove the item from the game.
+enabled = true
+#Sets this item damage.
+#Range: 0.01 ~ 100.0
+damage = 5.0
+
 [m1911a1]
 #Set to `false` to remove the item from the game.
 enabled = true
