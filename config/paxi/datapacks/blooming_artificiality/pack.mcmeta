@@ -1,0 +1,26 @@
+{
+    "pack": {
+        "description": "Removal of unwanted modded datapacks within the 'Blooming Artificiality'-modpack",
+        "pack_format": 15
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "agricraft",
+                "path": "agricraft/mutations/*"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "agricraft/mutations/*"
+            },
+            {
+                "namespace": "biomesoplenty",
+                "path": "agricraft/mutations/*"
+            },
+            {
+                "namespace": "pamhc2crops",
+                "path": "agricraft/mutations/*"
+            }
+        ]
+    }
+}
