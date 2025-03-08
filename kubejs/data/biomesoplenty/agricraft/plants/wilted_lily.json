@@ -1,0 +1,57 @@
+{
+    "clip_products": [
+        {
+            "chance": 1.0,
+            "item": "biomesoplenty:wilted_lily",
+            "max": 1,
+            "min": 1,
+            "required": true
+        }
+    ],
+    "cloneable": true,
+    "growth_bonus": 0.025,
+    "growth_chance": 0.25,
+    "harvest_stage": 4,
+    "mods": [],
+    "products": [
+        {
+            "chance": 1.0,
+            "item": "notreepunching:plant_fiber",
+            "max": 2,
+            "min": 1,
+            "required": true
+        }
+    ],
+    "requirement": {
+        "light_tolerance_factor": 0.5,
+        "max_light": 16,
+        "min_light": 10,
+        "soil_acidity": {
+            "type": "equal",
+            "tolerance_factor": 0.2,
+            "value": "highly_alkaline"
+        },
+        "soil_humidity": {
+            "type": "equal",
+            "tolerance_factor": 0.1,
+            "value": "arid"
+        },
+        "soil_nutrients": {
+            "type": "equal_or_higher",
+            "tolerance_factor": 0.1,
+            "value": "very_low"
+        }
+    },
+    "seeds": [],
+    "spread_chance": 0.1,
+    "stages": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12
+    ]
+}

@@ -20,6 +20,26 @@
             {
                 "namespace": "pamhc2crops",
                 "path": "agricraft/mutations/*"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "agricraft/soils/*"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "agricraft/plants/*"
+            },
+            {
+                "namespace": "agricraft",
+                "path": "agricraft/plants/*"
+            },
+            {
+                "namespace": "biomesoplenty",
+                "path": "agricraft/plants/*"
+            },
+            {
+                "namespace": "pamhc2crops",
+                "path": "agricraft/plants/*"
             }
         ]
     }

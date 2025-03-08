@@ -1,0 +1,12 @@
+{
+    "acidity": "highly_alkaline",
+    "humidity": "arid",
+    "nutrients": "very_low",
+    "growth_modifier": 0.1,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:wasteland_soil"
+        }
+    ]
+}
