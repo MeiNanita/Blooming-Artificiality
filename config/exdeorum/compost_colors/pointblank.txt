@@ -1,0 +1,7 @@
+// Compost colors for pointblank. You may add your own colors, change existing ones, or remove colors that aren't needed.
+gunmetal_ingot, #dcdcdc
+gunmetal_mesh, #ffffff
+gunmetal_nugget, #ffffff
+l96a1_hyperbeast, #f0d4dd
+m4a1_asiimov, #fffff0
+m4sopmodii_bartender, #eaccd2
