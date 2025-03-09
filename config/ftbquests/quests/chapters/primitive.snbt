@@ -34,8 +34,8 @@
 					id: "5F6B42F4212FD401"
 					observe_type: 0
 					timer: 100L
-					title: "Analyse a dead log for 5 seconds"
-					to_observe: "biomesoplenty:dead_log"
+					title: "Analyse a dead tree for 5 seconds"
+					to_observe: "dtbop:dead_branch"
 					type: "observation"
 				}
 				{
