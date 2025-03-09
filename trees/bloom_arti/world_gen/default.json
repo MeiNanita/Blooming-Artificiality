@@ -1,0 +1,15 @@
+[
+    {
+        "select": { "name": "bloom_arti:ruined_wasteland" },
+        "apply": {
+            "species" : {
+                "random" : {
+                    "dtbop:dead" : 9,
+                    "dtbop:dying" : 1
+                }
+            },
+            "density": 0.1,
+            "chance": 0.1
+        }
+    }
+]
