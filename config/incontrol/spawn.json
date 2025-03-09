@@ -1,32 +1,19 @@
 [
     {
-        "mob": "minecraft:pig",
+        "mob": ["minecraft:pig", "minecraft:cow", "minecraft:chicken", "minecraft:rabbit", "minecraft:bat", "minecraft:squid"],
         "biome": "bloom_arti:ruined_wasteland",
         "result": "deny"
     },
     {
-        "mob": "minecraft:cow",
-        "biome": "bloom_arti:ruined_wasteland",
+        "mob": ["cybernetic_system:hacked_drone", "cybernetic_system:mdg_1"],
         "result": "deny"
     },
     {
-        "mob": "minecraft:chicken",
-        "biome": "bloom_arti:ruined_wasteland",
+        "mob": ["cybernetic_system:automaton", "cybernetic_system:combat_automaton_l_1"],
         "result": "deny"
     },
     {
-        "mob": "minecraft:rabbit",
-        "biome": "bloom_arti:ruined_wasteland",
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:bat",
-        "biome": "bloom_arti:ruined_wasteland",
-        "result": "deny"
-    },
-    {
-        "mob": "minecraft:squid",
-        "biome": "bloom_arti:ruined_wasteland",
+        "mob": ["cybernetic_system:combat_automaton_ld_3", "cybernetic_system:ac_1"],
         "result": "deny"
     }
 ]
