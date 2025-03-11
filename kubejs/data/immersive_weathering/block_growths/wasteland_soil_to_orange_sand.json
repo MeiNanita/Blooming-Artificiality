@@ -1,0 +1,37 @@
+{
+    "growth_chance": 0.05,
+    "area_condition": {
+      "must_have": {
+        "fluids": ["minecraft:water"],
+        "predicate_type": "immersive_weathering:fluid_match"
+      },
+      "radiusX": 3,
+      "radiusY": 1,
+      "radiusZ": 3,
+      "requiredAmount": 100,
+      "type": "generate_if_not_too_many"
+    },
+    "growth_for_face": [
+        {
+            "direction": "up",
+            "growth": [
+                {
+                    "data": {
+                        "block": {
+                            "Name": "biomesoplenty:orange_sand"
+                        }
+                    },
+                    "weight": 1
+                }
+            ]
+        }
+    ],
+    "owners": [
+        "kubejs:wasteland_soil"
+    ],
+    "replacing_target": {
+        "block": "kubejs:wasteland_soil",
+        "predicate_type": "minecraft:block_match"
+    },
+    "target_self": true
+}
