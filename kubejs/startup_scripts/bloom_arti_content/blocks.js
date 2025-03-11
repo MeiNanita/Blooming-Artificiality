@@ -103,6 +103,20 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('dead_bush_may_place_on')
     .fullBlock(true);
 
+
+    event.create('dry_lakebed')
+    .displayName('Dry clay lakebed')
+    .mapColor('color_orange')
+    .soundType('deepslate')
+    .hardness(1.25)
+    .resistance(4.2)
+    .tagBlock('mineable/pickaxe')
+    .tagBlock('needs_stone_tool')
+    .requiresTool(true)
+    .tagBlock('dead_bush_may_place_on')
+    .tagBlock('sand')
+    .fullBlock(true);
+
 });
 
 

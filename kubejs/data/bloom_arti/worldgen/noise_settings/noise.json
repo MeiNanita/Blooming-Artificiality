@@ -127,7 +127,7 @@
 								{
 									"type": "minecraft:block",
 									"result_state": {
-										"Name": "immersive_weathering:earthen_clay"
+										"Name": "kubejs:dry_lakebed"
 									}
 								}
 							]

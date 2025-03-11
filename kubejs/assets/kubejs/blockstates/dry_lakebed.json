@@ -1,0 +1,66 @@
+{
+    "variants": {
+        "": [
+            { 
+                "model": "kubejs:block/dry_lakebed"
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed", 
+                "y": 90
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed", 
+                "y": 180
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed", 
+                "y": 270
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_2"
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_2", 
+                "y": 90
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_2", 
+                "y": 180
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_2", 
+                "y": 270
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_3"
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_3", 
+                "y": 90
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_3", 
+                "y": 180
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_3", 
+                "y": 270
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_4"
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_4", 
+                "y": 90
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_4", 
+                "y": 180
+            },
+            { 
+                "model": "kubejs:block/dry_lakebed_4", 
+                "y": 270
+            }
+        ]
+    }
+}
