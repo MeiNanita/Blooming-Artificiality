@@ -64,6 +64,42 @@
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:burned_church",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:burned_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:tank",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:safe_house_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
         }
     ]
 }

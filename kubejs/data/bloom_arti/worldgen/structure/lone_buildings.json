@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "#bloom_arti:lone_buildings",
+    "biomes": "#bloom_arti:is_wasteland",
     "step": "surface_structures",
     "spawn_overrides": {},
     "terrain_adaptation": "beard_thin",
