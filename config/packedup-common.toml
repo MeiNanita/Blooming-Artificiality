@@ -40,7 +40,7 @@
 
         # How many columns does the iron backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
-        ironColumns = 5
+        ironColumns = 7
 
     [Backpacks.Copper]
         # Enable the copper backpack?
@@ -49,11 +49,11 @@
 
         # How many rows does the copper backpack have?
         # Allowed range: 1 ~ 9 - Default: 4
-        copperRows = 4
+        copperRows = 3
 
         # How many columns does the copper backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
-        copperColumns = 9
+        copperColumns = 5
 
     [Backpacks.Silver]
         # Enable the silver backpack?
@@ -62,7 +62,7 @@
 
         # How many rows does the silver backpack have?
         # Allowed range: 1 ~ 9 - Default: 5
-        silverRows = 5
+        silverRows = 3
 
         # How many columns does the silver backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
@@ -75,7 +75,7 @@
 
         # How many rows does the gold backpack have?
         # Allowed range: 1 ~ 9 - Default: 5
-        goldRows = 5
+        goldRows = 4
 
         # How many columns does the gold backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
@@ -88,7 +88,7 @@
 
         # How many rows does the diamond backpack have?
         # Allowed range: 1 ~ 9 - Default: 7
-        diamondRows = 7
+        diamondRows = 5
 
         # How many columns does the diamond backpack have?
         # Allowed range: 1 ~ 13 - Default: 9
@@ -101,7 +101,7 @@
 
         # How many rows does the obsidian backpack have?
         # Allowed range: 1 ~ 9 - Default: 8
-        obsidianRows = 8
+        obsidianRows = 6
 
         # How many columns does the obsidian backpack have?
         # Allowed range: 1 ~ 13 - Default: 9

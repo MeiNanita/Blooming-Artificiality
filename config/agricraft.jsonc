@@ -5,9 +5,9 @@
         // Set to false to disable planting of (agricraft) seeds outside crop sticks
         "plant_off_crop_sticks": true,
         // Set to false to disable collision boxes on crop sticks
-        "crop_sticks_collide": true,
+        "crop_sticks_collide": false,
         // Set to true to allow only fertile plants to be able to cause, participate in, or contribute to a spreading / mutation action (note that this may cause issues with obtaining some specific plants)
-        "only_fertile_crops_spread": false,
+        "only_fertile_crops_spread": true,
         // Set to false if to disable triggering of mutations by using fertilizers on a cross crop.
         "allow_fertilizer_mutation": true,
         // Set to true to allow mutations on clone events (spreading from single crop).
@@ -24,7 +24,7 @@
         // Set this to true to make only mature crops drop seeds (to encourage trowel usage).
         "only_mature_seed_drops": false,
         // Set to true to completely disable the spawning of weeds
-        "disable_weeds": false,
+        "disable_weeds": true,
         // Set to false to disable mature weeds killing plants
         "mature_weeds_kill_plants": true,
         // Set to false to disable the spreading of weeds
@@ -125,8 +125,8 @@
     },
     "compat": {
         // Set to false to disable compatibility with Botania (in case things break)
-        "botania": true,
+        "botania": false,
         // Set to false to disable compatibility with Mystical Agriculture (in case things break)
-        "mysticalagriculture": true
+        "mysticalagriculture": false
     }
 }
