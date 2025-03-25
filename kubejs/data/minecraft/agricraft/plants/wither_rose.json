@@ -2,7 +2,7 @@
     "clip_products": [
         {
             "chance": 1.0,
-            "item": "biomesoplenty:wilted_lily",
+            "item": "minecraft:wither_rose",
             "max": 1,
             "min": 1,
             "required": true
@@ -15,8 +15,15 @@
     "mods": [],
     "products": [
         {
-            "chance": 0.75,
+            "chance": 0.5,
             "item": "notreepunching:plant_fiber",
+            "max": 1,
+            "min": 1,
+            "required": true
+        },
+        {
+            "chance": 0.25,
+            "item": "gtceu:tiny_dark_ash_dust",
             "max": 1,
             "min": 1,
             "required": true
@@ -53,5 +60,25 @@
         9,
         11,
         12
+    ],
+    "modifiers": [
+        {
+            "id": "agricraft:thorns"
+        },
+        {
+            "id": "agricraft:withering"
+        }
+    ],
+    "particle_effects": [
+        {
+        "probability": 0.4,
+        "stages": [
+            7
+        ],
+        "particle": "minecraft:smoke",
+        "delta_x": 0.3,
+        "delta_y": 0.4,
+        "delta_z": 0.3
+        }
     ]
 }
