@@ -1,5 +1,9 @@
 {
     "block.gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
     "gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
-    "soil.agricraft.bloom_arti.wasteland_soil": "Polluted wasteland soil"
+    "soil.agricraft.bloom_arti.wasteland_soil": "Polluted wasteland soil",
+    "soil.agricraft.bloom_arti.sand": "Sand",
+    "soil.agricraft.bloom_arti.red_sand": "Red sand",
+    "soil.agricraft.bloom_arti.orange_sand": "Orange sand",
+    "soil.agricraft.bloom_arti.desert_sand": "Desert sand"
 }
