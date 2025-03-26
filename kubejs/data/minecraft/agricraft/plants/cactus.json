@@ -1,0 +1,62 @@
+{
+    "clip_products": [
+        {
+            "chance": 1.0,
+            "item": "naturaldecormod:saguaro_seedling",
+            "max": 1,
+            "min": 1,
+            "required": true
+        }
+    ],
+    "cloneable": true,
+    "growth_bonus": 0.08,
+    "growth_chance": 0.92,
+    "harvest_stage": 1,
+    "mods": [],
+    "products": [
+        {
+            "chance": 1.00,
+            "item": "notreepunching:plant_fiber",
+            "max": 3,
+            "min": 1,
+            "required": true
+        }
+    ],
+    "requirement": {
+        "light_tolerance_factor": 0.5,
+        "max_light": 16,
+        "min_light": 10,
+        "soil_acidity": {
+            "type": "equal",
+            "tolerance_factor": 0.2,
+            "value": "slightly_alkaline"
+        },
+        "soil_humidity": {
+            "type": "equal",
+            "tolerance_factor": 0.0,
+            "value": "arid"
+        },
+        "soil_nutrients": {
+            "type": "equal_or_higher",
+            "tolerance_factor": 0.1,
+            "value": "low"
+        }
+    },
+    "seeds": [],
+    "spread_chance": 0.1,
+    "stages": [
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        12
+    ],
+    "modifiers": [
+        {
+            "id": "agricraft:thorns"
+        }
+    ]
+}
