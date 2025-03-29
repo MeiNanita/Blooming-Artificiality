@@ -38,7 +38,7 @@
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
-            "tolerance_factor": 0.1,
+            "tolerance_factor": 0.15,
             "value": "low"
         }
     },
@@ -46,13 +46,13 @@
     "spread_chance": 0.1,
     "stages": [
         2,
-        3,
-        5,
+        4,
         6,
         8,
-        9,
-        11,
-        12
+        10,
+        12,
+        14,
+        16
     ],
     "modifiers": [
         {

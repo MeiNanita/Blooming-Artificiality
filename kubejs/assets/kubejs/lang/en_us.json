@@ -5,5 +5,8 @@
     "soil.agricraft.bloom_arti.sand": "Sand",
     "soil.agricraft.bloom_arti.red_sand": "Red sand",
     "soil.agricraft.bloom_arti.orange_sand": "Orange sand",
-    "soil.agricraft.bloom_arti.desert_sand": "Desert sand"
+    "soil.agricraft.bloom_arti.desert_sand": "Desert sand",
+    "plant.agricraft.bloom_arti.desert_grass": "Desert grass",
+    "seed.agricraft.bloom_arti.desert_grass": "Desert grass Seed",
+    "description.agricraft.bloom_arti.desert_grass": "Grass that survives even in the harshest conditions."
 }

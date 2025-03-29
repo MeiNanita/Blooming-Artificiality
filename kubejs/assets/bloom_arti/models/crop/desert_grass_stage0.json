@@ -1,0 +1,6 @@
+{
+    "parent": "agricraft:crop/crop_cross",
+    "textures": {
+        "crop": "bloom_arti:plant/desert_grass_1"
+    }
+}
