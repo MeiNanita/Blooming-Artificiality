@@ -1,12 +1,12 @@
 {
-    "acidity": "slightly_alkaline",
-    "humidity": "dry",
+    "acidity": "alkaline",
+    "humidity": "wet",
     "nutrients": "low",
     "growth_modifier": 0.40,
     "mods": [],
     "variants": [
         {
-            "block": "minecraft:sand"
+            "block": "chipped:wet_red_sand"
         }
     ]
 }

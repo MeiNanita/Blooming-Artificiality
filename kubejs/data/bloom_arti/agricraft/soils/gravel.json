@@ -1,12 +1,12 @@
 {
-    "acidity": "slightly_alkaline",
+    "acidity": "slightly_acidic",
     "humidity": "dry",
     "nutrients": "low",
     "growth_modifier": 0.40,
     "mods": [],
     "variants": [
         {
-            "block": "minecraft:sand"
+            "block": "minecraft:gravel"
         }
     ]
 }

@@ -26,6 +26,10 @@
                 "path": "agricraft/soils/*"
             },
             {
+                "namespace": "agricraft",
+                "path": "agricraft/soils/*"
+            },
+            {
                 "namespace": "minecraft",
                 "path": "agricraft/plants/*"
             },
