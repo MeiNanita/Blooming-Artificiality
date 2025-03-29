@@ -100,4 +100,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'packedup:diamond_from_gold'});
     event.remove({id: 'packedup:obsidian_from_diamond'});
 
+
+    // pamhc2crops
+    event.remove({id: 'pamhc2crops:barleyseeditem'});
+
 });
