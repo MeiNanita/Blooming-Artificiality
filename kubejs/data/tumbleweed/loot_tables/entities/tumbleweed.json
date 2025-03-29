@@ -7,17 +7,45 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:dead_bush",
-                    "weight": 45
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "biomesoplenty:dead_sapling",
-                    "weight": 6
+                    "weight": 10
                 },
                 {
                     "type": "minecraft:item",
                     "name": "pamhc2foodextended:ediblerootitem",
-                    "weight": 6
+                    "weight": 4
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "agricraft:seed",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{genes:{fertility: {dom:1,rec:1},gain: {dom:1,rec:1},growth: {dom:1,rec:1},mutativity: {dom:1,rec:1},resistance: {dom:1,rec:1},species: {dom:\"biomesoplenty:wilted_lily\", rec:\"biomesoplenty:wilted_lily\"},strength: {dom:1,rec:1}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "agricraft:seed",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{genes:{fertility: {dom:1,rec:1},gain: {dom:1,rec:1},growth: {dom:1,rec:1},mutativity: {dom:1,rec:1},resistance: {dom:1,rec:1},species: {dom:\"minecraft:wither_rose\", rec:\"minecraft:wither_rose\"},strength: {dom:1,rec:1}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "agricraft:seed",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{genes:{fertility: {dom:1,rec:1},gain: {dom:1,rec:1},growth: {dom:1,rec:1},mutativity: {dom:1,rec:1},resistance: {dom:1,rec:1},species: {dom:\"bloom_arti:desert_grass\", rec:\"bloom_arti:desert_grass\"},strength: {dom:1,rec:1}}}"
+                        }
+                    ]
                 },
                 {
                     "type": "minecraft:item",
