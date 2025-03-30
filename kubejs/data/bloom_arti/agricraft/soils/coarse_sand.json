@@ -1,12 +1,12 @@
 {
     "acidity": "neutral",
-    "humidity": "arid",
+    "humidity": "dry",
     "nutrients": "low",
     "growth_modifier": 0.40,
     "mods": [],
     "variants": [
         {
-            "block": "chipped:white_sand"
+            "block": "chipped:coarse_sand"
         }
     ]
 }

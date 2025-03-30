@@ -28,18 +28,18 @@
         "min_light": 10,
         "soil_acidity": {
             "type": "equal",
-            "tolerance_factor": 0.2,
+            "tolerance_factor": 0.15,
             "value": "slightly_alkaline"
         },
         "soil_humidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
+            "tolerance_factor": 0.15,
             "value": "arid"
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
             "tolerance_factor": 0.15,
-            "value": "low"
+            "value": "very_low"
         }
     },
     "seeds": [],

@@ -103,5 +103,7 @@ ServerEvents.recipes(event => {
 
     // pamhc2crops
     event.remove({id: 'pamhc2crops:barleyseeditem'});
+    event.remove({id: 'pamhc2crops:amaranthseeditem'});
+    event.remove({id: 'pamhc2crops:flaxseeditem'});
 
 });
