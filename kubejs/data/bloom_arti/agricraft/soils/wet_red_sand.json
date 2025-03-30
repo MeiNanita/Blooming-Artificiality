@@ -1,8 +1,8 @@
 {
     "acidity": "alkaline",
     "humidity": "wet",
-    "nutrients": "low",
-    "growth_modifier": 0.40,
+    "nutrients": "very_low",
+    "growth_modifier": 0.33,
     "mods": [],
     "variants": [
         {
