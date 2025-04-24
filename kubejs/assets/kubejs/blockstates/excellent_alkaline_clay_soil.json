@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/excellent_alkaline_clay_soil"
+            },
+            {
+                "model": "kubejs:block/excellent_alkaline_clay_soil",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/excellent_alkaline_clay_soil",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/excellent_alkaline_clay_soil",
+                "y": 270
+            }
+        ]
+    }
+}

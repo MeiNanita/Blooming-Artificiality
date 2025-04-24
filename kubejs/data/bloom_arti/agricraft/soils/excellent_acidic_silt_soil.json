@@ -1,0 +1,12 @@
+{
+    "acidity": "slightly_acidic",
+    "humidity": "damp",
+    "nutrients": "very_high",
+    "growth_modifier": 1.0,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:excellent_acidic_silt_soil"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "primitive_soil": "kubejs:inferior_neutral_clay_soil",
+    "acceptable_soils": [
+        "clay_like"
+    ]
+}

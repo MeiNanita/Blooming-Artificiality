@@ -1,0 +1,12 @@
+{
+    "acidity": "slightly_alkaline",
+    "humidity": "damp",
+    "nutrients": "medium",
+    "growth_modifier": 0.5,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:mediocre_alkaline_silt_soil"
+        }
+    ]
+}

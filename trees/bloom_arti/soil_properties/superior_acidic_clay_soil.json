@@ -1,0 +1,6 @@
+{
+    "primitive_soil": "kubejs:superior_acidic_clay_soil",
+    "acceptable_soils": [
+        "clay_like"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "kubejs:block/mediocre_neutral_sand_soil"
+            }
+        },
+        {
+            "apply": {
+                "model": "dynamictrees:block/roots"
+            }
+        }
+    ]
+}

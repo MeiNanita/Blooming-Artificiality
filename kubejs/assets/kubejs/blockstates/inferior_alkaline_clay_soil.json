@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/inferior_alkaline_clay_soil"
+            },
+            {
+                "model": "kubejs:block/inferior_alkaline_clay_soil",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/inferior_alkaline_clay_soil",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/inferior_alkaline_clay_soil",
+                "y": 270
+            }
+        ]
+    }
+}

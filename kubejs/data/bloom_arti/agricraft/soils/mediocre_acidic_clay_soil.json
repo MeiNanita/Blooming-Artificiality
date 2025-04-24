@@ -1,0 +1,12 @@
+{
+    "acidity": "slightly_acidic",
+    "humidity": "watery",
+    "nutrients": "medium",
+    "growth_modifier": 0.5,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:mediocre_acidic_clay_soil"
+        }
+    ]
+}

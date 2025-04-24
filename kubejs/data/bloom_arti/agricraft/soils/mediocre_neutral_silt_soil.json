@@ -1,0 +1,12 @@
+{
+    "acidity": "neutral",
+    "humidity": "damp",
+    "nutrients": "medium",
+    "growth_modifier": 0.5,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:mediocre_neutral_silt_soil"
+        }
+    ]
+}

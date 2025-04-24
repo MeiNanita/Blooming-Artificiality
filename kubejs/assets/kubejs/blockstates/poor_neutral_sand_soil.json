@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/poor_neutral_sand_soil"
+            },
+            {
+                "model": "kubejs:block/poor_neutral_sand_soil",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/poor_neutral_sand_soil",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/poor_neutral_sand_soil",
+                "y": 270
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "kubejs:block/excellent_acidic_sand_soil"
+            }
+        },
+        {
+            "apply": {
+                "model": "dynamictrees:block/roots"
+            }
+        }
+    ]
+}

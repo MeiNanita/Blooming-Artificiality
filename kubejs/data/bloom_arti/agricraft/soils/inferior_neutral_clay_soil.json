@@ -1,0 +1,12 @@
+{
+    "acidity": "neutral",
+    "humidity": "watery",
+    "nutrients": "low",
+    "growth_modifier": 0.4,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:inferior_neutral_clay_soil"
+        }
+    ]
+}

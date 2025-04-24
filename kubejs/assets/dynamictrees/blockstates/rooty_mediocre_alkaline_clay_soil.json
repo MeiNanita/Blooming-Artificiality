@@ -1,0 +1,14 @@
+{
+    "multipart": [
+        {
+            "apply": {
+                "model": "kubejs:block/mediocre_alkaline_clay_soil"
+            }
+        },
+        {
+            "apply": {
+                "model": "dynamictrees:block/roots"
+            }
+        }
+    ]
+}

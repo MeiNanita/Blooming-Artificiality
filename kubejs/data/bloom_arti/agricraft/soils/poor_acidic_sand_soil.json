@@ -1,0 +1,12 @@
+{
+    "acidity": "slightly_acidic",
+    "humidity": "arid",
+    "nutrients": "very_low",
+    "growth_modifier": 0.33,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:poor_acidic_sand_soil"
+        }
+    ]
+}

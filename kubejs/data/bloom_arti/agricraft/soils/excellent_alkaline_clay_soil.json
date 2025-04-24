@@ -1,0 +1,12 @@
+{
+    "acidity": "slightly_alkaline",
+    "humidity": "watery",
+    "nutrients": "very_high",
+    "growth_modifier": 1.0,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:excellent_alkaline_clay_soil"
+        }
+    ]
+}

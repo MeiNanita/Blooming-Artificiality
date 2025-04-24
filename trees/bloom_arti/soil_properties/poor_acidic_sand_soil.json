@@ -1,0 +1,6 @@
+{
+    "primitive_soil": "kubejs:poor_acidic_sand_soil",
+    "acceptable_soils": [
+        "sand_like"
+    ]
+}

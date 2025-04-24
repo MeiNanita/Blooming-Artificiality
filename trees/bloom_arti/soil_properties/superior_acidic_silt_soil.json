@@ -1,0 +1,6 @@
+{
+    "primitive_soil": "kubejs:superior_acidic_silt_soil",
+    "acceptable_soils": [
+        "dirt_like"
+    ]
+}

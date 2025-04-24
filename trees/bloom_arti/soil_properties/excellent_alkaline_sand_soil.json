@@ -1,0 +1,6 @@
+{
+    "primitive_soil": "minecraft:red_sand",
+    "acceptable_soils": [
+        "sand_like"
+    ]
+}
