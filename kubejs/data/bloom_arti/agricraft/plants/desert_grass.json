@@ -6,18 +6,18 @@
         "min_light": 10,
         "soil_acidity": {
             "type": "equal",
-            "tolerance_factor": 0.15,
-            "value": "alkaline"
+            "tolerance_factor": 0.25,
+            "value": "highly_alkaline"
         },
         "soil_humidity": {
             "type": "equal",
-            "tolerance_factor": 0.15,
+            "tolerance_factor": 0.0,
             "value": "arid"
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
             "tolerance_factor": 0.15,
-            "value": "very_low"
+            "value": "none"
         }
     },
     "growth_bonus": 0.065,
