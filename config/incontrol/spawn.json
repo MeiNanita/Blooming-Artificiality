@@ -1,7 +1,6 @@
 [
     {
         "mob": ["minecraft:pig", "minecraft:cow", "minecraft:chicken", "minecraft:rabbit", "minecraft:bat", "minecraft:squid"],
-        "biome": "bloom_arti:ruined_wasteland",
         "result": "deny"
     },
     {
@@ -14,6 +13,10 @@
     },
     {
         "mob": ["cybernetic_system:combat_automaton_ld_3", "cybernetic_system:ac_1"],
+        "result": "deny"
+    },
+    {
+        "mob": ["omnidroid:blue_omnidroid", "omnidroid:omnidroid"],
         "result": "deny"
     }
 ]

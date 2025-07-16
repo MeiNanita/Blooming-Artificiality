@@ -1,0 +1,29 @@
+{
+    "values": [
+        "kubejs:scrap_metal",
+        "kubejs:scrap_cable",
+        "kubejs:scrap_plumbing",
+        "kubejs:scrap_electronics",
+        "kubejs:tool_crate",
+        "kubejs:trashbag",
+        "doomsday_decoration:bucket",
+        "doomsday_decoration:ammunitionbox",
+        "doomsday_decoration:weaponbox",
+        "doomsday_decoration:woodencrate",
+        "doomsday_decoration:toolbox",
+        "doomsday_decoration:jar",
+        "doomsday_decoration:trashbag",
+        "doomsday_decoration:trashbag_2",
+        "doomsday_decoration:trashbag_3",
+        "doomsday_decoration:acrate",
+        "doomsday_decoration:acrate_2",
+        "doomsday_decoration:acrate_3",
+        "doomsday_decoration:woodenpallets",
+        "doomsday_decoration:trashcan",
+        "doomsday_decoration:newspaper_2",
+        "doomsday_decoration:newspaper",
+        "doomsday_decoration:wastepaper_2",
+        "doomsday_decoration:wastepaper_1",
+        "doomsday_decoration:ironrod"
+    ]
+}

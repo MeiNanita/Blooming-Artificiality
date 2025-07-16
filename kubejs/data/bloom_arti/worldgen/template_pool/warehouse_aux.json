@@ -1,11 +1,11 @@
 {
-    "name": "bloom_arti:lone_buildings",
+    "name": "bloom_arti:warehouse_aux",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "bloom_arti:ruined_house_1",
+                "location": "bloom_arti:warehouse_silo_1",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
@@ -14,91 +14,70 @@
         {
             "weight": 1,
             "element": {
-                "location": "bloom_arti:ruined_house_2",
+                "location": "bloom_arti:warehouse_silo_2",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
         },
         {
-            "weight": 1,
+            "weight": 5,
             "element": {
-                "location": "bloom_arti:ruined_house_3",
+                "location": "bloom_arti:warehouse_depot_1",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
         },
         {
-            "weight": 1,
+            "weight": 5,
             "element": {
-                "location": "bloom_arti:ruined_house_4",
+                "location": "bloom_arti:warehouse_depot_2",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
         },
         {
-            "weight": 1,
+            "weight": 5,
             "element": {
-                "location": "bloom_arti:pump_jack",
+                "location": "bloom_arti:warehouse_depot_3",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
         },
         {
-            "weight": 100,
+            "weight": 5,
             "element": {
-                "location": "bloom_arti:warehouse",
+                "location": "bloom_arti:warehouse_depot_4",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
         },
         {
-            "weight": 1,
+            "weight": 5,
             "element": {
-                "location": "bloom_arti:lw_radio_tower_1",
+                "location": "bloom_arti:warehouse_depot_5",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
         },
         {
-            "weight": 1,
+            "weight": 5,
             "element": {
-                "location": "bloom_arti:burned_church",
+                "location": "bloom_arti:warehouse_depot_6",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
         },
         {
-            "weight": 1,
+            "weight": 5,
             "element": {
-                "location": "bloom_arti:burned_house",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:legacy_single_pool_element"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "bloom_arti:tank",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:legacy_single_pool_element"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "location": "bloom_arti:safe_house_1",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:legacy_single_pool_element"
+                "element_type": "minecraft:empty_pool_element"
             }
         }
     ]

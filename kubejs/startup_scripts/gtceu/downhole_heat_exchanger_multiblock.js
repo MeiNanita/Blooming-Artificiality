@@ -29,4 +29,14 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/cleanroom', false)
+        .afterWorking((machine) => {
+            let { level, pos } = machine.self();
+            if (level.clientSide) return;
+
+            const entity = level.createEntity('minecraft:warden');
+            entity.setPos(Vec3d.atBottomCenterOf(pos));
+            entity.finalizeSpawn(level, level.getCurrentDifficultyAt(pos), 'TRIGGERED', null, null);
+            level.addFreshEntityWithPassengers(entity);
+            // play some sound here or whatever
+        })
 })
