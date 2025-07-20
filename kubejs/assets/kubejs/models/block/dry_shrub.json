@@ -1,0 +1,7 @@
+{
+    "parent": "bloom_arti:block/large_shrub",
+    "textures": {
+        "all": "kubejs:block/dry_shrub",
+        "particle": "kubejs:item/dry_shrub"
+    }
+}

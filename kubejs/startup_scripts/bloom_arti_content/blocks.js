@@ -117,6 +117,24 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('sand')
     .fullBlock(true);
 
+    event.create('dry_shrub')
+    .item(item => {
+        item.modelJson({
+            parent: 'minecraft:item/generated',
+            textures: {layer0: 'kubejs:item/dry_shrub'}
+        })
+    })
+    .displayName('Dry shrub')
+    .mapColor('COLOR_YELLOW')
+    .soundType('azalea_leaves')
+    .hardness(0.2)
+    .resistance(0.2)
+    .opaque(false)
+    .notSolid()
+    .noCollision()
+    .speedFactor(0.5)
+    .defaultCutout();
+
 });
 
 
