@@ -1,7 +1,7 @@
 {
     "type": "minecraft:random_patch",
     "config": {
-        "tries": 128,
+        "tries": 256,
         "xz_spread": 6,
         "y_spread": 3,
         "feature": {
@@ -14,37 +14,19 @@
                             {
                                 "weight": 1,
                                 "data": {
-                                    "Name": "naturaldecormod:little_creosote_bush"
-                                }
-                            },
-                            {
-                                "weight": 8,
-                                "data": {
-                                    "Name": "ferdinandsflowers:albuca_namaquensis"
-                                }
-                            },
-                            {
-                                "weight": 1,
-                                "data": {
                                     "Name": "ferdinandsflowers:mojave_indigo_bush"
                                 }
                             },
                             {
-                                "weight": 2,
-                                "data": {
-                                    "Name": "ferdinandsflowers:devils_claw"
-                                }
-                            },
-                            {
-                                "weight": 7,
+                                "weight": 3,
                                 "data": {
                                     "Name": "ferdinandsflowers:devils_claw_vine"
                                 }
                             },
                             {
-                                "weight": 1,
+                                "weight": 6,
                                 "data": {
-                                    "Name": "ferdinandsflowers:engelmanns_hedgehog_cactus"
+                                    "Name": "naturaldecormod:beachgrass"
                                 }
                             }
                         ]

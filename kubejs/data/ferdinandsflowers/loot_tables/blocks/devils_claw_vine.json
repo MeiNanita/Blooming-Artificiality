@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "notreepunching:plant_fiber",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"tag": "forge:tools/knives"
+							}
+						}
+					]
+				}
+			]
+		},
+        {
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "gtceu:plant_ball",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.125
+						},
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"tag": "forge:tools/knives"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "ferdinandsflowers:devils_claw_vine",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:shears"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

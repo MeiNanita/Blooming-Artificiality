@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "notreepunching:plant_fiber",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.25
+						},
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"tag": "forge:tools/knives"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "ferdinandsflowers:tumble_weed",
+					"conditions": [
+						{
+							"condition": "minecraft:match_tool",
+							"predicate": {
+								"items": [
+									"minecraft:shears"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
