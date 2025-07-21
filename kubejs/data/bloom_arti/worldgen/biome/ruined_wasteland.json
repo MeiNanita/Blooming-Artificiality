@@ -51,11 +51,10 @@
       [],
       [],
       [
-        "biomesoplenty:flower_wasteland",
-        "biomesoplenty:wasteland_grass_2",
-        "bloom_arti:patch_dead_bush",
-        "bloom_arti:beach_grass_patch",
-        "bloom_arti:dune_grass_patch"
+        "bloom_arti:patch_dead_vegetation",
+        "bloom_arti:patch_dry_vegetation",
+        "bloom_arti:patch_grass_vegetation",
+        "bloom_arti:patch_alive_vegetation"
       ],
       [
         "minecraft:freeze_top_layer"

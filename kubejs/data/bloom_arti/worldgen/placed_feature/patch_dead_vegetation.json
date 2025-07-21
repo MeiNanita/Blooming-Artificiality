@@ -1,5 +1,5 @@
 {
-    "feature": "bloom_arti:patch_dead_bush",
+    "feature": "bloom_arti:patch_dead_vegetation",
     "placement": [
         {
             "type": "minecraft:count",

@@ -1,0 +1,28 @@
+{
+    "feature": "bloom_arti:patch_alive_vegetation",
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 400
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+        },
+        {
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_block_tag",
+                "offset": [
+					0,
+					-1,
+					0
+				],
+				"tag": "bloom_arti:wasteland_surface_soil"
+			}
+		}
+    ]
+}

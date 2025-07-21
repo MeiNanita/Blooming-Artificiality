@@ -27,7 +27,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "immersive_weathering:dune_grass",
+					"name": "kubejs:dry_shrub",
 					"conditions": [
 						{
 							"condition": "minecraft:match_tool",

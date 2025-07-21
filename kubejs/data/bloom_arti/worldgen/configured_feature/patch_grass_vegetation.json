@@ -12,21 +12,27 @@
                         "type": "minecraft:weighted_state_provider",
                         "entries": [
                             {
-                                "weight": 5,
+                                "weight": 2,
                                 "data": {
-                                    "Name": "immersive_weathering:biomesoplenty/dead_leaf_pile"
+                                    "Name": "kubejs:dry_shrub"
+                                }
+                            },
+                            {
+                                "weight": 3,
+                                "data": {
+                                    "Name": "ferdinandsflowers:dry_shrub"
                                 }
                             },
                             {
                                 "weight": 5,
                                 "data": {
-                                    "Name": "minecraft:dead_bush"
+                                    "Name": "ferdinandsflowers:tumble_weed"
                                 }
                             },
                             {
                                 "weight": 10,
                                 "data": {
-                                    "Name": "immersive_weathering:dune_grass"
+                                    "Name": "naturaldecormod:beachgrass"
                                 }
                             }
                         ]
@@ -39,6 +45,18 @@
                     "predicate": {
                         "type": "minecraft:matching_blocks",
                         "blocks": "minecraft:air"
+                    }
+                },
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_block_tag",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "tag": "bloom_arti:wasteland_surface_soil"
                     }
                 }
             ]

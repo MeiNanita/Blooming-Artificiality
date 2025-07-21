@@ -1,9 +1,9 @@
 {
-    "feature": "bloom_arti:beach_grass_patch",
+    "feature": "bloom_arti:patch_grass_vegetation",
     "placement": [
         {
             "type": "minecraft:rarity_filter",
-            "chance": 10
+            "chance": 9
         },
         {
             "type": "minecraft:in_square"

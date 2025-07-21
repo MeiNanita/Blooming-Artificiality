@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "tries": 128,
+        "xz_spread": 6,
+        "y_spread": 3,
+        "feature": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "naturaldecormod:little_creosote_bush"
+                                }
+                            },
+                            {
+                                "weight": 8,
+                                "data": {
+                                    "Name": "ferdinandsflowers:albuca_namaquensis"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "ferdinandsflowers:mojave_indigo_bush"
+                                }
+                            },
+                            {
+                                "weight": 2,
+                                "data": {
+                                    "Name": "ferdinandsflowers:devils_claw"
+                                }
+                            },
+                            {
+                                "weight": 7,
+                                "data": {
+                                    "Name": "ferdinandsflowers:devils_claw_vine"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "ferdinandsflowers:engelmanns_hedgehog_cactus"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:air"
+                    }
+                },
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_block_tag",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "tag": "bloom_arti:wasteland_surface_soil"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -12,27 +12,33 @@
                         "type": "minecraft:weighted_state_provider",
                         "entries": [
                             {
-                                "weight": 3,
+                                "weight": 1,
                                 "data": {
-                                    "Name": "immersive_weathering:biomesoplenty/dead_leaf_pile"
-                                }
-                            },
-                            {
-                                "weight": 10,
-                                "data": {
-                                    "Name": "naturaldecormod:beachgrass"
-                                }
-                            },
-                            {
-                                "weight": 5,
-                                "data": {
-                                    "Name": "immersive_weathering:dune_grass"
+                                    "Name": "kubejs:dry_shrub"
                                 }
                             },
                             {
                                 "weight": 2,
                                 "data": {
+                                    "Name": "ferdinandsflowers:dry_shrub"
+                                }
+                            },
+                            {
+                                "weight": 4,
+                                "data": {
+                                    "Name": "ferdinandsflowers:tumble_weed"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
                                     "Name": "naturaldecormod:tall_dead_bush"
+                                }
+                            },
+                            {
+                                "weight": 2,
+                                "data": {
+                                    "Name": "minecraft:dead_bush"
                                 }
                             }
                         ]
