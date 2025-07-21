@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": {
+                "min": 3,
+                "max": 8
+            },
+			"entries": [
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:paper"
+				}
+			]
+		}
+	]
+}
