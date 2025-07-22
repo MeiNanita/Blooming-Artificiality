@@ -1,0 +1,167 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "tries": 128,
+        "xz_spread": 4,
+        "y_spread": 3,
+        "feature": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "minecraft:weighted_state_provider",
+                        "entries": [
+                            {
+                                "weight": 2,
+                                "data": {
+                                    "Name": "doomsday_decoration:hollowbrick",
+                                    "Properties": {
+										"facing": "east"
+									}
+                                }
+                            },
+                            {
+                                "weight": 2,
+                                "data": {
+                                    "Name": "doomsday_decoration:hollowbrick",
+                                    "Properties": {
+										"facing": "north"
+									}
+                                }
+                            },
+                            {
+                                "weight": 2,
+                                "data": {
+                                    "Name": "doomsday_decoration:hollowbrick",
+                                    "Properties": {
+										"facing": "south"
+									}
+                                }
+                            },
+                            {
+                                "weight": 2,
+                                "data": {
+                                    "Name": "doomsday_decoration:hollowbrick",
+                                    "Properties": {
+										"facing": "west"
+									}
+                                }
+                            },
+                            {
+                                "weight": 6,
+                                "data": {
+                                    "Name": "doomsday_decoration:redbrick",
+                                    "Properties": {
+										"facing": "east"
+									}
+                                }
+                            },
+                            {
+                                "weight": 6,
+                                "data": {
+                                    "Name": "doomsday_decoration:redbrick",
+                                    "Properties": {
+										"facing": "north"
+									}
+                                }
+                            },
+                            {
+                                "weight": 6,
+                                "data": {
+                                    "Name": "doomsday_decoration:redbrick",
+                                    "Properties": {
+										"facing": "south"
+									}
+                                }
+                            },
+                            {
+                                "weight": 6,
+                                "data": {
+                                    "Name": "doomsday_decoration:redbrick",
+                                    "Properties": {
+										"facing": "west"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "doomsday_decoration:ironrod",
+                                    "Properties": {
+										"facing": "east"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "doomsday_decoration:ironrod",
+                                    "Properties": {
+										"facing": "north"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "doomsday_decoration:ironrod",
+                                    "Properties": {
+										"facing": "south"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "doomsday_decoration:ironrod",
+                                    "Properties": {
+										"facing": "west"
+									}
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "minecraft:dead_bush"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
+                                    "Name": "ferdinandsflowers:tumble_weed"
+                                }
+                            },
+                            {
+                                "weight": 2,
+                                "data": {
+                                    "Name": "naturaldecormod:beachgrass"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:air"
+                    }
+                },
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_block_tag",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "tag": "bloom_arti:wasteland_surface"
+                    }
+                }
+            ]
+        }
+    }
+}
