@@ -85,22 +85,6 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/barrel'});
     event.remove({id: 'gtceu:shaped/chest'});
 
-    //event.remove({input: 'gtceu:impure_hematite_dust', type: 'minecraft:smelting'});
-    //event.remove({input: 'gtceu:hematite_dust', type: 'minecraft:smelting'});
-
-    // packed up
-    event.remove({id: 'packedup:basic_from_chest'});
-    event.remove({id: 'packedup:copper_from_basic'});
-    event.remove({id: 'packedup:iron_from_basic'});
-    event.remove({id: 'packedup:silver_from_copper'});
-    event.remove({id: 'packedup:silver_from_iron'});
-    event.remove({id: 'packedup:gold_from_copper'});
-    event.remove({id: 'packedup:gold_from_iron'});
-    event.remove({id: 'packedup:diamond_from_silver'});
-    event.remove({id: 'packedup:diamond_from_gold'});
-    event.remove({id: 'packedup:obsidian_from_diamond'});
-
-
     // pamhc2crops
     event.remove({id: 'pamhc2crops:barleyseeditem'});
     event.remove({id: 'pamhc2crops:amaranthseeditem'});

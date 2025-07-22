@@ -44,14 +44,6 @@
             {
                 "namespace": "pamhc2crops",
                 "path": "agricraft/plants/*"
-            },
-            {
-                "namespace": "immersive_weathering",
-                "path": "block_growths/*"
-            },
-            {
-                "namespace": "immersive_weathering",
-                "path": "fluid_generators/*"
             }
         ]
     }

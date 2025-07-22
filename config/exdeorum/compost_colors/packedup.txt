@@ -1,8 +1,0 @@
-// Compost colors for packedup. You may add your own colors, change existing ones, or remove colors that aren't needed.
-basicbackpack, #825243
-copperbackpack, #894b1c
-diamondbackpack, #6284b6
-goldbackpack, #98621f
-ironbackpack, #805f55
-obsidianbackpack, #33223d
-silverbackpack, #7f7080
