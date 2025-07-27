@@ -1,0 +1,29 @@
+{
+    "pack": {
+        "description": "Removal of unwanted modded datapacks within the 'Blooming Artificiality'-modpack",
+        "pack_format": 15
+    },
+    "filter": {
+        "block": [
+            {"namespace": "agricraft", "path": "agricraft/mutations/.*"},
+            {"namespace": "minecraft", "path": "agricraft/mutations/.*"},
+            {"namespace": "biomesoplenty", "path": "agricraft/mutations/.*"},
+            {"namespace": "pamhc2crops", "path": "agricraft/mutations/.*"},
+            {"namespace": "minecraft", "path": "agricraft/soils/.*"},
+            {"namespace": "agricraft", "path": "agricraft/soils/.*"},
+            {"namespace": "minecraft", "path": "agricraft/plants/.*"},
+            {"namespace": "agricraft", "path": "agricraft/plants/.*"},
+            {"namespace": "biomesoplenty", "path": "agricraft/plants/.*"},
+            {"namespace": "pamhc2crops", "path": "agricraft/plants/.*"},
+
+            {"namespace": "minecraft", "path": "advancements/recipes/misc/.*"},
+			{"namespace": "minecraft", "path": "recipes/.*_from_.*"},
+			{"namespace": "minecraft", "path": "recipes/nuclearcraft_.*_(dust|ore|plate|raw)"},
+			{"namespace": "minecraft", "path": "recipes/nuclearcraft_fuel_.*"},
+			{"namespace": "minecraft", "path": "recipes/nuclearcraft_.*_sml"},
+            {"namespace": "nuclearcraft", "path": "advancements/.*"},
+			{"namespace": "nuclearcraft", "path": "recipes/(?!fission_reactor_controller).*"},
+            {"namespace": "nuclearcraft", "path": "recipes/fission_reactor_controller/.+_(ox|ni|za)"}
+        ]
+    }
+}
