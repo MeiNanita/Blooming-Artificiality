@@ -6,193 +6,62 @@ ServerEvents.recipes(event => {
 
     event.shapeless(
         'kubejs:plant_fiber_mesh', [
-            Item.of('notreepunching:plant_string', 4)
+            '4x notreepunching:plant_string'
         ]
     );
-
-    event.shapeless(
-        Item.of('gtceu:iron_plate'), [
-            'kubejs:scrap_metal',
-            '#forge:tools/hammers',
-            '#forge:tools/crowbars'
-        ]
-    )
-    .damageIngredient( '#forge:tools/hammers' )
-    .damageIngredient( '#forge:tools/crowbars' );
-
-    event.shapeless(
-        Item.of('gtceu:small_iron_gear'), [
-            'kubejs:scrap_metal',
-            '#forge:tools/screwdrivers',
-            '#forge:tools/wrenches'
-        ]
-    )
-    .damageIngredient( '#forge:tools/screwdrivers' )
-    .damageIngredient( '#forge:tools/wrenches' );
-
-    event.shapeless(
-        Item.of('gtceu:iron_rod'), [
-            'kubejs:scrap_metal',
-            '#forge:tools/files',
-            '#forge:tools/saws'
-        ]
-    )
-    .damageIngredient( '#forge:tools/files' )
-    .damageIngredient( '#forge:tools/saws' );
-
-    event.shapeless(
-        Item.of('gtceu:copper_small_fluid_pipe'), [
-            'kubejs:scrap_plumbing',
-            '#forge:tools/wrenches',
-            '#forge:tools/saws'
-        ]
-    )
-    .damageIngredient( '#forge:tools/wrenches' )
-    .damageIngredient( '#forge:tools/saws' );
-
-    event.shapeless(
-        Item.of('gtceu:potin_tiny_fluid_pipe'), [
-            'kubejs:scrap_plumbing',
-            '#forge:tools/wrenches'
-        ]
-    )
-    .damageIngredient( '#forge:tools/wrenches' );
-
-    event.shapeless(
-        Item.of('gtceu:tin_single_cable'), [
-            'kubejs:scrap_cable',
-            '#forge:tools/wire_cutters'
-        ]
-    )
-    .damageIngredient( '#forge:tools/wire_cutters' );
-
-    event.shapeless(
-        Item.of('gtceu:fine_red_alloy_wire', 3), [
-            'kubejs:scrap_cable',
-            '#forge:tools/knives'
-        ]
-    )
-    .damageIngredient( '#forge:tools/knives' );
-
-    event.shapeless(
-        Item.of('gtceu:tin_single_wire'), [
-            'gtceu:tin_single_cable',
-            '#forge:tools/knives'
-        ]
-    )
-    .damageIngredient( '#forge:tools/knives' )
-    .replaceIngredient(
-        'gtceu:tin_single_cable',
-        'gtceu:rubber_plate'
-    );
-
-    event.shapeless(
-        Item.of('minecraft:redstone'), [
-            'kubejs:scrap_electronics',
-            '#forge:tools/hammers',
-            '#forge:tools/screwdrivers',
-            '#forge:tools/wire_cutters'
-        ]
-    )
-    .damageIngredient( '#forge:tools/hammers' )
-    .damageIngredient( '#forge:tools/screwdrivers' )
-    .damageIngredient( '#forge:tools/wire_cutters' );
-
-    event.shapeless(
-        Item.of('gtceu:fine_gold_wire', 3), [
-            'kubejs:scrap_electronics',
-            '#forge:tools/wire_cutters',
-            '#forge:tools/screwdrivers'
-        ]
-    )
-    .damageIngredient( '#forge:tools/wire_cutters' )
-    .damageIngredient( '#forge:tools/screwdrivers' );
-
-    event.shapeless(
-        Item.of('gtceu:silver_foil'), [
-            'kubejs:scrap_electronics',
-            '#forge:tools/knives',
-            '#forge:tools/screwdrivers'
-        ]
-    )
-    .damageIngredient( '#forge:tools/knives' )
-    .damageIngredient( '#forge:tools/screwdrivers' );
 
     event.shapeless(
         'naturaldecormod:rock_decor_small', 
         [
-            Item.of('kubejs:stone_pebble', 1)
+            'kubejs:stone_pebble'
         ]
     );
 
     event.shapeless(
         'naturaldecormod:rock_decor_medium', 
         [
-            Item.of('kubejs:stone_pebble', 2)
+            '2x kubejs:stone_pebble'
         ]
     );
 
     event.shapeless(
         'naturaldecormod:rock_decor_large', 
         [
-            Item.of('kubejs:stone_pebble', 4)
+            '4x kubejs:stone_pebble'
         ]
     );
 
     event.shapeless(
         'naturaldecormod:rock_decor_x_large', 
         [
-            Item.of('kubejs:stone_pebble', 8)
+            '8x kubejs:stone_pebble'
         ]
     );
 
     event.shapeless(
         'minecraft:cobblestone', 
         [
-            Item.of('kubejs:stone_pebble', 9)
+            '9x kubejs:stone_pebble'
         ]
     );
 
     event.shapeless(
         'notreepunching:plant_string', 
         [
-            Item.of('notreepunching:plant_fiber', 4)
+            '4x notreepunching:plant_fiber'
         ]
     );
 
     event.shapeless(
-        Item.of('gtceu:small_tin_dust', 2), [
-            'gtceu:tin_single_wire',
-            '#forge:tools/mortars'
+        'minecraft:clay_ball', [
+            'gtceu:clay_dust',
+            'minecraft:water_bucket'
         ]
     )
-    .damageIngredient( '#forge:tools/mortars' );
-
-    event.shapeless(
-        Item.of('gtceu:small_copper_dust', 2), [
-            'gtceu:copper_single_wire',
-            '#forge:tools/mortars'
-        ]
-    )
-    .damageIngredient( '#forge:tools/mortars' );
-
-    event.shapeless(
-        Item.of('gtceu:tiny_red_alloy_dust'), [
-            'gtceu:fine_red_alloy_wire',
-            '#forge:tools/mortars'
-        ]
-    )
-    .damageIngredient( '#forge:tools/mortars' );
-
-    event.shapeless(
-        Item.of('gtceu:copper_plate'), [
-            'gtceu:copper_small_fluid_pipe',
-            '#forge:tools/hammers',
-            '#forge:tools/saws'
-        ]
-    )
-    .damageIngredient( '#forge:tools/hammers' )
-    .damageIngredient( '#forge:tools/saws' );
+    .replaceIngredient(
+        'minecraft:water_bucket',
+        'minecraft:bucket'
+    );
 
     // =======================================================
     //                   shaped recipes
@@ -224,7 +93,8 @@ ServerEvents.recipes(event => {
         W: '#minecraft:logs',
         S: 'minecraft:stick',
         F: 'notreepunching:fire_starter'
-    });
+    })
+    .damageIngredient('notreepunching:fire_starter');
 
     event.shaped(Item.of('minecraft:furnace'), [
         'CCC',
@@ -282,8 +152,40 @@ ServerEvents.recipes(event => {
     //                   campfire recipes
     // =======================================================
 
-    event.campfireCooking('minecraft:stone', 'minecraft:cobblestone');
-    event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone');
+    event.campfireCooking('minecraft:stone', 'minecraft:cobblestone', 0.1, 600);
+    event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone', 0.1, 600);
+
+    // =======================================================
+    //                   smelting recipes
+    // =======================================================
+
+    event.smelting('minecraft:iron_ingot', 'kubejs:scrap_metal', 0.7, 200);
+    event.smelting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 200);
+    event.smelting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 200);
+    event.smelting('minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 200);
+
+    event.blasting('minecraft:iron_ingot', 'kubejs:scrap_metal', 0.7, 100);
+    event.blasting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 100);
+    event.blasting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 100);
+    event.blasting('minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 100);
+
+    const ore_suffix = ['crushed', 'purified', 'refined'];
+
+    ore_suffix.forEach(suffix => {
+        event.blasting('minecraft:iron_ingot', `gtceu:${suffix}_scrap_metal_ore`, 0.5, 100);
+        event.blasting('minecraft:copper_ingot', `gtceu:${suffix}_scrap_plumbing_ore`, 0.5, 100);
+        event.blasting('gtceu:tin_ingot', `gtceu:${suffix}_scrap_cable_ore`, 0.5, 100);
+        event.blasting('minecraft:redstone', `gtceu:${suffix}_scrap_electronics_ore`, 0.5, 100);
+    });
+
+    const dust_suffix = ['impure_', 'pure_', ''];
+
+    dust_suffix.forEach(suffix => {
+        event.blasting('minecraft:iron_ingot', `gtceu:${suffix}scrap_metal_dust`, 0.5, 100);
+        event.blasting('minecraft:copper_ingot', `gtceu:${suffix}scrap_plumbing_dust`, 0.5, 100);
+        event.blasting('gtceu:tin_ingot', `gtceu:${suffix}scrap_cable_dust`, 0.5, 100);
+        event.blasting('minecraft:redstone', `gtceu:${suffix}scrap_electronics_dust`, 0.5, 100);
+    });
 
     // =======================================================
     //                   ingredient replacements

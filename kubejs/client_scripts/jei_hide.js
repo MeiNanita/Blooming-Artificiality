@@ -24,4 +24,28 @@ JEIEvents.hideItems(event => {
     event.hide('gtceu:flint_hoe');
     event.hide('gtceu:flint_sword');
 
+    const scrap_stone_blocks = [
+        '', 
+        'deepslate_', 
+        'netherrack_', 
+        'endstone_', 
+        'granite_', 
+        'andesite_', 
+        'diorite_', 
+        'red_granite_', 
+        'marble_', 
+        'tuff_', 
+        'sand_', 
+        'red_sand_', 
+        'gravel_', 
+        'basalt_',
+        'blackstone_'
+    ];
+    scrap_stone_blocks.forEach(stone => {
+        event.hide(`gtceu:${stone}scrap_metal_ore`);
+        event.hide(`gtceu:${stone}scrap_plumbing_ore`);
+        event.hide(`gtceu:${stone}scrap_cable_ore`);
+        event.hide(`gtceu:${stone}scrap_electronics_ore`);
+    });
+
 });

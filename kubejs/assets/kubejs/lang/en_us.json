@@ -1,6 +1,11 @@
 {
     "block.gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
     "gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
+    "material.gtceu.scrap_metal": "Scrap metal",
+    "material.gtceu.scrap_plumbing": "Scrap plumbing",
+    "material.gtceu.scrap_cable": "Scrap cable",
+    "material.gtceu.scrap_electronics": "Scrap electronics",
+
     "soil.agricraft.bloom_arti.wasteland_soil": "Polluted sandy soil",
     "soil.agricraft.bloom_arti.poor_acidic_clay_soil": "Clay soil",
     "soil.agricraft.bloom_arti.poor_acidic_silt_soil": "Silty soil",

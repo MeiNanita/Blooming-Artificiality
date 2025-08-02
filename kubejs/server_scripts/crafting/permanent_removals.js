@@ -85,6 +85,15 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/barrel'});
     event.remove({id: 'gtceu:shaped/chest'});
 
+    const scrap_stone_blocks = ['', 'deepslate_', 'netherrack_', 'endstone_'];
+
+    scrap_stone_blocks.forEach(stone => {
+        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_metal_ore_to_ingot`});
+        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_plumbing_ore_to_ingot`});
+        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_cable_ore_to_ingot`});
+        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_electronics_ore_to_ingot`});
+    });
+
     // pamhc2crops
     event.remove({id: 'pamhc2crops:barleyseeditem'});
     event.remove({id: 'pamhc2crops:amaranthseeditem'});

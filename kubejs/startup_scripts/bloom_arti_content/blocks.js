@@ -10,6 +10,8 @@ StartupEvents.registry("block", (event) => {
     .resistance(1.0)
     .tagBlock('mineable/pickaxe')
     .tagBlock('needs_stone_tool')
+    .tagBlock('forge:ores')
+    .tagBoth('forge:ores/scrap_metal')
     .requiresTool(true)
     .defaultCutout();
 
@@ -23,6 +25,8 @@ StartupEvents.registry("block", (event) => {
     .resistance(1.0)
     .tagBlock('mineable/pickaxe')
     .tagBlock('needs_stone_tool')
+    .tagBlock('forge:ores')
+    .tagBoth('forge:ores/scrap_plumbing')
     .requiresTool(true)
     .defaultCutout();
 
@@ -36,6 +40,8 @@ StartupEvents.registry("block", (event) => {
     .resistance(1.0)
     .tagBlock('mineable/pickaxe')
     .tagBlock('needs_stone_tool')
+    .tagBlock('forge:ores')
+    .tagBoth('forge:ores/scrap_electronics')
     .requiresTool(true)
     .defaultCutout();
 
@@ -50,6 +56,8 @@ StartupEvents.registry("block", (event) => {
     .resistance(1.0)
     .tagBlock('mineable/pickaxe')
     .tagBlock('needs_stone_tool')
+    .tagBlock('forge:ores')
+    .tagBoth('forge:ores/scrap_cable')
     .requiresTool(true)
     .defaultCutout();
 
