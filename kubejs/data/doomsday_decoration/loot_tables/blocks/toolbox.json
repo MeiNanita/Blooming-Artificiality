@@ -4,7 +4,16 @@
 		{
 			"rolls": 1,
 			"entries": [
-                {
+				{
+					"type": "minecraft:loot_table",
+					"name": "bloom_arti:blocks/tools"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
 					"type": "minecraft:item",
 					"name": "kubejs:scrap_metal"
 				}

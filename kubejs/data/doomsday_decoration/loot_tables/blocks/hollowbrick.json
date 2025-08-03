@@ -9,12 +9,12 @@
 			"entries": [
                 {
 					"type": "minecraft:item",
-					"name": "gtceu:wood_plate",
+					"name": "minecraft:brick",
                     "weight": 3
 				},
                 {
 					"type": "minecraft:item",
-					"name": "gtceu:wood_dust",
+					"name": "gtceu:coke_oven_brick",
                     "weight": 1
 				}
 			]

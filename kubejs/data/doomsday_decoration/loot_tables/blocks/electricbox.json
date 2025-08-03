@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+                {
+					"type": "minecraft:item",
+					"name": "kubejs:scrap_cable",
+                    "weight": 1
+				},
+                {
+					"type": "minecraft:item",
+					"name": "kubejs:scrap_electronics",
+                    "weight": 2
+				}
+			]
+		}
+	]
+}

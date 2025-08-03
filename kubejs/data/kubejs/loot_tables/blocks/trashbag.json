@@ -2,40 +2,11 @@
 	"type": "minecraft:block",
 	"pools": [
 		{
-			"rolls": {
-                "min": 1,
-                "max": 5
-            },
+			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:rotten_flesh",
-                    "weight": 38
-				},
-                {
-					"type": "minecraft:item",
-					"name": "minecraft:paper",
-                    "weight": 16
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:leather",
-                    "weight": 3
-				},
-                {
-					"type": "minecraft:item",
-					"name": "pamhc2foodextended:sourcreamandonionpotatochipsitem",
-                    "weight": 1
-				},
-                {
-					"type": "minecraft:item",
-					"name": "pamhc2foodextended:cheezepuffsitem",
-                    "weight": 1
-				},
-                {
-					"type": "minecraft:item",
-					"name": "pamhc2foodextended:cornchipsitem",
-                    "weight": 1
+					"type": "minecraft:loot_table",
+					"name": "bloom_arti:blocks/trash"
 				}
 			]
 		}

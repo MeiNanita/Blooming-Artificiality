@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+            },
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+                    "weight": 12
+				},
+                {
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+                    "weight": 6
+				},
+                {
+					"type": "minecraft:item",
+					"name": "gtceu:sticky_resin",
+                    "weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather",
+                    "weight": 3
+				},
+                {
+					"type": "minecraft:item",
+					"name": "pamhc2foodextended:energydrinkitem",
+                    "weight": 2
+				},
+                {
+					"type": "minecraft:item",
+					"name": "pamhc2foodcore:crackeritem",
+                    "weight": 1
+				}
+			]
+		}
+	]
+}

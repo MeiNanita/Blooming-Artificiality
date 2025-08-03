@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "kubejs:blocks/trashbag"
+					"name": "bloom_arti:blocks/trash"
 				}
 			]
 		}

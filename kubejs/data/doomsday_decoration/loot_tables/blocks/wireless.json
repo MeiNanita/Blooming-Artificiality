@@ -6,7 +6,7 @@
 			"entries": [
                 {
 					"type": "minecraft:item",
-					"name": "kubejs:scrap_metal"
+					"name": "kubejs:scrap_electronics"
 				}
 			]
 		}

@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": {
+                "type": "minecraft:binomial",
+                "n": 8,
+                "p": 0.5
+            },
+			"entries": [
+                {
+					"type": "minecraft:item",
+					"name": "kubejs:scrap_metal"
+				},
+                {
+					"type": "minecraft:item",
+					"name": "kubejs:scrap_plumbing"
+				},
+                {
+					"type": "minecraft:item",
+					"name": "kubejs:scrap_cable"
+				},
+                {
+					"type": "minecraft:item",
+					"name": "kubejs:scrap_electronics"
+				}
+			]
+		}
+	]
+}
