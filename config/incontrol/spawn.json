@@ -1,6 +1,10 @@
 [
     {
-        "mob": ["minecraft:pig", "minecraft:cow", "minecraft:chicken", "minecraft:rabbit", "minecraft:bat", "minecraft:squid"],
+        "mob": ["minecraft:pig", "minecraft:cow", "minecraft:chicken", "minecraft:rabbit", "minecraft:bat", "minecraft:squid", "minecraft:sheep", "minecraft:wolf"],
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:creeper", "minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:phantom", "minecraft:cave_spider", "minecraft:drowned", "minecraft:husk", "minecraft:stray", "minecraft:enderman", "minecraft:witch", "minecraft:zombie_villager"],
         "result": "deny"
     },
     {
