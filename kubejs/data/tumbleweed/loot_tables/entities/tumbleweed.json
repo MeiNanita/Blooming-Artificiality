@@ -16,6 +16,11 @@
                 },
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:diamond",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
                     "name": "agricraft:seed",
                     "weight": 1,
                     "functions": [
@@ -49,17 +54,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:leather",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "minecraft:feather",
-                    "weight": 1
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone",
                     "weight": 1
                 }
             ]
