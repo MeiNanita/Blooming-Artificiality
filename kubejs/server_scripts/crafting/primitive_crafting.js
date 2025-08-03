@@ -148,6 +148,29 @@ ServerEvents.recipes(event => {
         S: 'minecraft:stick'
     });
 
+    event.shaped('gtceu:coke_oven', [
+        'PFP',
+        'BWB',
+        'PBP'
+    ], {
+        P: 'gtceu:iron_plate',
+        B: 'gtceu:coke_oven_bricks',
+        F: 'minecraft:furnace',
+        W: '#forge:tools/wrenches'
+    });
+
+    event.shaped('gtceu:primitive_blast_furnace', [
+        'SHS',
+        'BFB',
+        'STS'
+    ], {
+        S: 'gtceu:iron_screw',
+        B: 'gtceu:firebricks',
+        F: 'minecraft:blast_furnace',
+        H: '#forge:tools/hammers',
+        T: '#forge:tools/screwdrivers'
+    });
+
     // =======================================================
     //                   campfire recipes
     // =======================================================

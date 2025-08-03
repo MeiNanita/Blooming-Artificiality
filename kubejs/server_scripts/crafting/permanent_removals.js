@@ -84,6 +84,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/sword_flint'});
     event.remove({id: 'gtceu:shaped/barrel'});
     event.remove({id: 'gtceu:shaped/chest'});
+    event.remove({id: 'gtceu:shaped/coke_oven'});
+    event.remove({id: 'gtceu:shaped/bronze_primitive_blast_furnace'});
 
     const scrap_stone_blocks = ['', 'deepslate_', 'netherrack_', 'endstone_'];
     scrap_stone_blocks.forEach(stone => {

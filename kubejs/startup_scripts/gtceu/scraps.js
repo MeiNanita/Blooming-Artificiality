@@ -21,7 +21,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .oreSmeltInto(GTMaterials.Copper)
         .washedIn(GTMaterials.SodiumPersulfate)
         .separatedInto(GTMaterials.Nickel, GTMaterials.Gold)
-        .addOreByproducts(GTMaterials.Bronze, GTMaterials.Copper, GTMaterials.MetalMixture, GTMaterials.Nickel)
+        .addOreByproducts(GTMaterials.Potin, GTMaterials.Copper, GTMaterials.MetalMixture, GTMaterials.Nickel)
 
     event.create('scrap_cable')
         .ore(1, 1, false)
