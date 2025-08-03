@@ -20,7 +20,7 @@
         "soil_humidity": {
             "type": "equal",
             "tolerance_factor": 0.15,
-            "value": "dry"
+            "value": "arid"
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
