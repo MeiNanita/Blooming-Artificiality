@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             'gtceu:tin_alloy_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 1000, 0)
-        .duration(400)
+        .duration(400);
 
     pbf('pbf_scrap_metal_charcoal_dust')
         .itemInputs(
@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
             '4x gtceu:tin_alloy_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 4000, 0)
-        .duration(1600)
+        .duration(1600);
 
     pbf('pbf_scrap_metal_charcoal')
         .itemInputs(
@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
             '3x gtceu:tin_alloy_nugget',
             'gtceu:dark_ash_dust'
         )
-        .duration(1600)
+        .duration(1600);
 
 // ==========================================================
 
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
             'gtceu:potin_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 1000, 0)
-        .duration(400)
+        .duration(400);
 
     pbf('pbf_scrap_plumbing_charcoal_dust')
         .itemInputs(
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
             '4x gtceu:potin_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 4000, 0)
-        .duration(1600)
+        .duration(1600);
 
     pbf('pbf_scrap_plumbing_charcoal')
         .itemInputs(
@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
             '3x gtceu:potin_nugget',
             'gtceu:dark_ash_dust'
         )
-        .duration(1600)
+        .duration(1600);
 
 // ==========================================================
 
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
             'gtceu:cupronickel_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 1000, 0)
-        .duration(400)
+        .duration(400);
 
     pbf('pbf_scrap_cable_charcoal_dust')
         .itemInputs(
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
             '4x gtceu:cupronickel_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 4000, 0)
-        .duration(1600)
+        .duration(1600);
 
     pbf('pbf_scrap_cable_charcoal')
         .itemInputs(
@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
             '3x gtceu:cupronickel_nugget',
             'gtceu:dark_ash_dust'
         )
-        .duration(1600)
+        .duration(1600);
 
 // ==========================================================
 
@@ -126,7 +126,7 @@ ServerEvents.recipes(event => {
             'gtceu:battery_alloy_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 1000, 0)
-        .duration(400)
+        .duration(400);
 
     pbf('pbf_scrap_electronics_charcoal_dust')
         .itemInputs(
@@ -138,7 +138,7 @@ ServerEvents.recipes(event => {
             '4x gtceu:battery_alloy_nugget'
         )
         .chancedOutput('gtceu:dark_ash_dust', 4000, 0)
-        .duration(1600)
+        .duration(1600);
 
     pbf('pbf_scrap_electronics_charcoal')
         .itemInputs(
@@ -150,7 +150,42 @@ ServerEvents.recipes(event => {
             '3x gtceu:battery_alloy_nugget',
             'gtceu:dark_ash_dust'
         )
-        .duration(1600)
+        .duration(1600);
 
+// ==========================================================
+
+    pbf('pbf_ammo357_small_charcoal_dust')
+        .itemInputs(
+            '2x pointblank:ammo357',
+            'gtceu:small_charcoal_dust'
+        )
+        .chancedOutput('gtceu:lead_ingot', 2500, 0)
+        .chancedOutput('gtceu:sulfur_dust', 500, 0)
+        .chancedOutput('gtceu:dark_ash_dust', 2000, 0)
+        .duration(400);
+
+    pbf('pbf_ammo357_charcoal_dust')
+        .itemInputs(
+            '8x pointblank:ammo357',
+            'gtceu:charcoal_dust'
+        )
+        .itemOutputs(
+            'gtceu:lead_ingot',
+        )
+        .chancedOutput('gtceu:sulfur_dust', 2000, 0)
+        .chancedOutput('gtceu:dark_ash_dust', 8000, 0)
+        .duration(1600);
+
+    pbf('pbf_ammo357_charcoal')
+        .itemInputs(
+            '8x pointblank:ammo357',
+            'minecraft:charcoal'
+        )
+        .itemOutputs(
+            'gtceu:lead_ingot'
+        )
+        .chancedOutput('gtceu:sulfur_dust', 2000, 0)
+        .chancedOutput('gtceu:dark_ash_dust', 8000, 0)
+        .duration(1600);
 
 });

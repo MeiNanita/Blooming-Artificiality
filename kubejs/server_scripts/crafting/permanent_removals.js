@@ -24,6 +24,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'notreepunching:smelting/small_vessel'});
     event.remove({id: 'notreepunching:campfire/large_vessel'});
     event.remove({id: 'notreepunching:campfire/small_vessel'});
+    event.remove({id: 'notreepunching:cobblestone_from_rocks'});
 
 
     // minecraft
@@ -74,6 +75,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'naturaldecormod:cactus_sword'});
     event.remove({id: 'naturaldecormod:cactusplankstickrecipe'});
     event.remove({id: 'naturaldecormod:cactus_wood_crafting_bench_recipe'});
+    event.remove({id: 'naturaldecormod:saguarologsmokerecipe'});
+    event.remove({id: 'naturaldecormod:cactus_wood_smelt'});
 
 
     // gregtech
@@ -86,6 +89,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/chest'});
     event.remove({id: 'gtceu:shaped/coke_oven'});
     event.remove({id: 'gtceu:shaped/bronze_primitive_blast_furnace'});
+    event.remove({id: 'gtceu:macerator/dirt_from_bio_chaff'});
 
     const scrap_stone_blocks = ['', 'deepslate_', 'netherrack_', 'endstone_'];
     scrap_stone_blocks.forEach(stone => {
