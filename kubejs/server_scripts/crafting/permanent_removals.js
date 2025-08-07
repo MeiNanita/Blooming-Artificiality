@@ -90,6 +90,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/coke_oven'});
     event.remove({id: 'gtceu:shaped/bronze_primitive_blast_furnace'});
     event.remove({id: 'gtceu:macerator/dirt_from_bio_chaff'});
+    event.remove({id: 'gtceu:electrolyzer/decomposition_electrolyzing_gunpowder'});
 
     const scrap_stone_blocks = ['', 'deepslate_', 'netherrack_', 'endstone_'];
     scrap_stone_blocks.forEach(stone => {

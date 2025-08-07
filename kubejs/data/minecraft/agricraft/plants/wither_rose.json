@@ -27,6 +27,13 @@
             "max": 1,
             "min": 1,
             "required": true
+        },
+        {
+            "chance": 0.1,
+            "item": "gtceu:tiny_sulfur_dust",
+            "max": 1,
+            "min": 1,
+            "required": true
         }
     ],
     "requirement": {

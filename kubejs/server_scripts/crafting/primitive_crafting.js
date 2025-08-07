@@ -186,11 +186,13 @@ ServerEvents.recipes(event => {
     event.smelting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 200);
     event.smelting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 200);
     event.smelting('minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 200);
+    event.smelting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 200);
 
     event.blasting('minecraft:iron_ingot', 'kubejs:scrap_metal', 0.7, 100);
     event.blasting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 100);
     event.blasting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 100);
     event.blasting('minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 100);
+    event.blasting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 100);
 
     const ore_suffix = ['crushed', 'purified', 'refined'];
 
