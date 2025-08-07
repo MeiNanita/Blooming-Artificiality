@@ -63,6 +63,16 @@ ServerEvents.recipes(event => {
         'minecraft:bucket'
     );
 
+    event.shapeless(
+        '4x pamhc2foodcore:freshwateritem', [
+            'minecraft:water_bucket'
+        ]
+    )
+    .replaceIngredient(
+        'minecraft:water_bucket',
+        'minecraft:bucket'
+    );
+
     // =======================================================
     //                   shaped recipes
     // =======================================================
@@ -137,15 +147,6 @@ ServerEvents.recipes(event => {
         _: '#minecraft:wooden_slabs',
         O: 'gtceu:iron_ring',
         L: '#minecraft:logs'
-    });
-    
-    event.shaped('kubejs:plant_fiber_sieve', [
-        'SMS',
-        'MMM',
-        'SMS'
-    ], {
-        M: 'kubejs:plant_fiber_mesh',
-        S: 'minecraft:stick'
     });
 
     event.shaped('gtceu:coke_oven', [
@@ -225,7 +226,5 @@ ServerEvents.recipes(event => {
         'minecraft:iron_ingot',
         'gtceu:iron_plate'
     );
-
-    
 
 });

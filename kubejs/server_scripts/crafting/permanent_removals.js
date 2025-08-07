@@ -100,6 +100,11 @@ ServerEvents.recipes(event => {
         event.remove({id: `gtceu:smelting/smelt_${stone}scrap_electronics_ore_to_ingot`});
     });
 
+
+    // pamhc2foodcore & extended
+    event.remove({id: 'pamhc2foodcore:freshwater_x8'});
+
+
     // pamhc2crops
     event.remove({id: 'pamhc2crops:barleyseeditem'});
     event.remove({id: 'pamhc2crops:amaranthseeditem'});

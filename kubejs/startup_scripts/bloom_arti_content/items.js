@@ -10,10 +10,4 @@ StartupEvents.registry('item', event => {
     .texture('kubejs:item/plant_fiber_mesh')
     .maxStackSize(64);
 
-    event.create('plant_fiber_sieve')
-    .displayName('Plant fiber sieve')
-    .texture('kubejs:item/plant_fiber_sieve')
-    .unstackable()
-    .maxDamage(64);
-
 });
