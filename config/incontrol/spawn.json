@@ -4,7 +4,12 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:creeper", "minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:phantom", "minecraft:cave_spider", "minecraft:drowned", "minecraft:husk", "minecraft:stray", "minecraft:enderman", "minecraft:witch", "minecraft:zombie_villager"],
+        "mob": ["minecraft:creeper", "minecraft:zombie", "minecraft:skeleton", "minecraft:spider", "minecraft:cave_spider", "minecraft:drowned", "minecraft:husk", "minecraft:stray", "minecraft:enderman", "minecraft:witch", "minecraft:zombie_villager"],
+        "result": "deny"
+    },
+    {
+        "mob": ["minecraft:phantom"],
+        "when": "onjoin",
         "result": "deny"
     },
     {
