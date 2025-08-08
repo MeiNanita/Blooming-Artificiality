@@ -1,0 +1,103 @@
+
+["Enable & DisableMob Spawns: "]
+	#Enables or disables spawning of Beagle mob. Enabled by default.
+	spawnbeagles = true
+
+["Enable & Disable Structures: "]
+	#Enables or disables Botany Beagle House. Enabled by default.
+	spawnbotanybeaglehouse = true
+	#Enables or disables Koi Pond. Enabled by default.
+	spawnkoipond = true
+
+["Enable & Disable Spring to Life Backport Plants : "]
+	#This enables or disables all plants backported from Spring to Life by Natural Decor Mod (dry grass is exception). Enabeled by default
+	spawnallspringtolifeplants = true
+	#This enables or disables leaf litter backported by Natural Decor Mod. Enabeled by default
+	spawnleaflitter = true
+	#This enables or disables wildflowers backported by Natural Decor Mod. Enabeled by default
+	spawnwildflowers = true
+	#This enables or disables wildflowers backpoThis enables or disables cactus flowers backported by Natural Decor Mod. Enabeled by default
+	spawncactusflower = true
+	#This enables or disables wildflowers backpoThis enables or disables shrubs (bushes) backported by Natural Decor Mod. Enabeled by default.
+	spawnshrubs = true
+	#This enables or disables wildflowers backpoThis enables or disables fireflybush backported by Natural Decor Mod. Enabeled by default
+	spawnfireflybushes = true
+
+["Enable & Disable Trees : "]
+	#Enables or disables Juniper trees. Enabled by default.
+	spawnjuniper = true
+	#Enables or disables Saguaro Cacti. Enabled by default.
+	spawnsaguaro = true
+	#Enables or disables Araucaria Trees. Enabled by default.
+	spawnaraucaria = true
+	#Enables or disables Bungalo Palm Trees. Enabled by default.
+	spawnbungalopalm = true
+	#Enables or disables Paper Birch. Enabled by default.
+	spawnpaperbirch = true
+	#Enables or disables Mangrove trees covered in epiphytic plants. Enabled by default.
+	spawnepiphytemangroves = true
+	#Enables or disables turkey tail covered birch trunks. Enabled by default.
+	spawnturkeytailbirch = true
+
+["Enable & Disable Groundcover Plants : "]
+	#Enables or disables conifer tree needles. Enabled by default.
+	spawnconiferneedles = true
+	#Enables or disables succulents. Enabled by default.
+	spawnsucculents = true
+	#Enables or disables iceplants. Enabled by default.
+	spawniceplant = true
+	#Enables or disables drygrass (this includes the spring to life backport dry grass since this is 3 stage plant). Enabled by default.
+	spawndrygrass = true
+	#Enables or disables irish moss. Enabled by default.
+	spawnirishmoss = true
+	#Enables or disables creepingflox. Enabled by default.
+	spawncreepingflox = true
+
+["Enable & Disable Bushes : "]
+	#Enables or disables birdnest spruce bush. Enabled by default.
+	spawndwarfspruce = true
+	#Enables or disables boxwood bush. Enabled by default.
+	spawnboxwood = true
+	#Enables or disables creosote bush. Enabled by default.
+	spawncreosote = true
+	#Enables or disables poinsettia bush. Enabled by default.
+	spawnpoinsettia = true
+	#Enables or disables butterfly bush. Enabled by default.
+	spawnbutterflybush = true
+
+["Enable & Disable Aquatic Plants : "]
+	#Enables or disables NDM's corals. Enabled by default.
+	spawnndmcoral = true
+	#Enables or disables golden anubias. Enabled by default.
+	spawngoldenanubias = true
+	#Enables or disables java ferns. Enabled by default.
+	spawnjavafern = true
+	#Enables or disables red bush algea. Enabled by default.
+	spawnredalgea = true
+	#Enables or disables mangrove roots. Enabled by default.
+	spawnmangroveroots = true
+
+["Enable & Disable Carnivorous & Smelly Plants : "]
+	#Enables or disables corpse flowers. Enabled by default.
+	spawncorpseflower = true
+	#Enables or disables rafflesias. Enabled by default.
+	spawnrafflesia = true
+	#Enables or disables sundews. Enabled by default.
+	spawnsundew = true
+	#Enables or disables giant pitcher plant. Enabled by default.
+	spawngiantpitcher = true
+
+["Enable & Disable Misc Plants : "]
+	#Enables or disables dracaneas. Enabled by default.
+	spawndracaneas = true
+	#Enables or disables dracaneas. Enabled by default.
+	spawnwetlandgrass = true
+	#Enables or disables prickly pear. Enabled by default.
+	spawnpricklypear = true
+	#Enables or disables swiss cheese plant. Enabled by default.
+	spawnswisscheese = true
+	#Enables or disables agave plants. Enabled by default.
+	spawnagave = true
+	#Enables or disables frost flowers (not a true plant). Enabled by default.
+	spawnfrostflowers = true
+
