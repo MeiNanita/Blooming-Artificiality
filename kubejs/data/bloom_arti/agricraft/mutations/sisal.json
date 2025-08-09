@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "pamhc2crops:sisal",
+    "parent1": "pamhc2crops:barley",
+    "parent2": "bloom_arti:desert_grass"
+}
