@@ -2,7 +2,7 @@
     "seeds": [
         {
             "grass_drop_chance": 0.0,
-            "item": "pamhc2crops:flaxseeditem",
+            "item": "pamhc2crops:strawberryseeditem",
             "override_planting": true,
             "seed_drop_bonus": 0.0,
             "seed_drop_chance": 1.0
@@ -20,7 +20,7 @@
         "soil_humidity": {
             "type": "equal",
             "tolerance_factor": 0.0,
-            "value": "arid"
+            "value": "damp"
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
@@ -45,7 +45,7 @@
     "products": [
         {
             "chance": 0.9,
-            "item": "pamhc2crops:flaxitem",
+            "item": "pamhc2crops:strawberryitem",
             "max": 5,
             "min": 1,
             "required": true

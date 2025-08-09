@@ -2,8 +2,8 @@
     "seeds": [
         {
             "grass_drop_chance": 0.0,
-            "item": "pamhc2crops:flaxseeditem",
-            "override_planting": true,
+            "item": "minecraft:seagrass",
+            "override_planting": false,
             "seed_drop_bonus": 0.0,
             "seed_drop_chance": 1.0
         }
@@ -11,7 +11,7 @@
     "requirement": {
         "light_tolerance_factor": 0.5,
         "max_light": 16,
-        "min_light": 10,
+        "min_light": 5,
         "soil_acidity": {
             "type": "equal",
             "tolerance_factor": 0.0,
@@ -20,16 +20,16 @@
         "soil_humidity": {
             "type": "equal",
             "tolerance_factor": 0.0,
-            "value": "arid"
+            "value": "watery"
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
             "tolerance_factor": 0.15,
-            "value": "low"
+            "value": "medium"
         }
     },
-    "growth_bonus": 0.065,
-    "growth_chance": 0.735,
+    "growth_bonus": 0.08,
+    "growth_chance": 0.92,
     "spread_chance": 0.1,
     "harvest_stage": 4,
     "stages": [
@@ -44,9 +44,9 @@
     ],
     "products": [
         {
-            "chance": 0.9,
-            "item": "pamhc2crops:flaxitem",
-            "max": 5,
+            "chance": 0.75,
+            "item": "minecraft:seagrass",
+            "max": 1,
             "min": 1,
             "required": true
         }

@@ -2,7 +2,7 @@
     "seeds": [
         {
             "grass_drop_chance": 0.0,
-            "item": "pamhc2crops:flaxseeditem",
+            "item": "pamhc2crops:agaveseeditem",
             "override_planting": true,
             "seed_drop_bonus": 0.0,
             "seed_drop_chance": 1.0
@@ -28,8 +28,8 @@
             "value": "low"
         }
     },
-    "growth_bonus": 0.065,
-    "growth_chance": 0.735,
+    "growth_bonus": 0.05,
+    "growth_chance": 0.6,
     "spread_chance": 0.1,
     "harvest_stage": 4,
     "stages": [
@@ -45,7 +45,7 @@
     "products": [
         {
             "chance": 0.9,
-            "item": "pamhc2crops:flaxitem",
+            "item": "pamhc2crops:agaveitem",
             "max": 5,
             "min": 1,
             "required": true

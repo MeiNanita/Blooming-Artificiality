@@ -2,7 +2,7 @@
     "seeds": [
         {
             "grass_drop_chance": 0.0,
-            "item": "pamhc2crops:flaxseeditem",
+            "item": "pamhc2crops:arrowrootseeditem",
             "override_planting": true,
             "seed_drop_bonus": 0.0,
             "seed_drop_chance": 1.0
@@ -15,17 +15,17 @@
         "soil_acidity": {
             "type": "equal",
             "tolerance_factor": 0.0,
-            "value": "neutral"
+            "value": "slightly_acidic"
         },
         "soil_humidity": {
             "type": "equal",
             "tolerance_factor": 0.0,
-            "value": "arid"
+            "value": "damp"
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
             "tolerance_factor": 0.15,
-            "value": "low"
+            "value": "medium"
         }
     },
     "growth_bonus": 0.065,
@@ -45,7 +45,7 @@
     "products": [
         {
             "chance": 0.9,
-            "item": "pamhc2crops:flaxitem",
+            "item": "pamhc2crops:arrowrootitem",
             "max": 5,
             "min": 1,
             "required": true
