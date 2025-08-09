@@ -4,10 +4,10 @@ ServerEvents.recipes(event => {
      * 
      * @param {string} tree_species - the name of the dynamic tree species, for example "dtphc2:dragon_fruit_sapling"
      * @param {string} req_crop - the name of the agricraft-crop that must surround the dead bush, for example "minecraft:wither_flower"
+     * @param {string} req_crop - the name of the agricraft-crop that should be used for the info-tex, for example "wilted lily"
      * @param {string} req_soil - the name of the soil-tag that the dead bush must be on. Only valid tags are "sandy_soil", "silty_soil" or "clay_soil"
      */
-    const agri_bush_restoration = function(tree_species, req_crop, req_soil) {
-        const crop_lang = Item.of(req_crop).displayName.string.slice(1, -1);
+    const agri_bush_restoration = function(tree_species, req_crop, crop_lang, req_soil) {
 
         event.custom({
             type: "lychee:block_interacting",
@@ -89,10 +89,10 @@ ServerEvents.recipes(event => {
 
     };
 
-    agri_bush_restoration("dtphc2:dragon_fruit_sapling", "minecraft:cactus", "sandy_soil");
-    agri_bush_restoration("dynamictrees:acacia_sapling", "pamhc2crops:barley", "sandy_soil");
-    agri_bush_restoration("dtphc2:date_sapling", "pamhc2crops:papyrus", "sandy_soil");
-    agri_bush_restoration("dtphc2:almond_sapling", "pamhc2crops:wolfberry", "sandy_soil");
+    agri_bush_restoration("dtphc2:dragon_fruit_sapling", "minecraft:cactus", "cactus", "sandy_soil");
+    agri_bush_restoration("dynamictrees:acacia_sapling", "pamhc2crops:barley", "barley", "sandy_soil");
+    agri_bush_restoration("dtphc2:date_sapling", "pamhc2crops:papyrus", "papyrus", "sandy_soil");
+    agri_bush_restoration("dtphc2:almond_sapling", "pamhc2crops:wolfberry", "wolfberry", "sandy_soil");
 
 
 });
