@@ -46,6 +46,11 @@ ServerEvents.recipes(event => {
 
 
     agri_crop_terraform('minecraft:wither_rose', 'kubejs:wasteland_soil', 'chipped:white_sand');
+    agri_crop_terraform('minecraft:cactus', 'whipped:white_sand', 'minecraft:sand');
+    agri_crop_terraform('panhc2crops:sisal', 'minecraft:sand', 'kubejs:inferior_neutral_sand_soil');
+    agri_crop_terraform('panhc2crops:wolfberry', 'minecraft:sand', 'kubejs:inferior_alkaline_silt_soil');
+    agri_crop_terraform('panhc2crops:wintersquash', 'kubejs:inferior_alkaline_silt_soil', 'kubejs:mediocre_alkaline_silt_soil');
+    agri_crop_terraform('panhc2crops:flax', 'kubejs:inferior_neutral_sand_soil', 'kubejs:mediocre_neutral_sand_soil');
 
 
 });

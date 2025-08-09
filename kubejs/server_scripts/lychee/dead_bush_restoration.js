@@ -90,6 +90,9 @@ ServerEvents.recipes(event => {
     };
 
     agri_bush_restoration("dtphc2:dragon_fruit_sapling", "minecraft:cactus", "sandy_soil");
+    agri_bush_restoration("dynamictrees:acacia_sapling", "pamhc2crops:barley", "sandy_soil");
+    agri_bush_restoration("dtphc2:date_sapling", "pamhc2crops:papyrus", "sandy_soil");
+    agri_bush_restoration("dtphc2:almond_sapling", "pamhc2crops:wolfberry", "sandy_soil");
 
 
 });
