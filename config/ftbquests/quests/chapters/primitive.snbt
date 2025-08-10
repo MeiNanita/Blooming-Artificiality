@@ -24,8 +24,8 @@
 					icon: "kubejs:wasteland_soil"
 					id: "3E4A9450CC56D8C5"
 					observe_type: 0
-					timer: 100L
-					title: "Stare at the wasteland soil for 5 seconds"
+					timer: 60L
+					title: "Stare at the wasteland soil for 3 seconds"
 					to_observe: "kubejs:wasteland_soil"
 					type: "observation"
 				}
@@ -33,8 +33,8 @@
 					icon: "biomesoplenty:dead_log"
 					id: "5F6B42F4212FD401"
 					observe_type: 0
-					timer: 100L
-					title: "Analyse a dead tree for 5 seconds"
+					timer: 60L
+					title: "Analyse a dead tree for 3 seconds"
 					to_observe: "dtbop:dead_branch"
 					type: "observation"
 				}
@@ -42,8 +42,8 @@
 					icon: "minecraft:dead_bush"
 					id: "05185C4184833C19"
 					observe_type: 0
-					timer: 100L
-					title: "Analyse a dead bush for 5 seconds"
+					timer: 60L
+					title: "Analyse a dead bush for 3 seconds"
 					to_observe: "minecraft:dead_bush"
 					type: "observation"
 				}
@@ -55,13 +55,15 @@
 		{
 			dependencies: ["3E1855C76ADE48D2"]
 			description: [
-				"Whereever I look, not even a single sign of life is visible."
+				"Wherever I look, not even a single sign of life is visible."
 				"The trees are dead, "
 				"plants have wilted, "
 				"animals are gone"
 				"and not even a drop of water can be found... "
 				""
-				"Did the climate restoration project fail?"
+				"But how can that be? "
+				"I still remember the news about a climate-restoration-project being broadcast all across the nation just the day before I went into cryosleep... "
+				"Did the project fail? "
 				"Maybe I can find some hints, but first, I need to ensure my survival!"
 				""
 				"First of all, I need &6sticks&r and some kind of &6sharp stone&r..."
@@ -69,43 +71,65 @@
 			]
 			icon: "minecraft:dead_bush"
 			id: "5AD939C451A10FFD"
-			rewards: [{
-				id: "380CA825B83900E7"
-				item: {
-					Count: 1
-					id: "gtceu:flint_knife"
-					tag: {
-						DisallowContainerItem: 0b
-						Enchantments: [{
-							id: "minecraft:fire_aspect"
-							lvl: 2s
-						}]
-						GT.Behaviours: { }
-						GT.Tool: {
-							AttackDamage: 1.0f
-							AttackSpeed: 3.0f
-							Damage: 0
-							MaxDamage: 63
-						}
-						HideFlags: 2
-					}
-				}
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [
 				{
-					consume_items: true
+					consume_items: false
 					id: "121FB93BC8940789"
 					item: "minecraft:stick"
 					title: "Collect a sturdy enough stick"
 					type: "item"
 				}
 				{
-					consume_items: true
+					consume_items: false
 					id: "4D4EE606BF4A8EB0"
 					item: "minecraft:flint"
 					title: "Collect a sharp stone"
+					type: "item"
+				}
+				{
+					consume_items: false
+					icon: {
+						Count: 1
+						id: "gtceu:flint_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 1.0f
+								AttackSpeed: 3.0f
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					id: "18157BABCCF53873"
+					item: {
+						Count: 1
+						id: "gtceu:flint_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 1.0f
+								AttackSpeed: 3.0f
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					only_from_crafting: true
+					title: "Turn the stick and flint into a primitive tool"
 					type: "item"
 				}
 			]
@@ -116,18 +140,8 @@
 		{
 			dependencies: ["3E1855C76ADE48D2"]
 			description: [
-				"&oCarefully you ventured into one of the ruined structures you saw in the distance.&r"
-				"&oThe walls have long since crumbled,&r"
-				"&otrash, scrap and rocks litter the ground&r"
-				"&oand yet... it seems like not a single soul has lived here for years now...&r "
-				""
-				"&oAs you ventured through even more ruins, &r"
-				"&othe same sight haunts you over and over.&r"
-				"&oYour breath felt chocked, &r"
-				"&oa cold shiver ran down your spine.&r"
-				""
-				"&oYou have a feeling that something terrible must've happened..."
-				"&r"
+				"While travelling across this wasteland, "
+				"I came across some abandonned buildings"
 			]
 			icon: "kubejs:scrap_metal"
 			id: "461692C72A1380E1"
@@ -229,51 +243,24 @@
 			dependencies: ["3E1855C76ADE48D2"]
 			description: [
 				"I've noticed some movement in the distance... "
-				"Unfortunately, it's just a bunch of tumbleweeds tumblin' in the wind."
+				"Unfortunately, it's just a bunch of &6tumbleweeds&r tumblin' in the wind."
 				""
-				"... on second thought, maybe those tumbleweeds might have something useful..."
+				"... wait a second, "
+				"I just saw something &6sparkle&r in that tumbleweed!"
+				"Perhaps I might find something useful by &6breaking&r those moving tumbleweeds!"
 			]
 			icon: "biomesoplenty:dead_sapling"
 			id: "2BB3297C063E4532"
-			rewards: [{
-				count: 3
-				id: "5961FA1B30291F90"
-				item: "pamhc2foodextended:ediblerootitem"
-				type: "item"
-			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "2EA338794DE5854E"
-					item: "minecraft:dead_bush"
-					type: "item"
-				}
-				{
-					id: "7F87201F71EF5D6B"
-					item: "biomesoplenty:dead_sapling"
-					type: "item"
-				}
-				{
-					id: "20DB315CFB8A4D21"
-					item: "pamhc2foodextended:ediblerootitem"
-					type: "item"
-				}
-				{
-					id: "355D7A86B76AC91A"
-					item: "minecraft:leather"
-					type: "item"
-				}
-				{
-					id: "6171E0DAABBCE19C"
-					item: "minecraft:feather"
-					type: "item"
-				}
-				{
-					id: "79CA91BA4763C62A"
-					item: "minecraft:bone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				icon: "ferdinandsflowers:tumble_weed"
+				id: "3BDBCEF5A3519E1E"
+				observe_type: 5
+				timer: 20L
+				title: "Observe a moving tumbleweed for a second"
+				to_observe: "tumbleweed:tumbleweed"
+				type: "observation"
+			}]
 			title: "Just like in the wild west..."
 			x: 1.5d
 			y: 2.0d
@@ -281,21 +268,16 @@
 		{
 			dependencies: ["5AD939C451A10FFD"]
 			description: [
-				"Now that I have a working knife, I can start to cut down some of those wilted plants to gather some plant-fiber."
-				"With those, I should be able to get plant-strings which will be necessary for better tools!"
+				"Now that I have a working &6knife&r, I can start to &6cut down&r some of those wilted and dried out &6plants&r to gather some &6plant-fiber&r."
+				"With those, I should be able to &6craft plant-strings&r which will be necessary for better tools!"
 			]
 			icon: "notreepunching:plant_string"
 			id: "74B96428A9A52060"
-			rewards: [{
-				id: "2F2329BF30204CAA"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "square"
 			tasks: [
 				{
 					consume_items: false
-					count: 16L
+					count: 4L
 					icon: "notreepunching:plant_fiber"
 					id: "31AFBB79B2569ABC"
 					item: "notreepunching:plant_fiber"
@@ -304,10 +286,9 @@
 				}
 				{
 					consume_items: false
-					count: 4L
 					icon: "notreepunching:plant_string"
 					id: "2F36895D533785C5"
-					item: { Count: 4, id: "notreepunching:plant_string" }
+					item: "notreepunching:plant_string"
 					only_from_crafting: true
 					title: "Craft some strings"
 					type: "item"
@@ -321,15 +302,9 @@
 			dependencies: ["5AD939C451A10FFD"]
 			description: [
 				"If I want better tools, I need to further process my flint."
-				"It might be a bit of a cavemen-method but... maybe I can sharpen my &6flint&r by &6hitting it against some stone&r."
+				"It might be a bit of a cavemen-method but... maybe I can sharpen my &6flint&r by &6hitting it against the top-side of some stone&r..."
 			]
 			id: "0BE077D650857667"
-			rewards: [{
-				count: 2
-				id: "66D027933216F32A"
-				item: "notreepunching:flint_shard"
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [{
 				icon: "notreepunching:flint_shard"
@@ -350,7 +325,7 @@
 			description: [
 				"Perfect!"
 				"Now that I have flint-shards, plant-strings and sticks,"
-				"I can finally &6craft a primitive flint axe&r to chop down those dead trees for wood!"
+				"I can finally &6craft a primitive flint axe&r to chop down those &6dead trees&r for wood!"
 			]
 			icon: {
 				Count: 1
@@ -360,11 +335,6 @@
 				}
 			}
 			id: "052CCB6358E4F8AD"
-			rewards: [{
-				id: "7EFA7F18DFFFAB1C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "square"
 			tasks: [
 				{
@@ -380,9 +350,9 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 2L
 					id: "267C57A3246B5295"
-					item: { Count: 8, id: "biomesoplenty:dead_log" }
+					item: "biomesoplenty:dead_log"
 					type: "item"
 				}
 			]
@@ -393,30 +363,18 @@
 		{
 			dependencies: ["052CCB6358E4F8AD"]
 			description: [
-				"Manual-crafting without a proper work-station will only get me this far..."
+				"Manual-crafting without a proper workstation will only get me so far..."
 				"But now that I have some &6logs&r, a &6knife&r and an &6axe&r,"
 				"I can finally work on something that will aid in my survival... a &6crafting table&r!"
 			]
 			id: "57B606614B36774B"
-			rewards: [
-				{
-					id: "70E17D86B3E1D1F2"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 2
-					id: "1E496F71E14019E3"
-					item: "notreepunching:flint_shard"
-					type: "item"
-				}
-			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				icon: "minecraft:crafting_table"
 				id: "4B1FC17D00F806D0"
 				item: "minecraft:crafting_table"
+				only_from_crafting: true
 				title: "Assemble a crafting table"
 				type: "item"
 			}]
@@ -426,6 +384,15 @@
 		}
 		{
 			dependencies: ["57B606614B36774B"]
+			description: [
+				"Now that I have a crafting table, "
+				"I can work on getting some better tools! "
+				""
+				"Having a &6firestarter&r would allow me to create some fire. "
+				"And with access to a &6pickaxe&r and a &6shovel&r, "
+				"I would have a much easier time breaking into &6ruins&r, "
+				"getting &6cobblestone&r and much more! "
+			]
 			id: "744FE6723148330E"
 			rewards: [{
 				id: "7419207CD62ECC50"
@@ -449,6 +416,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -460,6 +428,7 @@
 							Damage: 0
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -516,12 +485,6 @@
 				"The metals I will be able to get from them should be very valuable for my progression!"
 			]
 			id: "0BD548EEDA83FF96"
-			rewards: [{
-				count: 8
-				id: "7CC8FF9293D74C9F"
-				item: "kubejs:scrap_metal"
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [
 				{
@@ -781,52 +744,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["57B606614B36774B"]
-			description: [
-				"This wasteland soil is quite loose... almost like sand in a way."
-				"However during my journey so far, I've seen various glistering tid-bits pocking out of it."
-				"I'm pretty sure that with some careful sieving, I can uncover &6valuable treasures&r!"
-				""
-				"( &aTo sieve, simply hold a sieve in your main-hand and right-click the wasteland-soil&r )"
-			]
-			icon: {
-				Count: 1
-				id: "kubejs:plant_fiber_sieve"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "2441CBB114F35BC2"
-			shape: "square"
-			tasks: [
-				{
-					id: "415816301229FC65"
-					item: {
-						Count: 1
-						id: "kubejs:plant_fiber_sieve"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3217EFF777C40913"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "106D48DF8BE7C0D6"
-					item: "biomesoplenty:orange_sand"
-					type: "item"
-				}
-			]
-			title: "Uncovering treasures"
-			x: 6.0d
-			y: 2.0d
-		}
-		{
 			dependencies: [
 				"3BAD1E02E7A2FE79"
 				"762BC5C521C37151"
@@ -1067,6 +984,221 @@
 			title: "A drop of water at last!"
 			x: 13.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["2BB3297C063E4532"]
+			description: [
+				"Unsurprisingly, tumbleweeds are really just a bunch of dry, "
+				"or in this case better said dead bunch of twigs. "
+				""
+				"What is surprising however is that some of those dead twigs are actually roots... and they still look somewhat fresh! "
+				"I'd say these &6roots&r do look &6edible&r so... "
+				"if the situation gets even worse, I could eat those in an emergency! "
+				""
+				"What's also very surprising is that I've managed to find a feather... "
+				"But where did that feather come from? "
+				"I don't see a single sign of animal-life in sight... "
+			]
+			id: "7D60F8965BE7358A"
+			shape: "square"
+			tasks: [
+				{
+					id: "2EDBCDC9CE019282"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+				{
+					id: "41228A26E6D215FE"
+					item: "pamhc2foodextended:ediblerootitem"
+					type: "item"
+				}
+				{
+					id: "4DAC20B1EF67B20B"
+					item: "minecraft:feather"
+					type: "item"
+				}
+			]
+			title: "The expected outcome"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E1855C76ADE48D2"]
+			description: [
+				"Is it just me... or does the sun move significantly slower? "
+				"... "
+				"Nope, the sun definitely moves a lot slower! "
+				"Judging by the speed it moves, "
+				"I'd say that &6daytime should last up to an hour&r, "
+				"followed by &61 hour of nighttime&r... "
+				""
+				"I might want to keep that in mind when trying to survive in this wasteland... "
+				"Especially given the &6hellish heat during daytime&r. "
+			]
+			icon: "minecraft:clock"
+			id: "242A402A35CBC5C7"
+			shape: "square"
+			tasks: [{
+				id: "12C9762E61571C9E"
+				title: "How long does the day last?"
+				type: "checkmark"
+			}]
+			title: "How long does the day last?"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BB3297C063E4532"]
+			id: "23D472C35E46D1C4"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "64AD215C2F1B38AE"
+					item: {
+						Count: 1
+						id: "agricraft:seed"
+						tag: {
+							genes: {
+								fertility: {
+									dom: 1
+									rec: 1
+								}
+								gain: {
+									dom: 1
+									rec: 1
+								}
+								growth: {
+									dom: 1
+									rec: 1
+								}
+								mutativity: {
+									dom: 1
+									rec: 1
+								}
+								resistance: {
+									dom: 1
+									rec: 1
+								}
+								species: {
+									dom: "minecraft:wither_rose"
+									rec: "minecraft:wither_rose"
+								}
+								strength: {
+									dom: 1
+									rec: 1
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B35CDF2C6436754"
+					item: {
+						Count: 1
+						id: "agricraft:seed"
+						tag: {
+							genes: {
+								fertility: {
+									dom: 1
+									rec: 1
+								}
+								gain: {
+									dom: 1
+									rec: 1
+								}
+								growth: {
+									dom: 1
+									rec: 1
+								}
+								mutativity: {
+									dom: 1
+									rec: 1
+								}
+								resistance: {
+									dom: 1
+									rec: 1
+								}
+								species: {
+									dom: "bloom_arti:desert_grass"
+									rec: "bloom_arti:desert_grass"
+								}
+								strength: {
+									dom: 1
+									rec: 1
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38D43924C3BFE49C"
+					item: {
+						Count: 1
+						id: "agricraft:seed"
+						tag: {
+							genes: {
+								fertility: {
+									dom: 1
+									rec: 1
+								}
+								gain: {
+									dom: 1
+									rec: 1
+								}
+								growth: {
+									dom: 1
+									rec: 1
+								}
+								mutativity: {
+									dom: 1
+									rec: 1
+								}
+								resistance: {
+									dom: 1
+									rec: 1
+								}
+								species: {
+									dom: "biomesoplenty:wilted_lily"
+									rec: "biomesoplenty:wilted_lily"
+								}
+								strength: {
+									dom: 1
+									rec: 1
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Life always finds a way!"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BB3297C063E4532"]
+			description: [
+				"I knew that I saw something sparkling inside that tumbling weed! "
+				"It's an actual diamond! "
+				"Hm... but without any civilization around, "
+				"it's actually quite worthless compared to a bottle of water right now... "
+				"Still, from a technical standpoint, diamonds are quite hard. "
+				"Maybe I'll be able to use those in some kind of &6machine&r later on, "
+				"like a &6macerator&r or similar for example."
+			]
+			id: "76ACF16214627ED7"
+			shape: "square"
+			tasks: [{
+				id: "21AAD5966C5A4EA0"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "The source of the sparkle"
+			x: 3.0d
+			y: 0.5d
 		}
 	]
 	title: "Primitive"

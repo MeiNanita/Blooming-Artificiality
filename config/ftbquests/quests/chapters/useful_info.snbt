@@ -14,30 +14,23 @@
 				"Hello and welcome to 'Blooming Artificiality' !"
 				""
 				"I'm MeiNanita, the creator of this modpack and it is quite a pleasure for me to welcome you here!"
-				"In this modpack, you'll experience a captivating sci-fi story where you will gradually uncover the secrets and lurking dangers that this ruined wasteland holds."
-				"You'll end up progressing technologically and scientifically, not only ensuring your own survival in the process, but also at some point  gradually terraforming this ruined earth back into its vivacious former self."
 				""
-				"My personal motivations and inspirations behind this modpack come from the anime 'Dr. Stone' and the game 'Horizon Zero Dawn', as well as the modpack 'Planetary'."
-				"I just like games and stories that utilize the concept of research and terraforming in some way, sprinkled with a captivating story in between."
-				"And well... since I couldn't find a modpack that quite filled this craving I had, that's how I eventually ended up creating this modpack."
+				"In this modpack, you'll wake up in a world devoid of its life and vigor. "
+				"A world where only the crumbling buildings of old times and the wandering tumbleweeds will give you company. "
+				"A world where its overexploitation stripped it bare from precious ores and invigorating waters.  "
+				"Your challenge will be to survive in this wasteland that once used to be your home, the earth. "
 				""
-				"If that all sounds quite interesting to you, then I'm fairly certain that you'll enjoy this modpack for a long time!"
+				"However, as you try to survive, you will discover that, "
+				"no matter how weakened it may be, life will always find a way. "
+				"Nurturing that flicker of life will be an arduous and difficult task. "
+				"But with a bright mind and scrap metals scattered everywhere, "
+				"you'll be able to use the might of organic chemistry \\& industry to aid you in that task. "
+				"And as your industries will grow, hand in hand, with your revitilization-efforts, you'll eventually be even able to build mighty terraformers that can change the climate itself, bring life back from lifenessless and ultimately turn this wasteland into a Solarpunk Utopia. "
+				""
+				"But beware... there are dangers all across this world... and once ITS cold and calculating eyes throw a gaze at you, you'll quickly learn why humanity and life itself were turned to ash and dust. "
 			]
 			icon: "minecraft:writable_book"
 			id: "43A1E6FA8FD00EB7"
-			rewards: [{
-				id: "6C91614EA3669714"
-				item: {
-					Count: 1
-					id: "pamhc2foodextended:ramenitem"
-					tag: {
-						display: {
-							Name: "{\"text\":\"Senku's space ramen\",\"color\":\"green\",\"italic\":\"true\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "25E7248AF0309398"
@@ -50,13 +43,14 @@
 		{
 			dependencies: ["43A1E6FA8FD00EB7"]
 			description: [
-				"Here goes all the honorific mentionings towards people who, while not part of the dev-team, still provided valuable contributions towards this modpack!"
-				""
-				"sheppennings - Modeller of the scrap-, trashbag and fog-collector-block"
+				"&6sheppennings&r - Modeller of the scrap- and trashbag blocks. "
+				"&6NoxAeterna&r - Creator of the shattered moon texture. "
+				"&amodrinth.com/resourcepack/noxs-shattered-moon&r"
 			]
-			icon: "pamhc2trees:starfruititem"
+			icon: "abyssal_decor:starlight"
 			id: "62B80D1CD6EE6AEA"
 			shape: "hexagon"
+			subtitle: "Special thanks to these outstanding people:"
 			tasks: [{
 				id: "4289D7042FEC1FA2"
 				title: "Special thanks"
@@ -68,13 +62,14 @@
 		{
 			dependencies: ["43A1E6FA8FD00EB7"]
 			description: [
-				"In here goes all the credits and mentioning of members who are part of the dev-team of this modpack."
+				"&6MeiNanita&r"
 				""
-				"WIP"
+				"(that's all for now)"
 			]
 			icon: "gtceu:computer_monitor_cover"
 			id: "4503DB46A7650A6F"
 			shape: "hexagon"
+			subtitle: "Basically who worked on this pack:"
 			tasks: [{
 				id: "7A80B132DBCEB357"
 				title: "Dev-team credits"
