@@ -23,7 +23,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "naturaldecormod:beachgrass",
+					"name": "naturaldecormod:largedrygrass",
 					"conditions": [
 						{
 							"condition": "minecraft:match_tool",
