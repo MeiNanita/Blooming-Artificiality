@@ -2,7 +2,7 @@
     "multipart": [
         {
             "apply": {
-                "model": "kubejs:block/wasteland_soil"
+                "model": "kubejs:block/enriched_dirt"
             }
         },
         {

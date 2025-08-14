@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/enriched_dirt"
+            },
+            {
+                "model": "kubejs:block/enriched_dirt",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/enriched_dirt",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/enriched_dirt",
+                "y": 270
+            }
+        ]
+    }
+}

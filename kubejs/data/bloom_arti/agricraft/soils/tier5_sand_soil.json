@@ -1,12 +1,12 @@
 {
     "acidity": "neutral",
     "humidity": "arid",
-    "nutrients": "none",
-    "growth_modifier": 0.20,
+    "nutrients": "very_high",
+    "growth_modifier": 1.0,
     "mods": [],
     "variants": [
         {
-            "block": "kubejs:wasteland_soil"
+            "block": "chipped:lush_red_sand"
         }
     ]
 }

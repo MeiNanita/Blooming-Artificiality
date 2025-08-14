@@ -1,0 +1,4 @@
+{
+    "primitive_soil": "chipped:coarse_sand",
+    "acceptable_soils": ["dirt_like"]
+}

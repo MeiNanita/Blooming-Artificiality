@@ -1,0 +1,12 @@
+{
+    "acidity": "neutral",
+    "humidity": "damp",
+    "nutrients": "very_high",
+    "growth_modifier": 1.0,
+    "mods": [],
+    "variants": [
+        {
+            "block": "kubejs:fertile_dirt"
+        }
+    ]
+}

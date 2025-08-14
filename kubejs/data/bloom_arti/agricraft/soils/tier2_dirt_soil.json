@@ -1,0 +1,12 @@
+{
+    "acidity": "neutral",
+    "humidity": "damp",
+    "nutrients": "low",
+    "growth_modifier": 0.4,
+    "mods": [],
+    "variants": [
+        {
+            "block": "chipped:orange_gravel"
+        }
+    ]
+}

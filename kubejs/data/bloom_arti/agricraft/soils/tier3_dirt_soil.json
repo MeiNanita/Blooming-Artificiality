@@ -1,0 +1,15 @@
+{
+    "acidity": "neutral",
+    "humidity": "damp",
+    "nutrients": "medium",
+    "growth_modifier": 0.5,
+    "mods": [],
+    "variants": [
+        {
+            "block": "minecraft:dirt"
+        },
+        {
+            "block": "minecraft:grass"
+        }
+    ]
+}

@@ -1,20 +1,10 @@
 {
     "values": [
         "kubejs:wasteland_soil",
-        "chipped:white_sand",
         "minecraft:sand",
         "chipped:desert_sand",
         "biomesoplenty:orange_sand",
         "minecraft:red_sand",
-        "kubejs:poor_neutral_sand_soil",
-        "kubejs:inferior_neutral_sand_soil",
-        "kubejs:mediocre_neutral_sand_soil",
-        "kubejs:superior_neutral_sand_soil",
-        "kubejs:excellent_neutral_sand_soil",
-        "kubejs:poor_acidic_sand_soil",
-        "kubejs:inferior_acidic_sand_soil",
-        "kubejs:mediocre_acidic_sand_soil",
-        "kubejs:superior_acidic_sand_soil",
-        "kubejs:excellent_acidic_sand_soil"
+        "chipped:lush_red_sand"
     ]
 }

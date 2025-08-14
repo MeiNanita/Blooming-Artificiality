@@ -2,7 +2,7 @@
     "multipart": [
         {
             "apply": {
-                "model": "kubejs:block/wasteland_soil"
+                "model": "chipped:block/lush_red_sand"
             }
         },
         {

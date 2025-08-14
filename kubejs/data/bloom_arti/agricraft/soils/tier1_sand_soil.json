@@ -1,12 +1,12 @@
 {
     "acidity": "neutral",
     "humidity": "arid",
-    "nutrients": "none",
-    "growth_modifier": 0.20,
+    "nutrients": "very_low",
+    "growth_modifier": 0.33,
     "mods": [],
     "variants": [
         {
-            "block": "kubejs:wasteland_soil"
+            "block": "minecraft:sand"
         }
     ]
 }

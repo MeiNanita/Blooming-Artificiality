@@ -143,6 +143,28 @@ StartupEvents.registry("block", (event) => {
     .speedFactor(0.5)
     .defaultCutout();
 
+    event.create('enriched_dirt')
+    .displayName('Enriched dirt')
+    .mapColor('terracotta_brown')
+    .soundType('gravel')
+    .hardness(0.5)
+    .resistance(0.5)
+    .tagBlock('mineable/shovel')
+    .requiresTool(false)
+    .tagBlock('dirt')
+    .fullBlock(true);
+
+    event.create('fertile_dirt')
+    .displayName('Fertile dirt')
+    .mapColor('terracotta_black')
+    .soundType('gravel')
+    .hardness(0.5)
+    .resistance(0.5)
+    .tagBlock('mineable/shovel')
+    .requiresTool(false)
+    .tagBlock('dirt')
+    .fullBlock(true);
+
 });
 
 

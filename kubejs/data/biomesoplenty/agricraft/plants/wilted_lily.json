@@ -29,11 +29,11 @@
         "soil_acidity": {
             "type": "equal",
             "tolerance_factor": 0.25,
-            "value": "highly_alkaline"
+            "value": "neutral"
         },
         "soil_humidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
+            "tolerance_factor": 0.25,
             "value": "arid"
         },
         "soil_nutrients": {

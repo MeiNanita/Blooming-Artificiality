@@ -1,0 +1,21 @@
+{
+    "variants": {
+        "": [
+            {
+                "model": "kubejs:block/fertile_dirt"
+            },
+            {
+                "model": "kubejs:block/fertile_dirt",
+                "y": 90
+            },
+            {
+                "model": "kubejs:block/fertile_dirt",
+                "y": 180
+            },
+            {
+                "model": "kubejs:block/fertile_dirt",
+                "y": 270
+            }
+        ]
+    }
+}
