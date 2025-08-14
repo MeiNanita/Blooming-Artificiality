@@ -203,7 +203,7 @@
 					"result_state": {
 						"Name": "minecraft:deepslate",
 						"Properties": {
-							"axis": "x"
+							"axis": "y"
 						}
 					}
 				}
