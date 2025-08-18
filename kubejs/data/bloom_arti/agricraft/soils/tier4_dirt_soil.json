@@ -2,7 +2,7 @@
     "acidity": "neutral",
     "humidity": "damp",
     "nutrients": "high",
-    "growth_modifier": 0.65,
+    "growth_modifier": 0.75,
     "mods": [],
     "variants": [
         {
