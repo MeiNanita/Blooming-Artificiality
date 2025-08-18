@@ -1,25 +1,11 @@
 {
-    "clip_products": [
+    "seeds": [
         {
-            "chance": 1.0,
-            "item": "naturaldecormod:saguaro_seedling",
-            "max": 1,
-            "min": 1,
-            "required": true
-        }
-    ],
-    "cloneable": true,
-    "growth_bonus": 0.08,
-    "growth_chance": 0.92,
-    "harvest_stage": 1,
-    "mods": [],
-    "products": [
-        {
-            "chance": 1.00,
-            "item": "notreepunching:plant_fiber",
-            "max": 3,
-            "min": 1,
-            "required": true
+            "grass_drop_chance": 0.0,
+            "item": "minecraft:cactus",
+            "override_planting": false,
+            "seed_drop_bonus": 0.0,
+            "seed_drop_chance": 1.0
         }
     ],
     "requirement": {
@@ -29,11 +15,11 @@
         "soil_acidity": {
             "type": "equal",
             "tolerance_factor": 0.15,
-            "value": "slightly_alkaline"
+            "value": "neutral"
         },
         "soil_humidity": {
             "type": "equal",
-            "tolerance_factor": 0.15,
+            "tolerance_factor": 0.25,
             "value": "arid"
         },
         "soil_nutrients": {
@@ -42,8 +28,10 @@
             "value": "very_low"
         }
     },
-    "seeds": [],
+    "growth_bonus": 0.055,
+    "growth_chance": 0.45,
     "spread_chance": 0.1,
+    "harvest_stage": 4,
     "stages": [
         2,
         4,
@@ -54,9 +42,24 @@
         14,
         16
     ],
-    "modifiers": [
+    "products": [
         {
-            "id": "agricraft:thorns"
+            "chance": 1.0,
+            "item": "minecraft:cactus",
+            "max": 1,
+            "min": 1,
+            "required": true
         }
-    ]
+    ],
+    "clip_products": [
+        {
+            "chance": 1.0,
+            "item": "notreepunching:plant_fiber",
+            "max": 1,
+            "min": 1,
+            "required": true
+        }
+    ],
+    "cloneable": true,
+    "mods": []
 }

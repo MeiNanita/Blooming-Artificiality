@@ -6,12 +6,12 @@
         "min_light": 10,
         "soil_acidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
-            "value": "slightly_acidic"
+            "tolerance_factor": 0.15,
+            "value": "neutral"
         },
         "soil_humidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
+            "tolerance_factor": 0.15,
             "value": "damp"
         },
         "soil_nutrients": {
@@ -20,8 +20,8 @@
             "value": "very_low"
         }
     },
-    "growth_bonus": 0.065,
-    "growth_chance": 0.735,
+    "growth_bonus": 0.055,
+    "growth_chance": 0.45,
     "spread_chance": 0.1,
     "harvest_stage": 4,
     "stages": [
@@ -36,7 +36,7 @@
     ],
     "products": [
         {
-            "chance": 0.75,
+            "chance": 1.0,
             "item": "minecraft:light_blue_dye",
             "max": 1,
             "min": 1,

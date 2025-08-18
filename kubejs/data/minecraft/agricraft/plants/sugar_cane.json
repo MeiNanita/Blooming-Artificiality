@@ -14,13 +14,13 @@
         "min_light": 10,
         "soil_acidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
-            "value": "slightly_acidic"
+            "tolerance_factor": 0.15,
+            "value": "neutral"
         },
         "soil_humidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
-            "value": "watery"
+            "tolerance_factor": 0.15,
+            "value": "damp"
         },
         "soil_nutrients": {
             "type": "equal_or_higher",
@@ -28,8 +28,8 @@
             "value": "low"
         }
     },
-    "growth_bonus": 0.08,
-    "growth_chance": 0.92,
+    "growth_bonus": 0.055,
+    "growth_chance": 0.45,
     "spread_chance": 0.1,
     "harvest_stage": 4,
     "stages": [
@@ -46,7 +46,7 @@
         {
             "chance": 1.0,
             "item": "minecraft:sugar_cane",
-            "max": 2,
+            "max": 1,
             "min": 1,
             "required": true
         }

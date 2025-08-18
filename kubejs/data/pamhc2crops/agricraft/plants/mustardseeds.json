@@ -14,12 +14,12 @@
         "min_light": 10,
         "soil_acidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
+            "tolerance_factor": 0.15,
             "value": "neutral"
         },
         "soil_humidity": {
             "type": "equal",
-            "tolerance_factor": 0.0,
+            "tolerance_factor": 0.15,
             "value": "damp"
         },
         "soil_nutrients": {
@@ -28,8 +28,8 @@
             "value": "medium"
         }
     },
-    "growth_bonus": 0.08,
-    "growth_chance": 0.92,
+    "growth_bonus": 0.055,
+    "growth_chance": 0.45,
     "spread_chance": 0.1,
     "harvest_stage": 4,
     "stages": [
@@ -44,9 +44,9 @@
     ],
     "products": [
         {
-            "chance": 0.9,
+            "chance": 1.0,
             "item": "pamhc2crops:mustardseedsitem",
-            "max": 5,
+            "max": 1,
             "min": 1,
             "required": true
         }
