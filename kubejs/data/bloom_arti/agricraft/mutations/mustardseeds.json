@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "pamhc2crops:mustardseeds",
+    "parent1": "biomesoplenty:violet",
+    "parent2": "pamhc2crops:tomatillo"
+}

@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "biomesoplenty:violet",
+    "parent1": "biomesoplenty:pink_hibiscus",
+    "parent2": "pamhc2crops:elderberry"
+}

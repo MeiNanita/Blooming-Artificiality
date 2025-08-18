@@ -1,6 +1,6 @@
 {
     "chance": 0.25,
     "child": "pamhc2crops:barrelcactus",
-    "parent1": "minecraft:cactus",
-    "parent2": "biomesoplenty:wilted_lily"
+    "parent1": "pamhc2crops:candleberry",
+    "parent2": "minecraft:cactus"
 }

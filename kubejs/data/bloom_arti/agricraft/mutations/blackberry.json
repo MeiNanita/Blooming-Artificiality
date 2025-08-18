@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "pamhc2crops:blackberry",
+    "parent1": "pamhc2crops:elderberry",
+    "parent2": "minecraft:white_tulip"
+}

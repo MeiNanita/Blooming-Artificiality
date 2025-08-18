@@ -1,6 +1,6 @@
 {
     "chance": 0.25,
     "child": "pamhc2crops:cactusfruit",
-    "parent1": "pamhc2crops:barrelcactus",
-    "parent2": "pamhc2crops:nopales"
+    "parent1": "pamhc2crops:nopales",
+    "parent2": "pamhc2crops:amaranth"
 }

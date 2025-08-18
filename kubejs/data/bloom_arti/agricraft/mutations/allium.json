@@ -1,6 +1,6 @@
 {
     "chance": 0.25,
     "child": "minecraft:allium",
-    "parent1": "pamhc2crops:flax",
-    "parent2": "pamhc2crops:cantaloupe"
+    "parent1": "biomesoplenty:pink_daffodil",
+    "parent2": "pamhc2crops:yucca"
 }

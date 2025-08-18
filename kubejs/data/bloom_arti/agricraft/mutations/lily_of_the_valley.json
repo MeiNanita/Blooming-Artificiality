@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "minecraft:lily_of_the_valley",
+    "parent1": "minecraft:cornflower",
+    "parent2": "pamhc2crops:tomatillo"
+}

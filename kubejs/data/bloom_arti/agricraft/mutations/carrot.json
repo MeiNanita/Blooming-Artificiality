@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "minecraft:carrot",
+    "parent1": "pamhc2crops:taro",
+    "parent2": "minecraft:red_tulip"
+}

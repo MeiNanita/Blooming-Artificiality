@@ -2,5 +2,5 @@
     "chance": 0.25,
     "child": "minecraft:melon",
     "parent1": "pamhc2crops:cantaloupe",
-    "parent2": "pamhc2crops:cucumber"
+    "parent2": "pamhc2crops:agave"
 }

@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "pamhc2crops:spinach",
+    "parent1": "pamhc2crops:mulberry",
+    "parent2": "pamhc2crops:nettles"
+}

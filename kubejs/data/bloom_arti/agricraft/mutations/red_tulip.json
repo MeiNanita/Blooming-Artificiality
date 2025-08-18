@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "minecraft:red_tulip",
+    "parent1": "minecraft:pink_tulip",
+    "parent2": "biomesoplenty:violet"
+}

@@ -1,6 +1,6 @@
 {
     "chance": 0.25,
     "child": "pamhc2crops:amaranth",
-    "parent1": "pamhc2crops:sisal",
-    "parent2": "pamhc2crops:barley"
+    "parent1": "pamhc2crops:sweetpotato",
+    "parent2": "pamhc2crops:quinoa"
 }

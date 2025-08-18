@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "minecraft:blue_orchid",
+    "parent1": "pamhc2crops:blueberry",
+    "parent2": "biomesoplenty:orange_cosmos"
+}

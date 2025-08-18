@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "minecraft:azure_bluet",
+    "parent1": "pamhc2crops:blackberry",
+    "parent2": "biomesoplenty:violet"
+}

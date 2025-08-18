@@ -1,0 +1,6 @@
+{
+    "chance": 0.25,
+    "child": "biomesoplenty:orange_cosmos",
+    "parent1": "biomesoplenty:wilted_lily",
+    "parent2": "minecraft:wither_rose"
+}
