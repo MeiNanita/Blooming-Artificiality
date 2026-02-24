@@ -5,16 +5,12 @@
     },
     "filter": {
         "block": [
-            {"namespace": "agricraft", "path": "agricraft/mutations/.*"},
-            {"namespace": "minecraft", "path": "agricraft/mutations/.*"},
-            {"namespace": "biomesoplenty", "path": "agricraft/mutations/.*"},
-            {"namespace": "pamhc2crops", "path": "agricraft/mutations/.*"},
-            {"namespace": "minecraft", "path": "agricraft/soils/.*"},
-            {"namespace": "agricraft", "path": "agricraft/soils/.*"},
-            {"namespace": "minecraft", "path": "agricraft/plants/.*"},
-            {"namespace": "agricraft", "path": "agricraft/plants/.*"},
-            {"namespace": "biomesoplenty", "path": "agricraft/plants/.*"},
-            {"namespace": "pamhc2crops", "path": "agricraft/plants/.*"},
+            {"namespace": "botanypots", "path": "recipes/.*/soil/.*"},
+            {"namespace": "botanypots", "path": "recipes/.*/crop/.*"},
+
+            {"namespace": "flowerseeds", "path": "compat/botanypots/crop/.*"},
+            {"namespace": "flowerseedsbop", "path": "compat/botanypots/crop/.*"},
+            {"namespace": "croptopia", "path": "botanypots/.*"},
 
             {"namespace": "minecraft", "path": "advancements/recipes/misc/.*"},
 			{"namespace": "minecraft", "path": "recipes/.*_from_.*"},

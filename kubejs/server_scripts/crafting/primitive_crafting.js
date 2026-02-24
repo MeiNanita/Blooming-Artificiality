@@ -5,50 +5,37 @@ ServerEvents.recipes(event => {
     // =======================================================
 
     event.shapeless(
-        'kubejs:plant_fiber_mesh', [
-            '4x notreepunching:plant_string'
-        ]
-    );
-
-    event.shapeless(
-        'naturaldecormod:rock_decor_small', 
-        [
-            'kubejs:stone_pebble'
-        ]
-    );
-
-    event.shapeless(
         'naturaldecormod:rock_decor_medium', 
         [
-            '2x kubejs:stone_pebble'
+            '2x naturaldecormod:rock_decor_small'
         ]
     );
 
     event.shapeless(
         'naturaldecormod:rock_decor_large', 
         [
-            '4x kubejs:stone_pebble'
+            '4x naturaldecormod:rock_decor_small'
         ]
     );
 
     event.shapeless(
         'naturaldecormod:rock_decor_x_large', 
         [
-            '8x kubejs:stone_pebble'
+            '8x naturaldecormod:rock_decor_small'
         ]
     );
 
     event.shapeless(
         'minecraft:cobblestone', 
         [
-            '9x kubejs:stone_pebble'
+            '9x naturaldecormod:rock_decor_small'
         ]
     );
 
     event.shapeless(
         'notreepunching:plant_string', 
         [
-            '4x notreepunching:plant_fiber'
+            '3x farmersdelight:straw'
         ]
     );
 
@@ -64,13 +51,19 @@ ServerEvents.recipes(event => {
     );
 
     event.shapeless(
-        '4x pamhc2foodcore:freshwateritem', [
-            'minecraft:water_bucket'
+        'croptopia:water_bottle', 
+        [
+            Item.of('minecraft:potion', '{Potion:"minecraft:water"}')
         ]
-    )
-    .replaceIngredient(
-        'minecraft:water_bucket',
-        'minecraft:bucket'
+    );
+
+    event.shapeless(
+        'croptopia:food_press', 
+        [
+            'minecraft:hopper',
+            '#forge:tools/screwdrivers',
+            '#forge:tools/hammers'
+        ]
     );
 
     // =======================================================
@@ -116,6 +109,31 @@ ServerEvents.recipes(event => {
         F: 'minecraft:campfire'
     });
 
+    event.shaped(Item.of('farmersdelight:canvas'), [
+        'SF',
+        'FS'
+    ], {
+        F: 'farmersdelight:straw',
+        S: 'notreepunching:plant_string'
+    });
+
+    event.shaped(Item.of('farmersdelight:canvas'), [
+        'FS',
+        'SF'
+    ], {
+        F: 'farmersdelight:straw',
+        S: 'notreepunching:plant_string'
+    });
+
+    event.shaped(Item.of('cold_sweat:filled_waterskin', '{Temperature:0.0d}'), [
+        'WC',
+        'CF'
+    ], {
+        W: 'cold_sweat:waterskin',
+        C: 'minecraft:cactus',
+        F: 'croptopia:food_press'
+    });
+
     event.shaped(Item.of('minecraft:clay'), [
         'CCC',
         'CTC',
@@ -123,6 +141,29 @@ ServerEvents.recipes(event => {
     ], {
         C: 'minecraft:clay_ball',
         T: 'notreepunching:clay_tool'
+    });
+
+    event.shaped(Item.of('cold_sweat:waterskin'), [
+        '  S',
+        'CL ',
+        'LC '
+    ], {
+        S: '#forge:string',
+        C: 'farmersdelight:canvas',
+        L: 'minecraft:leather'
+    });
+
+    event.shaped(Item.of('cold_sweat:icebox'), [
+        'S_M',
+        'WBW',
+        'WCW'
+    ], {
+        M: '#forge:tools/mallets',
+        S: '#forge:tools/saws',
+        B: 'minecraft:bucket',
+        _: 'gtceu:treated_wood_trapdoor',
+        W: 'gtceu:treated_wood_planks',
+        C: 'minecraft:cobblestone_slab'
     });
 
     event.shaped(Item.of('minecraft:barrel'), [
@@ -150,14 +191,15 @@ ServerEvents.recipes(event => {
     });
 
     event.shaped('gtceu:coke_oven', [
-        'PFP',
-        'BWB',
-        'PBP'
+        'HFW',
+        'BDB',
+        'BBB'
     ], {
-        P: 'gtceu:iron_plate',
+        D: 'gtceu:bronze_drum',
         B: 'gtceu:coke_oven_bricks',
         F: 'minecraft:furnace',
-        W: '#forge:tools/wrenches'
+        W: '#forge:tools/wrenches',
+        H: '#forge:tools/hammers'
     });
 
     event.shaped('gtceu:primitive_blast_furnace', [
@@ -183,35 +225,8 @@ ServerEvents.recipes(event => {
     //                   smelting recipes
     // =======================================================
 
-    event.smelting('minecraft:iron_ingot', 'kubejs:scrap_metal', 0.7, 200);
-    event.smelting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 200);
-    event.smelting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 200);
-    event.smelting('minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 200);
     event.smelting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 200);
-
-    event.blasting('minecraft:iron_ingot', 'kubejs:scrap_metal', 0.7, 100);
-    event.blasting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 100);
-    event.blasting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 100);
-    event.blasting('minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 100);
     event.blasting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 100);
-
-    const ore_suffix = ['crushed', 'purified', 'refined'];
-
-    ore_suffix.forEach(suffix => {
-        event.blasting('minecraft:iron_ingot', `gtceu:${suffix}_scrap_metal_ore`, 0.5, 100);
-        event.blasting('minecraft:copper_ingot', `gtceu:${suffix}_scrap_plumbing_ore`, 0.5, 100);
-        event.blasting('gtceu:tin_ingot', `gtceu:${suffix}_scrap_cable_ore`, 0.5, 100);
-        event.blasting('minecraft:redstone', `gtceu:${suffix}_scrap_electronics_ore`, 0.5, 100);
-    });
-
-    const dust_suffix = ['impure_', 'pure_', ''];
-
-    dust_suffix.forEach(suffix => {
-        event.blasting('minecraft:iron_ingot', `gtceu:${suffix}scrap_metal_dust`, 0.5, 100);
-        event.blasting('minecraft:copper_ingot', `gtceu:${suffix}scrap_plumbing_dust`, 0.5, 100);
-        event.blasting('gtceu:tin_ingot', `gtceu:${suffix}scrap_cable_dust`, 0.5, 100);
-        event.blasting('minecraft:redstone', `gtceu:${suffix}scrap_electronics_dust`, 0.5, 100);
-    });
 
     // =======================================================
     //                   ingredient replacements
@@ -224,7 +239,12 @@ ServerEvents.recipes(event => {
 
     event.replaceInput({ id: 'minecraft:blast_furnace' },
         'minecraft:iron_ingot',
-        'gtceu:iron_plate'
+        'gtceu:wrought_iron_plate'
+    );
+
+    event.replaceInput({ id: 'sophisticatedbackpacks:backpack' },
+        '#forge:string',
+        'farmersdelight:canvas'
     );
 
 });

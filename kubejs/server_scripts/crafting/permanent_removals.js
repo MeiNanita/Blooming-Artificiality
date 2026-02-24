@@ -31,6 +31,32 @@ ServerEvents.recipes(event => {
     event.remove({id: 'minecraft:crafting_table'});
     event.remove({id: 'minecraft:furnace'});
 
+    // farmers delight
+    event.remove({id: 'farmersdelight:rope'});
+    event.remove({id: 'farmersdelight:tatami'});
+    event.remove({id: 'farmersdelight:canvas'});
+    event.remove({id: 'farmersdelight:canvas_rug'});
+    event.remove({id: 'farmersdelight:canvas_from_canvas_rug'});
+
+    // abyssal decor
+    event.remove({id: 'abyssal_decor:rope_barrier_recipe'});
+
+    // cold sweat
+    event.remove({id: 'cold_sweat:waterskin'});
+    event.remove({id: 'cold_sweat:icebox'});
+
+    // croptopia
+    event.remove({id: 'croptopia:shaped_water_bottle'});
+    event.remove({id: 'croptopia:food_press'});
+
+    // sophisticated backpacks
+    event.remove({id: 'sophisticatedbackpacks:copper_backpack'});
+    event.remove({id: 'sophisticatedbackpacks:iron_backpack'});
+    event.remove({id: 'sophisticatedbackpacks:iron_backpack_from_copper'});
+    event.remove({id: 'sophisticatedbackpacks:gold_backpack'});
+    event.remove({id: 'sophisticatedbackpacks:diamond_backpack'});
+    event.remove({id: 'sophisticatedbackpacks:netherite_backpack'});
+
     // natural decor
     event.remove({id: 'naturaldecormod:black_glazed_planter_pot_recipe'});
     event.remove({id: 'naturaldecormod:blue_glazed_planter_pot_recipe'});
@@ -91,23 +117,5 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/bronze_primitive_blast_furnace'});
     event.remove({id: 'gtceu:macerator/dirt_from_bio_chaff'});
     event.remove({id: 'gtceu:electrolyzer/decomposition_electrolyzing_gunpowder'});
-
-    const scrap_stone_blocks = ['', 'deepslate_', 'netherrack_', 'endstone_'];
-    scrap_stone_blocks.forEach(stone => {
-        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_metal_ore_to_ingot`});
-        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_plumbing_ore_to_ingot`});
-        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_cable_ore_to_ingot`});
-        event.remove({id: `gtceu:smelting/smelt_${stone}scrap_electronics_ore_to_ingot`});
-    });
-
-
-    // pamhc2foodcore & extended
-    event.remove({id: 'pamhc2foodcore:freshwater_x8'});
-
-
-    // pamhc2crops
-    event.remove({id: 'pamhc2crops:barleyseeditem'});
-    event.remove({id: 'pamhc2crops:amaranthseeditem'});
-    event.remove({id: 'pamhc2crops:flaxseeditem'});
 
 });

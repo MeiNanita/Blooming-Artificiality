@@ -221,17 +221,12 @@
 				}
 				{
 					id: "575E2C53A9E7147E"
-					item: "pamhc2foodextended:sourcreamandonionpotatochipsitem"
+					item: "minecraft:leather"
 					type: "item"
 				}
 				{
 					id: "005D0B7D57651B9E"
-					item: "pamhc2foodextended:cheezepuffsitem"
-					type: "item"
-				}
-				{
-					id: "77071CB58A4787E0"
-					item: "pamhc2foodextended:cornchipsitem"
+					item: "minecraft:brown_mushroom"
 					type: "item"
 				}
 			]
@@ -268,7 +263,7 @@
 		{
 			dependencies: ["5AD939C451A10FFD"]
 			description: [
-				"Now that I have a working &6knife&r, I can start to &6cut down&r some of those wilted and dried out &6plants&r to gather some &6plant-fiber&r."
+				"Now that I have a working &6knife&r, I can start to &6cut down&r some of those wilted and dried out &6plants&r to gather some &6straw&r."
 				"With those, I should be able to &6craft plant-strings&r which will be necessary for better tools!"
 			]
 			icon: "notreepunching:plant_string"
@@ -277,11 +272,11 @@
 			tasks: [
 				{
 					consume_items: false
-					count: 4L
-					icon: "notreepunching:plant_fiber"
+					count: 3L
+					icon: "farmersdelight:straw"
 					id: "31AFBB79B2569ABC"
-					item: "notreepunching:plant_fiber"
-					title: "Gather some plant fiber"
+					item: "farmersdelight:straw"
+					title: "Gather some straw"
 					type: "item"
 				}
 				{
@@ -694,26 +689,19 @@
 		{
 			dependencies: ["744FE6723148330E"]
 			description: [
-				"With a pickaxe in my hand, I can finally gather some much needed stone!"
-				"The various loose rocks I see on the surface should give me enough pebbles to craft some cobblestone."
+				"With a pickaxe in my hand, I can finally gather some much needed &6cobblestone&r!"
+				"The various loose rocks I see on the surface should give me enough rocks to craft some cobblestone."
+				"Or I could just mine regular stone. "
 			]
 			icon: "naturaldecormod:rock_decor_x_large"
 			id: "7A784F6C67278A5B"
 			shape: "square"
-			tasks: [
-				{
-					count: 64L
-					id: "07601E5021086DF0"
-					item: "kubejs:stone_pebble"
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "6D60A69CCA7BC9EB"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 8L
+				id: "6D60A69CCA7BC9EB"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
 			title: "Welcome to the stone-age!"
 			x: 6.0d
 			y: 5.0d
@@ -851,9 +839,8 @@
 				"Fortunately, now that I have some iron and proper tools, "
 				"I can try to construct a coke-oven which will turn my wood into much more efficient charcoal!"
 				""
-				"During my travels in this wasteland, I encountered some &6dry lakebeds&r "
-				"at the valleys which were filled with dried up &6clay&r."
-				"I could use that clay to craft the necessary bricks for my coke-oven!"
+				"During my travels in this wasteland, I encountered some &6brick piles&r."
+				"I might be able to use those bricks for my coke-oven!"
 			]
 			icon: "gtceu:coke_oven"
 			id: "62798887DC312CA4"
@@ -990,14 +977,7 @@
 			description: [
 				"Unsurprisingly, tumbleweeds are really just a bunch of dry, "
 				"or in this case better said dead bunch of twigs. "
-				""
-				"What is surprising however is that some of those dead twigs are actually roots... and they still look somewhat fresh! "
-				"I'd say these &6roots&r do look &6edible&r so... "
-				"if the situation gets even worse, I could eat those in an emergency! "
-				""
-				"What's also very surprising is that I've managed to find a feather... "
-				"But where did that feather come from? "
-				"I don't see a single sign of animal-life in sight... "
+				"Still, it's better than nothing... "
 			]
 			id: "7D60F8965BE7358A"
 			shape: "square"
@@ -1009,7 +989,7 @@
 				}
 				{
 					id: "41228A26E6D215FE"
-					item: "pamhc2foodextended:ediblerootitem"
+					item: "farmersdelight:straw"
 					type: "item"
 				}
 				{
@@ -1029,11 +1009,10 @@
 				"... "
 				"Nope, the sun definitely moves a lot slower! "
 				"Judging by the speed it moves, "
-				"I'd say that &6daytime should last up to an hour&r, "
-				"followed by &61 hour of nighttime&r... "
+				"I'd say that &6the day-night cycle should last 6-times as long&r... "
+				"&9(In other words, 1 hour of daytime \\& 1 hour of nighttime irl)&r"
 				""
 				"I might want to keep that in mind when trying to survive in this wasteland... "
-				"Especially given the &6hellish heat during daytime&r. "
 			]
 			icon: "minecraft:clock"
 			id: "242A402A35CBC5C7"
@@ -1049,128 +1028,26 @@
 		}
 		{
 			dependencies: ["2BB3297C063E4532"]
+			description: [
+				"Now that's quite a find! "
+				"There's still life in this wasteland! "
+				"Weakened of course, but it's still there! "
+				""
+				"Maybe those &aseeds&r could become the key to make this place more habitable again. "
+				"I must take good care of them! "
+			]
 			id: "23D472C35E46D1C4"
 			shape: "gear"
 			size: 2.0d
 			tasks: [
 				{
 					id: "64AD215C2F1B38AE"
-					item: {
-						Count: 1
-						id: "agricraft:seed"
-						tag: {
-							genes: {
-								fertility: {
-									dom: 1
-									rec: 1
-								}
-								gain: {
-									dom: 1
-									rec: 1
-								}
-								growth: {
-									dom: 1
-									rec: 1
-								}
-								mutativity: {
-									dom: 1
-									rec: 1
-								}
-								resistance: {
-									dom: 1
-									rec: 1
-								}
-								species: {
-									dom: "minecraft:wither_rose"
-									rec: "minecraft:wither_rose"
-								}
-								strength: {
-									dom: 1
-									rec: 1
-								}
-							}
-						}
-					}
+					item: "flowerseedsbop:wilted_lily_seed"
 					type: "item"
 				}
 				{
-					id: "2B35CDF2C6436754"
-					item: {
-						Count: 1
-						id: "agricraft:seed"
-						tag: {
-							genes: {
-								fertility: {
-									dom: 1
-									rec: 1
-								}
-								gain: {
-									dom: 1
-									rec: 1
-								}
-								growth: {
-									dom: 1
-									rec: 1
-								}
-								mutativity: {
-									dom: 1
-									rec: 1
-								}
-								resistance: {
-									dom: 1
-									rec: 1
-								}
-								species: {
-									dom: "bloom_arti:desert_grass"
-									rec: "bloom_arti:desert_grass"
-								}
-								strength: {
-									dom: 1
-									rec: 1
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "38D43924C3BFE49C"
-					item: {
-						Count: 1
-						id: "agricraft:seed"
-						tag: {
-							genes: {
-								fertility: {
-									dom: 1
-									rec: 1
-								}
-								gain: {
-									dom: 1
-									rec: 1
-								}
-								growth: {
-									dom: 1
-									rec: 1
-								}
-								mutativity: {
-									dom: 1
-									rec: 1
-								}
-								resistance: {
-									dom: 1
-									rec: 1
-								}
-								species: {
-									dom: "biomesoplenty:wilted_lily"
-									rec: "biomesoplenty:wilted_lily"
-								}
-								strength: {
-									dom: 1
-									rec: 1
-								}
-							}
-						}
-					}
+					id: "2C1AF67987305C37"
+					item: "flowerseeds:wither_rose_seed"
 					type: "item"
 				}
 			]
@@ -1199,6 +1076,49 @@
 			title: "The source of the sparkle"
 			x: 3.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["3E1855C76ADE48D2"]
+			description: [
+				"It's incredibly hot and dry out here... "
+				"&6Too hot in fact!&r"
+				"Although I am still a bit covered in that goop from my cryopod, "
+				"that thermal protection might only last a day at best... "
+				""
+				"I must find ways on how to survive that heat, my life depends upon it! "
+				"&6Digging deep underground could help to escape the surface heat.&r "
+				"But my top priority should be to &6get some kind of watersource to expand my thermo-management options&r!"
+			]
+			icon: "cold_sweat:thermometer"
+			id: "73DA3A607CA312B8"
+			shape: "square"
+			tasks: [{
+				id: "067278A116E2B400"
+				title: "It's like a desert"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4D52AFE383138664"
+				"20ADE96671853A74"
+			]
+			description: [
+				"During my scavenging hunt, I've found a few &6mushrooms&r inside trashbags. "
+				"Now that I have access to a &6campfire&r, I could &6roast&r those mushrooms to finally have &asomething edible&r!"
+			]
+			id: "52445FBC5BE498C8"
+			shape: "square"
+			tasks: [{
+				id: "53AEE82100221F0A"
+				item: "thermal:cooked_mushroom"
+				type: "item"
+			}]
+			title: "The fight against starvation"
+			x: 7.5d
+			y: 5.0d
 		}
 	]
 	title: "Primitive"

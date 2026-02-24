@@ -165,6 +165,22 @@ StartupEvents.registry("block", (event) => {
     .tagBlock('dirt')
     .fullBlock(true);
 
+    event.create('soap_bubble')
+    .bounciness(1.0)
+    .model('kubejs:block/soap_bubble')
+    .displayName('Soap bubble')
+    .mapColor('wood')
+    .soundType('slime_block')
+    .hardness(0.2)
+    .resistance(0.2)
+    .requiresTool(false)
+    .opaque(false)
+    .transparent(true)
+    .suffocating(false)
+    .slipperiness(0.98)
+    .property(BlockProperties.DISTANCE)
+    .property(BlockProperties.PERSISTENT)
+    //.jumpFactor(1.5) // makes the block more like a jump-pad
+    .defaultTranslucent();
+
 });
-
-

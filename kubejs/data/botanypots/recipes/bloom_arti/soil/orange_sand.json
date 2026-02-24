@@ -1,0 +1,13 @@
+{
+    "type":"botanypots:soil",
+    "input": {
+        "item":"biomesoplenty:orange_sand"
+    },
+    "display": {
+        "block":"biomesoplenty:orange_sand"
+    },
+    "categories": [
+        "sand"
+    ],
+    "growthModifier": 4.0
+}

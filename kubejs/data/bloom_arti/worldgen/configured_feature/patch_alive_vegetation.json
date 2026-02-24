@@ -14,6 +14,12 @@
                             {
                                 "weight": 1,
                                 "data": {
+                                    "Name": "ferdinandsflowers:engelmanns_hedgehog_cactus"
+                                }
+                            },
+                            {
+                                "weight": 1,
+                                "data": {
                                     "Name": "ferdinandsflowers:mojave_indigo_bush"
                                 }
                             },
@@ -24,7 +30,7 @@
                                 }
                             },
                             {
-                                "weight": 6,
+                                "weight": 5,
                                 "data": {
                                     "Name": "naturaldecormod:largedrygrass"
                                 }

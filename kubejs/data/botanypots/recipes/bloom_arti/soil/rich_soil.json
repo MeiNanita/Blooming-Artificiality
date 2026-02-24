@@ -1,0 +1,13 @@
+{
+    "type":"botanypots:soil",
+    "input": {
+        "item":"farmersdelight:rich_soil"
+    },
+    "display": {
+        "block":"farmersdelight:rich_soil"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthModifier": 8.0
+}

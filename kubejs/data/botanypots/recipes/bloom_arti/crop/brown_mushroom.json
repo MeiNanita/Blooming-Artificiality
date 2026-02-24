@@ -1,0 +1,18 @@
+{
+    "type":"botanypots:crop",
+    "seed": {"item":"minecraft:brown_mushroom"},
+    "categories": ["dirt", "wood"],
+    "growthTicks": 4096,
+    "display": {
+        "type":"botanypots:aging",
+        "block":"farmersdelight:brown_mushroom_colony"
+    }, 
+    "drops": [
+        {
+            "chance":1.00,
+            "minRolls":1,
+            "maxRolls":3,
+            "output": {"item":"minecraft:brown_mushroom"}
+        }
+    ]
+}

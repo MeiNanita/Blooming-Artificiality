@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "notreepunching:plant_fiber",
+					"name": "farmersdelight:straw",
 					"conditions": [
 						{
 							"condition": "minecraft:match_tool",

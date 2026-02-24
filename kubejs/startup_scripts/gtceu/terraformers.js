@@ -26,7 +26,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             )
             .build()
         )
-        .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_inert_ptfe', 'gtceu:block/multiblock/cleanroom', false)
+        .workableCasingModel('gtceu:block/casings/solid/machine_casing_inert_ptfe', 'gtceu:block/multiblock/cleanroom')
         .afterWorking((machine) => {
             let { level, pos } = machine.self();
             if (level.clientSide) return;

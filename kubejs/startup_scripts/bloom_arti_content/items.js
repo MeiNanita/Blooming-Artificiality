@@ -1,13 +1,23 @@
 StartupEvents.registry('item', event => {
 
-    event.create('stone_pebble')
-    .displayName('Stone pebble')
-    .texture('notreepunching:item/stone_loose_rock')
+    event.create('shredded_scrap_metal')
+    .displayName('Shredded scrap metal')
+    .texture('kubejs:item/shredded_scrap_metal')
     .maxStackSize(64);
 
-    event.create('plant_fiber_mesh')
-    .displayName('Plant fiber mesh')
-    .texture('kubejs:item/plant_fiber_mesh')
+    event.create('shredded_scrap_plumbing')
+    .displayName('Shredded scrap plumbing')
+    .texture('kubejs:item/shredded_scrap_plumbing')
+    .maxStackSize(64);
+
+    event.create('shredded_scrap_cable')
+    .displayName('Shredded scrap cable')
+    .texture('kubejs:item/shredded_scrap_cable')
+    .maxStackSize(64);
+
+    event.create('shredded_scrap_electronics')
+    .displayName('Shredded scrap electronics')
+    .texture('kubejs:item/shredded_scrap_electronics')
     .maxStackSize(64);
 
 });

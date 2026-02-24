@@ -11,31 +11,21 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:rotten_flesh",
-                    "weight": 12
+                    "weight": 5
 				},
                 {
 					"type": "minecraft:item",
 					"name": "minecraft:paper",
-                    "weight": 6
-				},
-                {
-					"type": "minecraft:item",
-					"name": "gtceu:sticky_resin",
-                    "weight": 6
+                    "weight": 2
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:leather",
-                    "weight": 3
-				},
-                {
-					"type": "minecraft:item",
-					"name": "pamhc2foodextended:energydrinkitem",
                     "weight": 2
 				},
                 {
 					"type": "minecraft:item",
-					"name": "pamhc2foodcore:crackeritem",
+					"name": "minecraft:brown_mushroom",
                     "weight": 1
 				}
 			]

@@ -1,6 +1,0 @@
-{
-    "chance": 0.25,
-    "child": "pamhc2crops:barley",
-    "parent1": "bloom_arti:desert_grass",
-    "parent2": "biomesoplenty:wilted_lily"
-}

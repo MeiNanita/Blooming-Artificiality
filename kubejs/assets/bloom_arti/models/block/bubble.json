@@ -1,0 +1,89 @@
+{
+	"author": "Mei Nanita",
+	"texture_size": [16, 32],
+	"ambientocclusion": false,
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"shade": false,
+			"faces": {
+                "north": {
+                    "uv": [8, 0, 16, 16],
+                    "texture": "#base",
+                    "cullface": "north",
+                    "rotation": 270
+                },
+                "south": {
+                    "uv": [0, 0, 8, 16],
+                    "texture": "#base",
+                    "cullface": "south"
+                },
+				"east": {
+                    "uv": [8, 0, 16, 16],
+                    "texture": "#base",
+                    "cullface": "east"
+                },
+				"west": {
+                    "uv": [0, 0, 8, 16],
+                    "texture": "#base",
+                    "cullface": "west",
+                    "rotation": 270
+                },
+                "up": {
+                    "uv": [8, 0, 16, 16],
+                    "texture": "#base",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [0, 0, 8, 16],
+                    "texture": "#base",
+                    "cullface": "down",
+                    "rotation": 90
+                }
+            }
+		}
+	],
+    "display": {
+        "gui": {
+            "rotation": [30, 135, 0],
+            "translation": [0, 0, 0],
+            "scale": [0.625, 0.625, 0.625]
+        },
+        "head": {
+            "rotation": [0, 0, 0],
+            "translation": [0, 0, 0],
+            "scale": [1, 1, 1]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [75, -135, 0],
+            "translation": [0, 2.5, 0],
+            "scale": [0.375, 0.375, 0.375]
+        },
+        "thirdperson_righthand": {
+            "rotation": [75, 45, 0],
+            "translation": [0, 2.5, 0],
+            "scale": [0.375, 0.375, 0.375]
+        },
+        "firstperson_lefthand": {
+            "rotation": [0, 45, 0],
+            "translation": [0, 0, 0],
+            "scale": [0.4, 0.4, 0.4]
+        },
+        "firstperson_righthand": {
+            "rotation": [0, 225, 0],
+            "translation": [0, 0, 0],
+            "scale": [0.4, 0.4, 0.4]
+        },
+        "fixed": {
+            "rotation": [0, 0, 0],
+            "translation": [0, 0, 0],
+            "scale": [0.5, 0.5, 0.5]
+        },
+        "ground": {
+            "rotation": [0, 0, 0],
+            "translation": [0, 3, 0],
+            "scale": [0.25, 0.25, 0.25]
+        }
+    }
+}

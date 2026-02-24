@@ -1,0 +1,13 @@
+{
+    "type":"botanypots:soil",
+    "input": {
+        "item":"grounded:silt"
+    },
+    "display": {
+        "block":"grounded:silt"
+    },
+    "categories": [
+        "dirt"
+    ],
+    "growthModifier": 2.0
+}

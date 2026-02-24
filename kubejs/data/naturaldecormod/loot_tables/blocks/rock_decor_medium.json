@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "kubejs:stone_pebble",
+					"name": "naturaldecormod:rock_decor_small",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

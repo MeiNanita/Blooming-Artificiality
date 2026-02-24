@@ -1,0 +1,6 @@
+{
+    "parent": "bloom_arti:block/bubble",
+    "textures": {
+        "base": "kubejs:block/soap_bubble"
+    }
+}

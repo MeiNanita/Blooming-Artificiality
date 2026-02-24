@@ -1,0 +1,13 @@
+{
+    "type":"botanypots:soil",
+    "input": {
+        "item":"chipped:lush_red_sand"
+    },
+    "display": {
+        "block":"chipped:lush_red_sand"
+    },
+    "categories": [
+        "sand"
+    ],
+    "growthModifier": 16.0
+}

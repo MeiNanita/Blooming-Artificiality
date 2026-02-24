@@ -1,0 +1,13 @@
+{
+    "type":"botanypots:soil",
+    "input": {
+        "item":"kubejs:wasteland_soil"
+    },
+    "display": {
+        "block":"kubejs:wasteland_soil"
+    },
+    "categories": [
+        "sand"
+    ],
+    "growthModifier": 0.5
+}

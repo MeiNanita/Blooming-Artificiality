@@ -1,0 +1,13 @@
+{
+    "type":"botanypots:soil",
+    "input": {
+        "item":"chipped:desert_sand"
+    },
+    "display": {
+        "block":"chipped:desert_sand"
+    },
+    "categories": [
+        "sand"
+    ],
+    "growthModifier": 2.0
+}

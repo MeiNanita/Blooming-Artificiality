@@ -1,0 +1,22 @@
+{
+    "type":"botanypots:crop",
+    "seed": {"item":"flowerseedsbop:wilted_lily_seed"},
+    "categories": ["dirt", "sand"],
+    "growthTicks": 4096,
+    "display": {
+        "type":"botanypots:aging",
+        "block":"flowerseedsbop:wilted_lily_seed"
+    }, 
+    "drops": [
+        {
+            "chance":1.00,
+            "minRolls":1,
+            "maxRolls":2,
+            "output": {"item":"biomesoplenty:wilted_lily"}
+        },
+        {
+            "chance":0.05,
+            "output": {"item":"flowerseedsbop:wilted_lily_seed"}
+        }
+    ]
+}
