@@ -1,0 +1,113 @@
+
+["NDM Client Settings:"]
+	#Enable or Disable specific blocks from having ambient sounds
+	"NDM Block Ambient Sounds" = true
+
+["NDM Mob Spawn Config:"]
+	#Enables or disables spawning of Beagle mob. Enabled by default.
+	"Spawn Beagles" = true
+	#(Enabled by default) Enables or disables spawning of Koi
+	"Spawn Koi" = true
+	#(Enabled by default) Enables or disables spawning of Bluegill
+	"Spawn Bluegill" = true
+	#(Enabled by default) Enables or disables spawning of Carp
+	"Spawn Carp" = true
+
+["NDM Structure Config:"]
+	#Enable or disable Botany Beagle House. 
+	"Spawn Botany Beagle House" = true
+	#Enable or disable Koi Pond
+	"Spawn Koi Pond" = true
+
+["NDM's Spring to life Config:"]
+	#This enables or disables all plants backported from Spring to Life by Natural Decor Mod (dry grass is exception). Enabeled by default
+	"Spawn All Spring to Life Plants!" = true
+	#This enables or disables leaf litter backported by Natural Decor Mod. Enabeled by default
+	"Spawn Leaf Litter" = true
+	#This enables or disables wildflowers backported by Natural Decor Mod. Enabeled by default
+	"Spawn Wildflowers" = true
+	#This enables or disables wildflowers backpoThis enables or disables cactus flowers backported by Natural Decor Mod. Enabeled by default
+	"Spawn Cactus Flowers" = true
+	#This enables or disables wildflowers backpoThis enables or disables shrubs (bushes) backported by Natural Decor Mod. Enabeled by default.
+	"Spawn Shrubs" = true
+	#This enables or disables wildflowers backpoThis enables or disables fireflybush backported by Natural Decor Mod. Enabeled by default
+	"Spawn Firefly Bush" = true
+
+["Enable & Disable NDM Trees : "]
+	#Enables or disables Juniper trees. Enabled by default.
+	"Spawn Junipers" = true
+	#Enables or disables Saguaro Cacti. Enabled by default.
+	"Spawn Saguaros" = true
+	#Enables or disables Araucaria Trees. Enabled by default.
+	"Spawn Araucarias" = true
+	#Enables or disables Bungalo Palm Trees. Enabled by default.
+	"Spawn Bungalo Palms" = true
+	#Enables or disables Paper Birch. Enabled by default.
+	"Spawn Paper Birches" = true
+	#Enables or disables Mangrove trees covered in epiphytic plants. Enabled by default.
+	"Spawn Epiphyte Covered Mangrove Trees" = true
+	#Enables or disables turkey tail covered birch trunks. Enabled by default.
+	"Spawn Turkey Tail Bush Birch Stumps" = true
+
+["Enable & Disable NDM Groundcover Plants : "]
+	#Enables or disables conifer tree needles. Enabled by default.
+	"Spawn Conifer Needles" = true
+	#Enables or disables succulents. Enabled by default.
+	"Spawn Succulents" = true
+	#Enables or disables iceplants. Enabled by default.
+	"Spawn IcePlant" = true
+	#Enables or disables drygrass (this includes the spring to life backport dry grass since this is 3 stage plant). Enabled by default.
+	"Spawn Dry Grass" = true
+	#Enables or disables irish moss. Enabled by default.
+	"Spawn Irish Moss" = true
+	#Enables or disables creepingflox. Enabled by default.
+	"Spawn Creeping Flox" = true
+
+["Enable & Disable NDM Bushes : "]
+	#Enables or disables birdnest spruce bush. Enabled by default.
+	"Spawn Bird Nest Spruce Bush" = true
+	#Enables or disables boxwood bush. Enabled by default.
+	"Spawn Boxwood Bush" = true
+	#Enables or disables creosote bush. Enabled by default.
+	"Spawn Creosote Bush" = true
+	#Enables or disables poinsettia bush. Enabled by default.
+	"Spawn Poinsettia Bush" = true
+	#Enables or disables butterfly bush. Enabled by default.
+	"Spawn Butterfly Bush" = true
+
+["Enable & Disable NDM Aquatic Plants & Corals : "]
+	#Enables or disables NDM's corals. Enabled by default.
+	"Spawn NDM Corals" = true
+	#Enables or disables golden anubias. Enabled by default.
+	"Spawn Golden Anubias" = true
+	#Enables or disables java ferns. Enabled by default.
+	"Spawn Java Ferns" = true
+	#Enables or disables red bush algea. Enabled by default.
+	"Spawn Red Bush Algae" = true
+	#Enables or disables mangrove roots. Enabled by default.
+	"Spawn Mangrove Roots" = true
+
+["Enable & Disable NDM Carnivorous & Smelly Plants : "]
+	#Enables or disables corpse flowers. Enabled by default.
+	"Spawn Corpse Flowers" = true
+	#Enables or disables rafflesias. Enabled by default.
+	"Spawn Rafflesias" = true
+	#Enables or disables sundews. Enabled by default.
+	"Spawn Sundews" = true
+	#Enables or disables giant pitcher plant. Enabled by default.
+	"Spawn Giant Pitcher Plant" = true
+
+["Enable & Disable NDM Misc Plants : "]
+	#Enables or disables dracaneas. Enabled by default.
+	"Spawn Dracaneas" = true
+	#Enables or disables dracaneas. Enabled by default.
+	"Spawn Wetland Grass" = true
+	#Enables or disables prickly pear. Enabled by default.
+	"Spawn Prickly Pear" = true
+	#Enables or disables swiss cheese plant. Enabled by default.
+	"Spawn Swiss Cheese Plants" = true
+	#Enables or disables agave plants. Enabled by default.
+	"Spawn Agave" = true
+	#Enables or disables frost flowers (not a true plant). Enabled by default.
+	"Spawn Frost Flowers" = true
+

@@ -1,10 +1,9 @@
 {
     "block.gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
     "gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
-    "material.gtceu.scrap_metal": "Scrap metal",
-    "material.gtceu.scrap_plumbing": "Scrap plumbing",
-    "material.gtceu.scrap_cable": "Scrap cable",
-    "material.gtceu.scrap_electronics": "Scrap electronics",
+    "block.gtceu.primitive_chemical_reactor": "Primitive Chemical Reactor",
+    "gtceu.primitive_chemical_reactor": "Primitive Chemical Reactor",
+    "material.gtceu.silver_oxide": "Silver Oxide",
 
     "soil.agricraft.bloom_arti.wasteland_soil": "Polluted sandy soil",
     "soil.agricraft.bloom_arti.tier1_dirt_soil": "Loamy soil",

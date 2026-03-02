@@ -247,4 +247,42 @@ ServerEvents.recipes(event => {
         'farmersdelight:canvas'
     );
 
+    event.custom({
+        type: 'youkaisfeasts:drying_rack',
+        category: 'misc',
+        cookingtime: 100,
+        experience: 0.0,
+        ingredient: {
+            item: 'gtceu:calcium_hydroxide_dust'
+        },
+        result: {
+            item: 'gtceu:calcium_carbonate_dust'
+        }
+    });
+
+    event.custom({
+        type: 'youkaisfeasts:drying_rack',
+        category: 'misc',
+        cookingtime: 100,
+        experience: 0.0,
+        ingredient: {
+            item: 'gtceu:silver_dust'
+        },
+        result: {
+            item: 'gtceu:small_silver_oxide_dust',
+            count: 2
+        }
+    });
+
+    event.custom({
+        type: 'youkaisfeasts:simple_basin',
+        input: {
+            item: 'minecraft:cactus'
+        },
+        output: {
+            amount: 125,
+            fluid: 'minecraft:water'
+        }
+    });
+
 });
