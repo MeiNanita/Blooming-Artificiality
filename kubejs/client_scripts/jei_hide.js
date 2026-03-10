@@ -16,6 +16,13 @@ JEIEvents.hideItems(event => {
     event.hide('notreepunching:clay_small_vessel');
     event.hide('notreepunching:clay_large_vessel');
 
+    // minecraft
+    event.hide('minecraft:iron_shovel');
+    event.hide('minecraft:iron_pickaxe');
+    event.hide('minecraft:iron_axe');
+    event.hide('minecraft:iron_hoe');
+    event.hide('minecraft:iron_sword');
+
 
     // gregtech
     event.hide('gtceu:flint_pickaxe');
@@ -23,29 +30,26 @@ JEIEvents.hideItems(event => {
     event.hide('gtceu:flint_axe');
     event.hide('gtceu:flint_hoe');
     event.hide('gtceu:flint_sword');
+    event.hide('gtceu:iron_butchery_knife');
+    event.hide('gtceu:iron_screwdriver_tip');
+    event.hide('gtceu:iron_chainsaw_head');
+    event.hide('gtceu:iron_wrench_tip');
+    event.hide('gtceu:iron_scythe');
+    event.hide('gtceu:iron_pickaxe');
+    event.hide('gtceu:iron_shovel');
+    event.hide('gtceu:iron_axe');
+    event.hide('gtceu:iron_hoe');
+    event.hide('gtceu:iron_sword');
+    event.hide('gtceu:iron_hammer');
+    event.hide('gtceu:iron_file');
+    event.hide('gtceu:iron_saw');
+    event.hide('gtceu:iron_screwdriver');
+    event.hide('gtceu:iron_wire_cutter');
+    event.hide('gtceu:iron_mortar');
+    event.hide('gtceu:iron_wrench');
+    event.hide('gtceu:iron_mining_hammer');
+    event.hide('gtceu:iron_spade');
+    event.hide('gtceu:iron_knife');
 
-    const scrap_stone_blocks = [
-        '', 
-        'deepslate_', 
-        'netherrack_', 
-        'endstone_', 
-        'granite_', 
-        'andesite_', 
-        'diorite_', 
-        'red_granite_', 
-        'marble_', 
-        'tuff_', 
-        'sand_', 
-        'red_sand_', 
-        'gravel_', 
-        'basalt_',
-        'blackstone_'
-    ];
-    scrap_stone_blocks.forEach(stone => {
-        event.hide(`gtceu:${stone}scrap_metal_ore`);
-        event.hide(`gtceu:${stone}scrap_plumbing_ore`);
-        event.hide(`gtceu:${stone}scrap_cable_ore`);
-        event.hide(`gtceu:${stone}scrap_electronics_ore`);
-    });
 
 });

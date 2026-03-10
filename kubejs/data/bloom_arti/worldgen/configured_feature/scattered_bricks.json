@@ -48,7 +48,7 @@
                                 }
                             },
                             {
-                                "weight": 6,
+                                "weight": 5,
                                 "data": {
                                     "Name": "doomsday_decoration:redbrick",
                                     "Properties": {
@@ -57,7 +57,7 @@
                                 }
                             },
                             {
-                                "weight": 6,
+                                "weight": 5,
                                 "data": {
                                     "Name": "doomsday_decoration:redbrick",
                                     "Properties": {
@@ -66,7 +66,7 @@
                                 }
                             },
                             {
-                                "weight": 6,
+                                "weight": 5,
                                 "data": {
                                     "Name": "doomsday_decoration:redbrick",
                                     "Properties": {
@@ -75,7 +75,7 @@
                                 }
                             },
                             {
-                                "weight": 6,
+                                "weight": 5,
                                 "data": {
                                     "Name": "doomsday_decoration:redbrick",
                                     "Properties": {
@@ -120,21 +120,30 @@
                                 }
                             },
                             {
-                                "weight": 1,
+                                "weight": 12,
+                                "data": {
+                                    "Name": "gtceu:gypsum_indicator",
+                                    "Properties": {
+										"facing": "down"
+									}
+                                }
+                            },
+                            {
+                                "weight": 4,
                                 "data": {
                                     "Name": "minecraft:dead_bush"
                                 }
                             },
                             {
-                                "weight": 1,
+                                "weight": 4,
                                 "data": {
                                     "Name": "ferdinandsflowers:tumble_weed"
                                 }
                             },
                             {
-                                "weight": 2,
+                                "weight": 8,
                                 "data": {
-                                    "Name": "naturaldecormod:beachgrass"
+                                    "Name": "naturaldecormod:largedrygrass"
                                 }
                             }
                         ]

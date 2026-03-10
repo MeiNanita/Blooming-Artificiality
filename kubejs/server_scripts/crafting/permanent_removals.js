@@ -31,6 +31,10 @@ ServerEvents.recipes(event => {
     event.remove({id: 'minecraft:crafting_table'});
     event.remove({id: 'minecraft:furnace'});
 
+    // botany pots
+    event.remove({id: 'botanypots:botanypots/crafting/terracotta_botany_pot'});
+    event.remove({id: 'botanypots:botanypots/crafting/terracotta_hopper_botany_pot'});
+
     // farmers delight
     event.remove({id: 'farmersdelight:rope'});
     event.remove({id: 'farmersdelight:tatami'});
@@ -45,6 +49,10 @@ ServerEvents.recipes(event => {
     event.remove({id: 'cold_sweat:waterskin'});
     event.remove({id: 'cold_sweat:icebox'});
 
+    // youkais feasts
+    event.remove({id: 'youkaisfeasts:wood_basin'});
+    event.remove({id: 'youkaisfeasts:drying_rack_from_bamboo_block_stonecutting'});
+
     // croptopia
     event.remove({id: 'croptopia:shaped_water_bottle'});
     event.remove({id: 'croptopia:food_press'});
@@ -56,6 +64,12 @@ ServerEvents.recipes(event => {
     event.remove({id: 'sophisticatedbackpacks:gold_backpack'});
     event.remove({id: 'sophisticatedbackpacks:diamond_backpack'});
     event.remove({id: 'sophisticatedbackpacks:netherite_backpack'});
+    event.remove({id: 'sophisticatedbackpacks:upgrade_base'});
+    event.remove({id: 'sophisticatedbackpacks:crafting_upgrade'});
+
+    // sophisticated storage
+    event.remove({id: 'sophisticatedstorage:upgrade_base'});
+    event.remove({id: 'sophisticatedstorage:backpack_crafting_upgrade_from_storage_crafting_upgrade'});
 
     // natural decor
     event.remove({id: 'naturaldecormod:black_glazed_planter_pot_recipe'});
@@ -104,6 +118,22 @@ ServerEvents.recipes(event => {
     event.remove({id: 'naturaldecormod:saguarologsmokerecipe'});
     event.remove({id: 'naturaldecormod:cactus_wood_smelt'});
 
+    // thermal & thermal extra
+    event.remove({id: 'thermal:parts/bronze_gear'});
+    event.remove({id: 'thermal:bronze_dust_4'});
+    event.remove({id: 'thermal:fire_charge/bronze_dust_4'});
+    event.remove({id: 'thermal:storage/bronze_block'});
+    event.remove({id: 'thermal:storage/bronze_ingot_from_block'});
+    event.remove({id: 'thermal:storage/bronze_ingot_from_nuggets'});
+    event.remove({id: 'thermal:storage/bronze_nugget_from_ingot'});
+    event.remove({id: 'thermal:parts/lead_gear'});
+    event.remove({id: 'thermal:storage/lead_block'});
+    event.remove({id: 'thermal:storage/lead_ingot_from_block'});
+    event.remove({id: 'thermal:storage/lead_ingot_from_nuggets'});
+    event.remove({id: 'thermal:storage/lead_nugget_from_ingot'});
+
+    event.remove({id: 'thermal_extra:crafting/bronze_rod'});
+    event.remove({id: 'thermal_extra:crafting/lead_rod'});
 
     // gregtech
     event.remove({id: 'gtceu:shaped/pickaxe_flint'});
@@ -117,5 +147,32 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/bronze_primitive_blast_furnace'});
     event.remove({id: 'gtceu:macerator/dirt_from_bio_chaff'});
     event.remove({id: 'gtceu:electrolyzer/decomposition_electrolyzing_gunpowder'});
+    event.remove({id: 'gtceu:shaped/wooden_barrel'});
+    event.remove({id: 'gtceu:shaped/iron_shovel'});
+    event.remove({id: 'gtceu:shaped/iron_pickaxe'});
+    event.remove({id: 'gtceu:shaped/iron_axe'});
+    event.remove({id: 'gtceu:shaped/iron_hoe'});
+    event.remove({id: 'gtceu:shaped/iron_sword'});
+    event.remove({id: 'gtceu:shaped/screwdriver_tip_iron'});
+    event.remove({id: 'gtceu:shaped/chainsaw_head_iron'});
+    event.remove({id: 'gtceu:shaped/wrench_head_iron'});
+    event.remove({id: 'gtceu:shaped/shovel_iron'});
+    event.remove({id: 'gtceu:shaped/pickaxe_iron'});
+    event.remove({id: 'gtceu:shaped/axe_iron'});
+    event.remove({id: 'gtceu:shaped/hoe_iron'});
+    event.remove({id: 'gtceu:shaped/sword_iron'});
+    event.remove({id: 'gtceu:shaped/scythe_iron'});
+    event.remove({id: 'gtceu:shaped/hammer_iron'});
+    event.remove({id: 'gtceu:shaped/mortar_iron'});
+    event.remove({id: 'gtceu:shaped/file_iron'});
+    event.remove({id: 'gtceu:shaped/wire_cutter_iron'});
+    event.remove({id: 'gtceu:shaped/saw_iron'});
+    event.remove({id: 'gtceu:shaped/wrench_iron'});
+    event.remove({id: 'gtceu:shaped/knife_iron'});
+    event.remove({id: 'gtceu:shaped/butchery_knife_iron'});
+    event.remove({id: 'gtceu:shaped/mining_hammer_iron'});
+    event.remove({id: 'gtceu:shaped/spade_iron'});
+    event.remove({id: 'gtceu:shaped/crowbar_iron_lime'});
+
 
 });

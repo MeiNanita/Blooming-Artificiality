@@ -18,27 +18,6 @@
 				}
 			]
 		},
-        {
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "gtceu:plant_ball",
-					"conditions": [
-						{
-							"condition": "minecraft:random_chance",
-							"chance": 0.125
-						},
-						{
-							"condition": "minecraft:match_tool",
-							"predicate": {
-								"tag": "forge:tools/knives"
-							}
-						}
-					]
-				}
-			]
-		},
 		{
 			"rolls": 1,
 			"entries": [

@@ -2,8 +2,12 @@
     "block.gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
     "gtceu.downhole_heat_exchanger": "Downhole heat exchanger",
     "block.gtceu.primitive_chemical_reactor": "Primitive Chemical Reactor",
+    "gtceu.machine.primitive_chemical_reactor.tooltip": "§7Good enough for simple chemistry.§r",
     "gtceu.primitive_chemical_reactor": "Primitive Chemical Reactor",
     "material.gtceu.silver_oxide": "Silver Oxide",
+    "material.gtceu.calcium_sulfide": "Calcium Sulfide",
+    "material.gtceu.slag": "Slag",
+    "material.gtceu.rich_slag": "Rich Slag",
 
     "soil.agricraft.bloom_arti.wasteland_soil": "Polluted sandy soil",
     "soil.agricraft.bloom_arti.tier1_dirt_soil": "Loamy soil",

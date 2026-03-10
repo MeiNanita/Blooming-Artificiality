@@ -5,30 +5,9 @@ ServerEvents.recipes(event => {
     // =======================================================
 
     event.shapeless(
-        'naturaldecormod:rock_decor_medium', 
-        [
-            '2x naturaldecormod:rock_decor_small'
-        ]
-    );
-
-    event.shapeless(
-        'naturaldecormod:rock_decor_large', 
-        [
-            '4x naturaldecormod:rock_decor_small'
-        ]
-    );
-
-    event.shapeless(
-        'naturaldecormod:rock_decor_x_large', 
-        [
-            '8x naturaldecormod:rock_decor_small'
-        ]
-    );
-
-    event.shapeless(
         'minecraft:cobblestone', 
         [
-            '9x naturaldecormod:rock_decor_small'
+            '4x naturaldecormod:rock_decor_small'
         ]
     );
 
@@ -40,8 +19,8 @@ ServerEvents.recipes(event => {
     );
 
     event.shapeless(
-        'minecraft:clay_ball', [
-            'gtceu:clay_dust',
+        '4x minecraft:clay_ball', [
+            '4x gtceu:clay_dust',
             'minecraft:water_bucket'
         ]
     )
@@ -58,11 +37,26 @@ ServerEvents.recipes(event => {
     );
 
     event.shapeless(
-        'croptopia:food_press', 
+        'gtceu:wood_drum', 
         [
-            'minecraft:hopper',
-            '#forge:tools/screwdrivers',
-            '#forge:tools/hammers'
+            'minecraft:barrel',
+            '#forge:tools/saws',
+            '#forge:tools/mallets'
+        ]
+    );
+
+    event.shapeless(
+        'architects_palette:pipe', 
+        [
+            'gtceu:steel_huge_fluid_pipe'
+        ]
+    );
+
+    event.shapeless(
+        'gtceu:tiny_lead_dust', 
+        [
+            'gtceu:lead_nugget',
+            '#forge:tools/mortars'
         ]
     );
 
@@ -125,22 +119,11 @@ ServerEvents.recipes(event => {
         S: 'notreepunching:plant_string'
     });
 
-    event.shaped(Item.of('cold_sweat:filled_waterskin', '{Temperature:0.0d}'), [
-        'WC',
-        'CF'
-    ], {
-        W: 'cold_sweat:waterskin',
-        C: 'minecraft:cactus',
-        F: 'croptopia:food_press'
-    });
-
     event.shaped(Item.of('minecraft:clay'), [
-        'CCC',
-        'CTC',
-        'CCC'
+        'CC',
+        'CC'
     ], {
-        C: 'minecraft:clay_ball',
-        T: 'notreepunching:clay_tool'
+        C: 'minecraft:clay_ball'
     });
 
     event.shaped(Item.of('cold_sweat:waterskin'), [
@@ -161,8 +144,8 @@ ServerEvents.recipes(event => {
         M: '#forge:tools/mallets',
         S: '#forge:tools/saws',
         B: 'minecraft:bucket',
-        _: 'gtceu:treated_wood_trapdoor',
-        W: 'gtceu:treated_wood_planks',
+        _: '#minecraft:wooden_trapdoors',
+        W: '#minecraft:planks',
         C: 'minecraft:cobblestone_slab'
     });
 
@@ -207,11 +190,145 @@ ServerEvents.recipes(event => {
         'BFB',
         'STS'
     ], {
-        S: 'gtceu:iron_screw',
+        S: 'gtceu:wrought_iron_screw',
         B: 'gtceu:firebricks',
         F: 'minecraft:blast_furnace',
         H: '#forge:tools/hammers',
         T: '#forge:tools/screwdrivers'
+    });
+
+    event.shaped('youkaisfeasts:wood_basin', [
+        'C M',
+        'PIP',
+        'SSS'
+    ], {
+        S: '#minecraft:wooden_slabs',
+        P: '#minecraft:planks',
+        I: 'gtceu:long_iron_rod',
+        C: '#forge:tools/saws',
+        M: '#forge:tools/mallets'
+    });
+
+    event.shaped('youkaisfeasts:wood_basin', [
+        'M C',
+        'PIP',
+        'SSS'
+    ], {
+        S: '#minecraft:wooden_slabs',
+        P: '#minecraft:planks',
+        I: 'gtceu:long_iron_rod',
+        C: '#forge:tools/saws',
+        M: '#forge:tools/mallets'
+    });
+
+    event.shaped('youkaisfeasts:drying_rack', [
+        'SIS',
+        'ICI',
+        'SIS'
+    ], {
+        S: '#forge:string',
+        I: 'minecraft:stick',
+        C: 'farmersdelight:canvas'
+    });
+
+    event.shaped('farmersdelight:basket', [
+        'I I',
+        'C C',
+        'ICI'
+    ], {
+        I: 'minecraft:stick',
+        C: 'farmersdelight:canvas'
+    });
+
+    event.shaped('youkaisfeasts:short_basket', [
+        'I I',
+        'CCC'
+    ], {
+        I: 'minecraft:stick',
+        C: 'farmersdelight:canvas'
+    });
+
+    event.shaped('botanypots:terracotta_botany_pot', [
+        'TPT',
+        'TTT'
+    ], {
+        P: 'minecraft:flower_pot',
+        T: 'minecraft:terracotta'
+    });
+
+    event.shaped('botanypots:terracotta_hopper_botany_pot', [
+        'H S',
+        'GPG',
+        'TVT'
+    ], {
+        P: 'botanypots:terracotta_botany_pot',
+        G: 'gtceu:small_steel_gear',
+        T: 'gtceu:steel_screw',
+        V: 'minecraft:hopper',
+        H: '#forge:tools/hammers',
+        S: '#forge:tools/screwdrivers'
+    });
+
+    event.shaped('botanypots:terracotta_hopper_botany_pot', [
+        'S H',
+        'GPG',
+        'TVT'
+    ], {
+        P: 'botanypots:terracotta_botany_pot',
+        G: 'gtceu:small_steel_gear',
+        T: 'gtceu:steel_screw',
+        V: 'minecraft:hopper',
+        H: '#forge:tools/hammers',
+        S: '#forge:tools/screwdrivers'
+    });
+
+    event.shaped('sophisticatedbackpacks:upgrade_base', [
+        'TST',
+        'OLO',
+        'WWW'
+    ], {
+        S: '#forge:tools/screwdrivers',
+        T: 'gtceu:iron_screw',
+        O: 'gtceu:small_iron_gear',
+        L: 'minecraft:leather',
+        W: 'gtceu:wood_plate'
+    });
+
+    event.shaped('sophisticatedbackpacks:crafting_upgrade', [
+        'DTS',
+        'IBI',
+        'GCG'
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        T: 'minecraft:crafting_table',
+        C: 'minecraft:chest',
+        G: 'gtceu:small_bronze_gear',
+        I: 'gtceu:bronze_screw',
+        D: '#forge:tools/screwdrivers',
+        S: '#forge:tools/saws'
+    });
+
+    event.shaped('2x gtceu:industrial_steam_casing', [
+        'PHP',
+        'PFP',
+        'PWP'
+    ], {
+        F: 'gtceu:bronze_frame',
+        P: 'gtceu:bronze_plate',
+        H: '#forge:tools/hammers',
+        W: '#forge:tools/wrenches'
+    });
+
+    event.shaped('gtceu:primitive_chemical_reactor', [
+        'CXC',
+        'UGU',
+        'CDC'
+    ], {
+        C: 'gtceu:industrial_steam_casing',
+        U: 'minecraft:glass_bottle',
+        G: 'gtceu:steel_gear',
+        D: 'gtceu:steel_drum',
+        X: 'minecraft:glass'
     });
 
     // =======================================================
@@ -227,6 +344,7 @@ ServerEvents.recipes(event => {
 
     event.smelting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 200);
     event.blasting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 100);
+    event.blasting('gtceu:wrought_iron_ingot', 'minecraft:iron_ingot', 0.0, 200);
 
     // =======================================================
     //                   ingredient replacements
@@ -247,10 +365,49 @@ ServerEvents.recipes(event => {
         'farmersdelight:canvas'
     );
 
+    event.replaceInput({ id: 'gtceu:shaped/pump_deck' },
+        'gtceu:iron_screw',
+        'gtceu:steel_screw'
+    );
+
+    event.replaceInput({ id: 'gtceu:shaped/pump_hatch' },
+        'gtceu:iron_screw',
+        'gtceu:steel_screw'
+    );
+
+    event.replaceInput({ id: 'gtceu:shaped/pump_hatch' },
+        'gtceu:iron_ring',
+        'gtceu:steel_ring'
+    );
+
+    event.replaceInput({ id: 'gtceu:shaped/primitive_pump' },
+        'gtceu:iron_screw',
+        'gtceu:steel_screw'
+    );
+
+    event.replaceInput({ id: 'gtceu:shaped/primitive_pump' },
+        'gtceu:iron_ring',
+        'gtceu:steel_ring'
+    );
+
+    event.replaceInput({ id: 'gtceu:shaped/primitive_pump' },
+        'gtceu:iron_rotor',
+        'gtceu:steel_rotor'
+    );
+
+    event.replaceInput({ id: 'cold_sweat:sewing_table' },
+        '#minecraft:wool',
+        'farmersdelight:canvas'
+    );
+
+    // =======================================================
+    //                   specialized recipes
+    // =======================================================
+
     event.custom({
         type: 'youkaisfeasts:drying_rack',
         category: 'misc',
-        cookingtime: 100,
+        cookingtime: 18000,
         experience: 0.0,
         ingredient: {
             item: 'gtceu:calcium_hydroxide_dust'
@@ -263,7 +420,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'youkaisfeasts:drying_rack',
         category: 'misc',
-        cookingtime: 100,
+        cookingtime: 18000,
         experience: 0.0,
         ingredient: {
             item: 'gtceu:silver_dust'
@@ -280,7 +437,7 @@ ServerEvents.recipes(event => {
             item: 'minecraft:cactus'
         },
         output: {
-            amount: 125,
+            amount: 50,
             fluid: 'minecraft:water'
         }
     });

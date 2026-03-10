@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
     event.create('primitive_chemical_reactor')
         .category('primitive')
-        .setMaxIOSize(2, 2, 2, 2)
+        .setMaxIOSize(3, 2, 2, 2)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL);
 
@@ -17,10 +17,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .appearanceBlock(GCYMBlocks.CASING_INDUSTRIAL_STEAM)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('FFF', 'SSS', ' S ', '   ', '   ', '   ')
-            .aisle('FSF', 'S S', 'SPS', ' P ', ' P ', ' P ')
+            .aisle('FSF', 'SXS', 'SPS', ' P ', ' P ', ' P ')
             .aisle('FFF', 'SCS', ' S ', '   ', '   ', '   ')
             .where('C', Predicates.controller(Predicates.blocks(definition.get())))
             .where('F', Predicates.blocks(GTBlocks.FIREBOX_BRONZE.get()))
+            .where('X', Predicates.blocks(GTBlocks.CASING_BRONZE_PIPE.get()))
             .where('S', Predicates.blocks(GCYMBlocks.CASING_INDUSTRIAL_STEAM.get())
                 .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(0))
                 .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(0))
@@ -78,8 +79,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 					texture: GuiTextures.PROGRESS_BAR_ARROW
 				},
 				inputs: [
-					{ type: 'item', index: 0, pos: [34, 22], texture: GuiTextureGroup(GuiTextures.PRIMITIVE_SLOT, GuiTextures.PRIMITIVE_FURNACE_OVERLAY) },
-					{ type: 'item', index: 1, pos: [52, 22], texture: GuiTextureGroup(GuiTextures.PRIMITIVE_SLOT, GuiTextures.PRIMITIVE_DUST_OVERLAY) },
+                    { type: 'item', index: 0, pos: [82, 56], texture: GuiTextureGroup(GuiTextures.PRIMITIVE_SLOT, GuiTextures.PRIMITIVE_FURNACE_OVERLAY) },
+					{ type: 'item', index: 1, pos: [34, 22], texture: GuiTextureGroup(GuiTextures.PRIMITIVE_SLOT, GuiTextures.PRIMITIVE_DUST_OVERLAY) },
+					{ type: 'item', index: 2, pos: [52, 22], texture: GuiTextureGroup(GuiTextures.PRIMITIVE_SLOT, GuiTextures.PRIMITIVE_DUST_OVERLAY) },
 					{ type: 'fluid', index: 0, pos: [34, 40], texture: GuiTextureGroup(GuiTextures.PRIMITIVE_SLOT, GuiTextures.PRIMITIVE_LARGE_FLUID_TANK_OVERLAY.getSubTexture(0, 0.04, 1, 0.22)) },
                     { type: 'fluid', index: 1, pos: [52, 40], texture: GuiTextureGroup(GuiTextures.PRIMITIVE_SLOT, GuiTextures.PRIMITIVE_LARGE_FLUID_TANK_OVERLAY.getSubTexture(0, 0.04, 1, 0.22)) },
 				],
