@@ -1,13 +1,5 @@
 ServerEvents.recipes(event => {
 
-    event.shaped(Item.of('abyssal_decor:rope_barrier_base', 2), [
-        'PRP',
-        'PRP'
-    ], {
-        P: 'gtceu:long_wood_rod',
-        R: 'farmersdelight:rope'
-    });
-
     event.shaped(Item.of('farmersdelight:tatami', 2), [
         ' C ',
         'CFC',
