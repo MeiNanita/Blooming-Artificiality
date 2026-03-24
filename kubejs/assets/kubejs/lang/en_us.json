@@ -6,22 +6,7 @@
     "gtceu.primitive_chemical_reactor": "Primitive Chemical Reactor",
     "material.gtceu.silver_oxide": "Silver Oxide",
     "material.gtceu.calcium_sulfide": "Calcium Sulfide",
+    "material.gtceu.bakelite": "Bakelite",
     "material.gtceu.slag": "Slag",
-    "material.gtceu.rich_slag": "Rich Slag",
-
-    "soil.agricraft.bloom_arti.wasteland_soil": "Polluted sandy soil",
-    "soil.agricraft.bloom_arti.tier1_dirt_soil": "Loamy soil",
-    "soil.agricraft.bloom_arti.tier1_sand_soil": "Sandy soil",
-    "soil.agricraft.bloom_arti.tier2_dirt_soil": "Loamy soil",
-    "soil.agricraft.bloom_arti.tier2_sand_soil": "Sandy soil",
-    "soil.agricraft.bloom_arti.tier3_dirt_soil": "Loamy soil",
-    "soil.agricraft.bloom_arti.tier3_sand_soil": "Sandy soil",
-    "soil.agricraft.bloom_arti.tier4_dirt_soil": "Loamy soil",
-    "soil.agricraft.bloom_arti.tier4_sand_soil": "Sandy soil",
-    "soil.agricraft.bloom_arti.tier5_dirt_soil": "Loamy soil",
-    "soil.agricraft.bloom_arti.tier5_sand_soil": "Sandy soil",
-    "soil.agricraft.bloom_arti.clay": "Clay soil",
-    "plant.agricraft.bloom_arti.desert_grass": "Desert grass",
-    "seed.agricraft.bloom_arti.desert_grass": "Desert grass Seed",
-    "description.agricraft.bloom_arti.desert_grass": "Grass that survives even in the harshest conditions."
+    "material.gtceu.rich_slag": "Rich Slag"
 }

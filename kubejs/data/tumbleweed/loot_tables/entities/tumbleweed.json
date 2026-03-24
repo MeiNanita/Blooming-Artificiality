@@ -21,23 +21,18 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:feather",
-                    "weight": 5
-                },
-                {
-                    "type": "minecraft:item",
                     "name": "flowerseedsbop:wilted_lily_seed",
-                    "weight": 2
+                    "weight": 4
                 },
                 {
                     "type": "minecraft:item",
                     "name": "flowerseeds:wither_rose_seed",
-                    "weight": 2
+                    "weight": 4
                 },
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:diamond",
-                    "weight": 1
+                    "weight": 2
                 }
             ]
         }

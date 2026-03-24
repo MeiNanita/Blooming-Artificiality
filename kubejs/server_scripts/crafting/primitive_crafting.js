@@ -308,6 +308,48 @@ ServerEvents.recipes(event => {
         S: '#forge:tools/saws'
     });
 
+    event.shaped('sophisticatedbackpacks:smelting_upgrade', [
+        'DTS',
+        'IBI',
+        'GCG'
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        T: 'minecraft:furnace',
+        C: 'minecraft:chest',
+        G: 'gtceu:small_bronze_gear',
+        I: 'gtceu:bronze_screw',
+        D: '#forge:tools/screwdrivers',
+        S: '#forge:tools/saws'
+    });
+
+    event.shaped('sophisticatedbackpacks:blasting_upgrade', [
+        'WTH',
+        'GBG',
+        'VCV'
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        T: 'minecraft:blast_furnace',
+        C: 'minecraft:chest',
+        G: 'gtceu:small_steel_gear',
+        V: '#gtceu:circuits/ulv',
+        W: '#forge:tools/wrenches',
+        H: '#forge:tools/hammers'
+    });
+
+    event.shaped('sophisticatedbackpacks:smoking_upgrade', [
+        'WTH',
+        'GBG',
+        'VCV'
+    ], {
+        B: 'sophisticatedbackpacks:upgrade_base',
+        T: 'minecraft:smoker',
+        C: 'minecraft:chest',
+        G: 'gtceu:small_steel_gear',
+        V: '#gtceu:circuits/ulv',
+        W: '#forge:tools/wrenches',
+        H: '#forge:tools/hammers'
+    });
+
     event.shaped('2x gtceu:industrial_steam_casing', [
         'PHP',
         'PFP',
@@ -329,6 +371,52 @@ ServerEvents.recipes(event => {
         G: 'gtceu:steel_gear',
         D: 'gtceu:steel_drum',
         X: 'minecraft:glass'
+    });
+
+    event.shaped('minecraft:composter', [
+        'WMW',
+        'WDW',
+        'SWS'
+    ], {
+        W: 'gtceu:wood_plate',
+        S: 'gtceu:iron_screw',
+        D: '#forge:tools/screwdrivers',
+        M: '#forge:tools/mallets'
+    });
+
+    event.shaped('thermal:device_composter', [
+        'PDP',
+        'VCV',
+        'WRW'
+    ], {
+        W: 'gtceu:treated_wood_plate',
+        P: 'gtceu:steel_plate',
+        V: 'gtceu:vacuum_tube',
+        D: '#forge:tools/hammers',
+        C: 'minecraft:composter',
+        R: 'gtceu:steel_rotor'
+    });
+
+    event.shaped('2x gtceu:resistor', [
+        'BPB',
+        'WCW',
+        ' P '
+    ], {
+        B: 'gtceu:bakelite_ingot',
+        P: 'minecraft:paper',
+        C: '#bloom_arti:carbon_dusts',
+        W: 'gtceu:fine_copper_wire'
+    });
+
+    event.shaped('2x gtceu:resistor', [
+        'BPB',
+        'WCW',
+        ' P '
+    ], {
+        B: 'gtceu:bakelite_ingot',
+        P: 'minecraft:paper',
+        C: '#bloom_arti:carbon_dusts',
+        W: 'gtceu:copper_single_wire'
     });
 
     // =======================================================
@@ -439,6 +527,50 @@ ServerEvents.recipes(event => {
         output: {
             amount: 50,
             fluid: 'minecraft:water'
+        }
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [
+            {
+                item: "minecraft:wither_rose"
+            }
+        ],
+        result: [
+            {
+                count: 1,
+                item: "farmersdelight:straw"
+            },
+            {
+                chance: 0.25,
+                item: "gtceu:tiny_dark_ash_dust"
+            }
+        ],
+        tool: {
+            tag: "forge:tools/knives"
+        }
+    });
+
+    event.custom({
+        type: "farmersdelight:cutting",
+        ingredients: [
+            {
+                item: "biomesoplenty:wilted_lily"
+            }
+        ],
+        result: [
+            {
+                count: 2,
+                item: "farmersdelight:straw"
+            },
+            {
+                chance: 0.5,
+                item: "farmersdelight:straw"
+            }
+        ],
+        tool: {
+            tag: "forge:tools/knives"
         }
     });
 

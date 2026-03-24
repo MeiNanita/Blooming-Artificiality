@@ -20,4 +20,13 @@ StartupEvents.registry('item', event => {
     .texture('kubejs:item/shredded_scrap_electronics')
     .maxStackSize(64);
 
+    event.create('mirror_shards')
+    .displayName('Mirror shards')
+    .color(0, 0xC0D0E0)
+    .color(1, 0x505A60)
+    .texture('layer0', 'gtceu:item/material_sets/dull/crushed_refined')
+    .texture('layer1', 'gtceu:item/material_sets/dull/crushed_refined_secondary')
+    .texture('layer2', 'gtceu:item/material_sets/shiny/crushed_refined_overlay')
+    .maxStackSize(64);
+
 });

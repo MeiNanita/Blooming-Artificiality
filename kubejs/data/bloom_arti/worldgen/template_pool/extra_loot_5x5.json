@@ -55,6 +55,33 @@
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:warehouse_depot_7",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:warehouse_depot_8",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bloom_arti:warehouse_depot_9",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
         }
     ]
 }

@@ -93,6 +93,7 @@
 						Count: 1
 						id: "gtceu:flint_knife"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							Enchantments: [{
 								id: "minecraft:fire_aspect"
@@ -102,7 +103,6 @@
 							GT.Tool: {
 								AttackDamage: 1.0f
 								AttackSpeed: 3.0f
-								Damage: 0
 								MaxDamage: 63
 							}
 							HideFlags: 2
@@ -113,6 +113,7 @@
 						Count: 1
 						id: "gtceu:flint_knife"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							Enchantments: [{
 								id: "minecraft:fire_aspect"
@@ -122,7 +123,6 @@
 							GT.Tool: {
 								AttackDamage: 1.0f
 								AttackSpeed: 3.0f
-								Damage: 0
 								MaxDamage: 63
 							}
 							HideFlags: 2
@@ -389,17 +389,6 @@
 				"getting &6cobblestone&r and much more! "
 			]
 			id: "744FE6723148330E"
-			rewards: [{
-				id: "7419207CD62ECC50"
-				item: {
-					Count: 1
-					id: "notreepunching:flint_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [
 				{
@@ -453,12 +442,6 @@
 				"I should try to create a &6campfire&r."
 			]
 			id: "20ADE96671853A74"
-			rewards: [{
-				count: 4
-				id: "7958CE2A34CA7A4E"
-				item: "minecraft:torch"
-				type: "item"
-			}]
 			shape: "square"
 			tasks: [{
 				id: "593AA4447EF30C1A"
@@ -475,35 +458,31 @@
 				"744FE6723148330E"
 			]
 			description: [
-				"With a pickaxe in tow, I should be able to finally collect some scrap materials from the wasteland-ruins! "
+				"With a pickaxe in tow, I should be able to finally collect some &6scrap materials&r from the wasteland-ruins! "
 				""
-				"The metals I will be able to get from them should be very valuable for my progression!"
+				"The &6metals&r I will be able to get from them should be very valuable for my progression!"
 			]
 			id: "0BD548EEDA83FF96"
 			shape: "square"
 			tasks: [
 				{
-					count: 8L
 					id: "5E0AA58E9AF15B25"
-					item: { Count: 8, id: "kubejs:scrap_metal" }
+					item: "kubejs:scrap_metal"
 					type: "item"
 				}
 				{
-					count: 8L
 					id: "16215F6C8C1E5739"
-					item: { Count: 8, id: "kubejs:scrap_plumbing" }
+					item: "kubejs:scrap_plumbing"
 					type: "item"
 				}
 				{
-					count: 8L
 					id: "40F3242705B5981D"
 					item: "kubejs:scrap_cable"
 					type: "item"
 				}
 				{
-					count: 8L
 					id: "75051CE9E200706D"
-					item: { Count: 8, id: "kubejs:scrap_electronics" }
+					item: "kubejs:scrap_electronics"
 					type: "item"
 				}
 			]
@@ -517,28 +496,10 @@
 				"During my search in those ruined structures, I've noticed some large and sturdy wooden crates..."
 				"They were quite heavy to move and I swear I heard a faint &6metallic sound&r from within them!"
 				""
-				"Now that I have an axe though, I might be able to open them and find something &6valuable&r."
+				"Now that I have an axe though, I might be able to open them and find something &6valuable&r like for example a &6hammer&r... that one would be useful for shaping metal."
 			]
 			icon: "kubejs:tool_crate"
 			id: "6E789AB90E379250"
-			rewards: [
-				{
-					count: 4
-					id: "2865AB83F004BDEE"
-					item: "kubejs:scrap_metal"
-					type: "item"
-				}
-				{
-					id: "1302B1405EF49BC8"
-					item: "minecraft:lantern"
-					type: "item"
-				}
-				{
-					id: "5977AF9EA46CD4D9"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
 			shape: "square"
 			tasks: [
 				{
@@ -556,10 +517,10 @@
 						Count: 1
 						id: "gtceu:bronze_hammer"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 191
 								ToolSpeed: 7.0f
@@ -575,15 +536,16 @@
 						Count: 1
 						id: "gtceu:bronze_screwdriver"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								MaxDamage: 191
 							}
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -592,10 +554,10 @@
 						Count: 1
 						id: "gtceu:bronze_crowbar"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 191
 								ToolSpeed: 7.0f
@@ -603,6 +565,7 @@
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -611,12 +574,12 @@
 						Count: 1
 						id: "gtceu:bronze_wrench"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: {
 								Mode: 2b
 							}
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 191
 								ToolSpeed: 7.0f
@@ -624,6 +587,7 @@
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -632,10 +596,10 @@
 						Count: 1
 						id: "gtceu:bronze_wire_cutter"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								HarvestLevel: 2
 								MaxDamage: 191
 								ToolSpeed: 7.0f
@@ -643,6 +607,7 @@
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -651,15 +616,16 @@
 						Count: 1
 						id: "gtceu:bronze_file"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: { }
 							GT.Tool: {
-								Damage: 0
 								MaxDamage: 191
 							}
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -668,17 +634,18 @@
 						Count: 1
 						id: "gtceu:bronze_saw"
 						tag: {
+							Damage: 0
 							DisallowContainerItem: 0b
 							GT.Behaviours: {
 								HarvestIce: 1b
 							}
 							GT.Tool: {
-								Damage: 0
 								MaxDamage: 191
 							}
 							HideFlags: 2
 						}
 					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -716,11 +683,6 @@
 				"I can think about upgrading my campfires into a proper furnace!"
 			]
 			id: "3BAD1E02E7A2FE79"
-			rewards: [{
-				id: "3783519445B4B7B3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
 			shape: "square"
 			tasks: [{
 				id: "3DCEE840067ED8BE"
@@ -769,46 +731,21 @@
 				""
 				"It's time to say goodbye to the caveman-days!"
 			]
+			icon: "gtceu:bronze_ingot"
 			id: "762BC5C521C37151"
-			rewards: [
-				{
-					count: 4
-					id: "6612FD1845B9AD18"
-					item: "kubejs:scrap_plumbing"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "72C799E5621E3BE5"
-					item: "kubejs:scrap_cable"
-					type: "item"
-				}
-				{
-					id: "3663C04A278815D8"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
 			shape: "square"
 			tasks: [
 				{
 					consume_items: false
-					count: 5L
-					id: "29859C5073EBAC2A"
-					item: "gtceu:iron_plate"
-					type: "item"
-				}
-				{
-					consume_items: false
 					count: 3L
 					id: "3E102DC5DC9BD2C7"
-					item: "gtceu:copper_dust"
+					item: "minecraft:copper_ingot"
 					type: "item"
 				}
 				{
 					consume_items: false
 					id: "5E3214FF5A2D28C6"
-					item: "gtceu:tin_dust"
+					item: "gtceu:tin_ingot"
 					type: "item"
 				}
 				{
@@ -819,10 +756,20 @@
 					type: "item"
 				}
 				{
-					consume_items: false
-					count: 4L
-					id: "25E704430D7C51CC"
-					item: "minecraft:redstone"
+					count: 3L
+					id: "1DADF83452786B2C"
+					item: "gtceu:copper_dust"
+					type: "item"
+				}
+				{
+					id: "32E69B17A57DCD29"
+					item: "gtceu:tin_dust"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2F4C3A16ADE6FEA9"
+					item: { Count: 3, id: "gtceu:bronze_dust" }
 					type: "item"
 				}
 			]
@@ -1086,8 +1033,8 @@
 				"that thermal protection might only last a day at best... "
 				""
 				"I must find ways on how to survive that heat, my life depends upon it! "
-				"&6Digging deep underground could help to escape the surface heat.&r "
-				"But my top priority should be to &6get some kind of watersource to expand my thermo-management options&r!"
+				"&6Digging deep underground&r could help to escape the surface heat. "
+				"Likewise, &6exploring the wasteland at night&r should help with those hot temperatures!"
 			]
 			icon: "cold_sweat:thermometer"
 			id: "73DA3A607CA312B8"
@@ -1119,6 +1066,80 @@
 			title: "The fight against starvation"
 			x: 7.5d
 			y: 5.0d
+		}
+		{
+			description: [
+				"During my journey through this wasteland, "
+				"I have found a patch of vegetation that managed to endure that arid climate! "
+				"The fact that these plants are still thriving means that there's still a drop of &awater&r in this world! "
+			]
+			id: "6802BD1F96C39B08"
+			invisible: true
+			shape: "square"
+			tasks: [
+				{
+					icon: "ferdinandsflowers:devils_claw_vine"
+					id: "19B0169AF73C41AC"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "ferdinandsflowers:devils_claw_vine"
+					type: "observation"
+				}
+				{
+					icon: "ferdinandsflowers:mojave_indigo_bush"
+					id: "62770F1CF30FC85E"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					to_observe: "ferdinandsflowers:mojave_indigo_bush"
+					type: "observation"
+				}
+				{
+					icon: "ferdinandsflowers:engelmanns_hedgehog_cactus"
+					id: "420ADC9A64D4B349"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ferdinandsflowers:engelmanns_hedgehog_cactus"
+					type: "observation"
+				}
+			]
+			title: "Find a patch of alive vegetation"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6802BD1F96C39B08"]
+			description: [
+				"Amongst that &6patch of vegetation&r, I've spotted a type of &6cactus&r. "
+				"If I collect that cactus, put it in a &6basin&r and jump on it, I might be able to &aextract a tiny amount of water&r! "
+				""
+				"Since the basin cannot hold a lot of water, I need to collect that water with a &6wooden barrel&r."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:cactus"
+			id: "5D6AB0F7ECB39470"
+			shape: "square"
+			tasks: [
+				{
+					id: "6875A3DB3954048D"
+					item: "youkaisfeasts:wood_basin"
+					type: "item"
+				}
+				{
+					id: "494F652F7A1E7453"
+					item: "gtceu:wood_drum"
+					type: "item"
+				}
+				{
+					id: "6AB5E1DD85DEB96C"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+			]
+			title: "Water, the key to life!"
+			x: 1.5d
+			y: 6.5d
 		}
 	]
 	title: "Primitive"

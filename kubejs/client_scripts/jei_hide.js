@@ -23,6 +23,10 @@ JEIEvents.hideItems(event => {
     event.hide('minecraft:iron_hoe');
     event.hide('minecraft:iron_sword');
 
+    // sophisticated backpacks
+    event.hide('sophisticatedbackpacks:battery_upgrade');
+    event.hide('sophisticatedbackpacks:infinity_upgrade');
+    event.hide('sophisticatedbackpacks:survival_infinity_upgrade');
 
     // gregtech
     event.hide('gtceu:flint_pickaxe');

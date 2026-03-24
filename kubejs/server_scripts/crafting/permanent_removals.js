@@ -26,10 +26,15 @@ ServerEvents.recipes(event => {
     event.remove({id: 'notreepunching:campfire/small_vessel'});
     event.remove({id: 'notreepunching:cobblestone_from_rocks'});
 
+    // architects palette
+    event.remove({id: 'architects_palette:pipe'});
+    event.remove({id: 'architects_palette:plating_block'});
+
 
     // minecraft
     event.remove({id: 'minecraft:crafting_table'});
     event.remove({id: 'minecraft:furnace'});
+    event.remove({id: 'minecraft:composter'});
 
     // botany pots
     event.remove({id: 'botanypots:botanypots/crafting/terracotta_botany_pot'});
@@ -41,9 +46,30 @@ ServerEvents.recipes(event => {
     event.remove({id: 'farmersdelight:canvas'});
     event.remove({id: 'farmersdelight:canvas_rug'});
     event.remove({id: 'farmersdelight:canvas_from_canvas_rug'});
+    event.remove({id: 'farmersdelight:cutting/wither_rose'});
+    event.remove({id: 'farmersdelight:cutting/wilted_lily'});
 
-    // abyssal decor
-    event.remove({id: 'abyssal_decor:rope_barrier_recipe'});
+    // flowerseeds & flowerseedsbop
+    event.remove({id: 'flowerseeds:dandelion_seed'});
+    event.remove({id: 'flowerseeds:allium_seed'});
+    event.remove({id: 'flowerseeds:azure_bluet_seed'});
+    event.remove({id: 'flowerseeds:cornflower_seed'});
+    event.remove({id: 'flowerseeds:blue_orchid_seed'});
+    event.remove({id: 'flowerseeds:lily_of_the_valley_seed'});
+    event.remove({id: 'flowerseeds:orange_tulip_seed'});
+    event.remove({id: 'flowerseeds:pink_tulip_seed'});
+    event.remove({id: 'flowerseeds:red_tulip_seed'});
+    event.remove({id: 'flowerseeds:white_tulip_seed'});
+    event.remove({id: 'flowerseeds:poppy_seed'});
+    event.remove({id: 'flowerseeds:oxeye_daisy_seed'});
+    event.remove({id: 'flowerseeds:wither_rose_seed'});
+    event.remove({id: 'minecraft:has_rose_seed'});
+    event.remove({id: 'minecraft:has_wild_flower_seed'});
+    event.remove({id: 'minecraft:has_orange_cosmos_seed'});
+    event.remove({id: 'minecraft:has_pink_daffodil_seed'});
+    event.remove({id: 'minecraft:has_glow_flower_seed'});
+    event.remove({id: 'minecraft:has_wilted_lily_seed'});
+    event.remove({id: 'minecraft:has_burning_blossom_seed'});
 
     // cold sweat
     event.remove({id: 'cold_sweat:waterskin'});
@@ -66,6 +92,66 @@ ServerEvents.recipes(event => {
     event.remove({id: 'sophisticatedbackpacks:netherite_backpack'});
     event.remove({id: 'sophisticatedbackpacks:upgrade_base'});
     event.remove({id: 'sophisticatedbackpacks:crafting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_starter_tier'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_starter_tier'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_tier_1_from_starter'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_tier_1'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_tier_2'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_tier_3'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_tier_4'});
+    event.remove({id: 'sophisticatedbackpacks:stack_upgrade_omega_tier'});
+    event.remove({id: 'sophisticatedbackpacks:battery_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:pickup_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_pickup_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:filter_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_filter_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:magnet_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_magnet_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:feeding_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_feeding_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:compacting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_compacting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:void_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_void_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:restock_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_restock_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:deposit_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_deposit_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:refill_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_refill_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:inception_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:everlasting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:smelting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:auto_smelting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:smoking_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:auto_smoking_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:blasting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:auto_blasting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:stonecutter_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:jukebox_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_jukebox_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:tool_swapper_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_tool_swapper_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:tank_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:pump_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_pump_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:xp_pump_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:anvil_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:smithing_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:alchemy_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:advanced_alchemy_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:chipped/botanist_workbench_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:chipped/glassblower_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:chipped/carpenters_table_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:chipped/loom_table_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:chipped/mason_table_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:chipped/alchemy_bench_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:chipped/tinkering_table_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:blasting_upgrade_from_smelting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:smoking_upgrade_from_smelting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:auto_blasting_upgrade_from_auto_smelting_upgrade'});
+    event.remove({id: 'sophisticatedbackpacks:auto_smoking_upgrade_from_auto_smelting_upgrade'});
+
 
     // sophisticated storage
     event.remove({id: 'sophisticatedstorage:upgrade_base'});
@@ -117,6 +203,8 @@ ServerEvents.recipes(event => {
     event.remove({id: 'naturaldecormod:cactus_wood_crafting_bench_recipe'});
     event.remove({id: 'naturaldecormod:saguarologsmokerecipe'});
     event.remove({id: 'naturaldecormod:cactus_wood_smelt'});
+    event.remove({id: 'naturaldecormod:mixed_grain_sand_smelt_recipe'});
+    event.remove({id: 'naturaldecormod:mixed_sand_recipe'});
 
     // thermal & thermal extra
     event.remove({id: 'thermal:parts/bronze_gear'});
@@ -131,6 +219,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'thermal:storage/lead_ingot_from_block'});
     event.remove({id: 'thermal:storage/lead_ingot_from_nuggets'});
     event.remove({id: 'thermal:storage/lead_nugget_from_ingot'});
+    event.remove({id: 'thermal:device_composter'});
 
     event.remove({id: 'thermal_extra:crafting/bronze_rod'});
     event.remove({id: 'thermal_extra:crafting/lead_rod'});
@@ -173,6 +262,17 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/mining_hammer_iron'});
     event.remove({id: 'gtceu:shaped/spade_iron'});
     event.remove({id: 'gtceu:shaped/crowbar_iron_lime'});
+    event.remove({id: 'gtceu:alloy_smelter/alloy_smelt_rubber_dust_to_block'});
+    event.remove({id: 'gtceu:forge_hammer/gravel_to_sand'});
+    event.remove({id: 'gtceu:forge_hammer/cobblestone_to_gravel'});
+    event.remove({id: 'gtceu:shapeless/coated_board_1x'});
+    event.remove({id: 'gtceu:shaped/coated_board'});
+    event.remove({id: 'gtceu:shaped/resistor_wire'});
+    event.remove({id: 'gtceu:shaped/resistor_wire_fine'});
+    event.remove({id: 'gtceu:shaped/resistor_wire_charcoal'});
+    event.remove({id: 'gtceu:shaped/resistor_wire_fine_charcoal'});
+    event.remove({id: 'gtceu:shaped/resistor_wire_carbon'});
+    event.remove({id: 'gtceu:shaped/resistor_wire_fine_carbon'});
 
 
 });

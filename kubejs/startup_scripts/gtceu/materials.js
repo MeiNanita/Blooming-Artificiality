@@ -27,6 +27,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('rich_slag')
         .dust() 
         .color(0xA25A3F);
-        
+
+    event.create('bakelite')
+        .polymer()
+        .fluid()
+        .color(0x9D824C)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE
+        );
     
 });

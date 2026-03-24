@@ -81,6 +81,26 @@ ServerEvents.recipes(event => {
         .duration(128)
         .EUt(GTValues.VH[GTValues.LV]);
 
+    greg.forge_hammer('rubber_plates_from_cured_rubber')
+        .itemInputs('3x thermal:cured_rubber')
+        .itemOutputs(
+            '2x gtceu:rubber_plate'
+        )
+        .duration(32)
+        .EUt(GTValues.VH[GTValues.LV]);
+
+    greg.forge_hammer('cobblestone_to_wasteland_undersoil')
+        .itemInputs('minecraft:cobblestone')
+        .itemOutputs('kubejs:wasteland_undersoil')
+        .duration(10)
+        .EUt(GTValues.VH[GTValues.LV]);
+
+    greg.forge_hammer('wasteland_undersoil_to_wasteland_soil')
+        .itemInputs('kubejs:wasteland_undersoil')
+        .itemOutputs('kubejs:wasteland_soil')
+        .duration(10)
+        .EUt(GTValues.VH[GTValues.LV]);
+
     // =======================================================
     //                   macerator recipes
     // =======================================================
@@ -150,6 +170,35 @@ ServerEvents.recipes(event => {
         .duration(256)
         .EUt(GTValues.VH[GTValues.LV]);
 
+    greg.centrifuge('centrifuged_wasteland_undersoil')
+        .itemInputs('kubejs:wasteland_undersoil')
+        .chancedOutput('kubejs:wasteland_soil', 5000, 0)
+        .chancedOutput('minecraft:gravel', 3750, 0)
+        .chancedOutput('gtceu:quartz_sand_dust', 1250, 0)
+        .chancedItemOutputLogic(ChanceLogic.XOR)
+        .duration(256)
+        .EUt(GTValues.VH[GTValues.LV]);
+
+    greg.centrifuge('centrifuged_mirror_shards')
+        .itemInputs('kubejs:mirror_shards')
+        .itemOutputs(
+            'gtceu:glass_dust',
+            'gtceu:small_silver_dust'
+        )
+        .duration(256)
+        .EUt(GTValues.VH[GTValues.LV]);
+
+    // =======================================================
+    //                   alloy smelter recipes
+    // =======================================================
+
+    greg.alloy_smelter('cured_rubber_via_mold')
+        .itemInputs('gtceu:rubber_dust')
+        .notConsumable('gtceu:ball_casting_mold')
+        .itemOutputs('thermal:cured_rubber')
+        .duration(160)
+        .EUt(GTValues.VH[GTValues.LV]);
+
     // =======================================================
     //                   PBF recipes
     // =======================================================
@@ -159,8 +208,19 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_metal',
             'gtceu:charcoal_dust'
         )
-        .itemOutputs(
-            'minecraft:iron_ingot'
+        .itemOutputsRanged(
+            'minecraft:iron_ingot', 1, 2
+        )
+        .chancedOutput('thermal:slag', 2500, 0)
+        .duration(512);
+
+    greg.primitive_blast_furnace('pbf_shredded_metal_charcoal')
+        .itemInputs(
+            'kubejs:shredded_scrap_metal',
+            'minecraft:charcoal'
+        )
+        .itemOutputsRanged(
+            'minecraft:iron_ingot', 1, 2
         )
         .chancedOutput('thermal:slag', 2500, 0)
         .duration(512);
@@ -170,8 +230,19 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_plumbing',
             'gtceu:charcoal_dust'
         )
-        .itemOutputs(
-            'minecraft:copper_ingot'
+        .itemOutputsRanged(
+            'minecraft:copper_ingot', 1, 2
+        )
+        .chancedOutput('thermal:slag', 2500, 0)
+        .duration(512);
+
+    greg.primitive_blast_furnace('pbf_shredded_plumbing_charcoal')
+        .itemInputs(
+            'kubejs:shredded_scrap_plumbing',
+            'minecraft:charcoal'
+        )
+        .itemOutputsRanged(
+            'minecraft:copper_ingot', 1, 2
         )
         .chancedOutput('thermal:slag', 2500, 0)
         .duration(512);
@@ -181,8 +252,19 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_cable',
             'gtceu:charcoal_dust'
         )
-        .itemOutputs(
-            'gtceu:tin_ingot'
+        .itemOutputsRanged(
+            'gtceu:tin_ingot', 1, 2
+        )
+        .chancedOutput('thermal:slag', 2500, 0)
+        .duration(512);
+
+    greg.primitive_blast_furnace('pbf_shredded_cable_charcoal')
+        .itemInputs(
+            'kubejs:shredded_scrap_cable',
+            'minecraft:charcoal'
+        )
+        .itemOutputsRanged(
+            'gtceu:tin_ingot', 1, 2
         )
         .chancedOutput('thermal:slag', 2500, 0)
         .duration(512);
@@ -192,8 +274,19 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_electronics',
             'gtceu:charcoal_dust'
         )
-        .itemOutputs(
-            '4x minecraft:redstone'
+        .itemOutputsRanged(
+            'minecraft:redstone', 4, 8
+        )
+        .chancedOutput('thermal:rich_slag', 2500, 0)
+        .duration(512);
+
+    greg.primitive_blast_furnace('pbf_shredded_electronics_charcoal')
+        .itemInputs(
+            'kubejs:shredded_scrap_electronics',
+            'minecraft:charcoal'
+        )
+        .itemOutputsRanged(
+            'minecraft:redstone', 4, 8
         )
         .chancedOutput('thermal:rich_slag', 2500, 0)
         .duration(512);
