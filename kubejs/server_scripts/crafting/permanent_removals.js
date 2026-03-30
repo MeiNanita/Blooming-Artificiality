@@ -273,6 +273,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'gtceu:shaped/resistor_wire_fine_charcoal'});
     event.remove({id: 'gtceu:shaped/resistor_wire_carbon'});
     event.remove({id: 'gtceu:shaped/resistor_wire_fine_carbon'});
+    event.remove({id: 'gtceu:shaped_fluid_container/treated_wood_planks'});
 
 
 });

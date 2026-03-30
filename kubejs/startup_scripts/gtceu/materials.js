@@ -35,5 +35,23 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(
             GTMaterialFlags.GENERATE_PLATE
         );
+
+    event.create('guaiacol')
+        .fluid()
+        .components('7x carbon', '8x hydrogen', '2x oxygen')
+        .color(0xFCEECB)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION);
+
+    event.create('creosol')
+        .fluid()
+        .components('8x carbon', '10x hydrogen', '2x oxygen')
+        .color(0xC3BFA3)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION);
+
+    event.create('xylenol')
+        .fluid()
+        .components('8x carbon', '10x hydrogen', '1x oxygen')
+        .color(0xD75044)
+        .flags(GTMaterialFlags.DISABLE_DECOMPOSITION);
     
 });

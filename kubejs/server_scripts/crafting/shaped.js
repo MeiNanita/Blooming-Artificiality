@@ -1,68 +1,4 @@
-
 ServerEvents.recipes(event => {
-    // =======================================================
-    //                   shapeless recipes
-    // =======================================================
-
-    event.shapeless(
-        'minecraft:cobblestone', 
-        [
-            '4x naturaldecormod:rock_decor_small'
-        ]
-    );
-
-    event.shapeless(
-        'notreepunching:plant_string', 
-        [
-            '3x farmersdelight:straw'
-        ]
-    );
-
-    event.shapeless(
-        '4x minecraft:clay_ball', [
-            '4x gtceu:clay_dust',
-            'minecraft:water_bucket'
-        ]
-    )
-    .replaceIngredient(
-        'minecraft:water_bucket',
-        'minecraft:bucket'
-    );
-
-    event.shapeless(
-        'croptopia:water_bottle', 
-        [
-            Item.of('minecraft:potion', '{Potion:"minecraft:water"}')
-        ]
-    );
-
-    event.shapeless(
-        'gtceu:wood_drum', 
-        [
-            'minecraft:barrel',
-            '#forge:tools/saws',
-            '#forge:tools/mallets'
-        ]
-    );
-
-    event.shapeless(
-        'architects_palette:pipe', 
-        [
-            'gtceu:steel_huge_fluid_pipe'
-        ]
-    );
-
-    event.shapeless(
-        'gtceu:tiny_lead_dust', 
-        [
-            'gtceu:lead_nugget',
-            '#forge:tools/mortars'
-        ]
-    );
-
-    // =======================================================
-    //                   shaped recipes
-    // =======================================================
 
     event.shaped(Item.of('minecraft:crafting_table'), [
         'AK',
@@ -419,159 +355,21 @@ ServerEvents.recipes(event => {
         W: 'gtceu:copper_single_wire'
     });
 
-    // =======================================================
-    //                   campfire recipes
-    // =======================================================
-
-    event.campfireCooking('minecraft:stone', 'minecraft:cobblestone', 0.1, 600);
-    event.campfireCooking('minecraft:smooth_stone', 'minecraft:stone', 0.1, 600);
-
-    // =======================================================
-    //                   smelting recipes
-    // =======================================================
-
-    event.smelting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 200);
-    event.blasting('gtceu:bronze_ingot', '#bloom_arti:recyclable_bronze_tools', 0.7, 100);
-    event.blasting('gtceu:wrought_iron_ingot', 'minecraft:iron_ingot', 0.0, 200);
-
-    // =======================================================
-    //                   ingredient replacements
-    // =======================================================
-
-    event.replaceInput({ id: 'minecraft:stonecutter' },
-        'minecraft:iron_ingot',
-        'gtceu:iron_buzz_saw_blade'
-    );
-
-    event.replaceInput({ id: 'minecraft:blast_furnace' },
-        'minecraft:iron_ingot',
-        'gtceu:wrought_iron_plate'
-    );
-
-    event.replaceInput({ id: 'sophisticatedbackpacks:backpack' },
-        '#forge:string',
-        'farmersdelight:canvas'
-    );
-
-    event.replaceInput({ id: 'gtceu:shaped/pump_deck' },
-        'gtceu:iron_screw',
-        'gtceu:steel_screw'
-    );
-
-    event.replaceInput({ id: 'gtceu:shaped/pump_hatch' },
-        'gtceu:iron_screw',
-        'gtceu:steel_screw'
-    );
-
-    event.replaceInput({ id: 'gtceu:shaped/pump_hatch' },
-        'gtceu:iron_ring',
-        'gtceu:steel_ring'
-    );
-
-    event.replaceInput({ id: 'gtceu:shaped/primitive_pump' },
-        'gtceu:iron_screw',
-        'gtceu:steel_screw'
-    );
-
-    event.replaceInput({ id: 'gtceu:shaped/primitive_pump' },
-        'gtceu:iron_ring',
-        'gtceu:steel_ring'
-    );
-
-    event.replaceInput({ id: 'gtceu:shaped/primitive_pump' },
-        'gtceu:iron_rotor',
-        'gtceu:steel_rotor'
-    );
-
-    event.replaceInput({ id: 'cold_sweat:sewing_table' },
-        '#minecraft:wool',
-        'farmersdelight:canvas'
-    );
-
-    // =======================================================
-    //                   specialized recipes
-    // =======================================================
-
-    event.custom({
-        type: 'youkaisfeasts:drying_rack',
-        category: 'misc',
-        cookingtime: 18000,
-        experience: 0.0,
-        ingredient: {
-            item: 'gtceu:calcium_hydroxide_dust'
-        },
-        result: {
-            item: 'gtceu:calcium_carbonate_dust'
-        }
+    event.shaped(Item.of('farmersdelight:tatami', 2), [
+        ' C ',
+        'CFC',
+        ' C '
+    ], {
+        C: 'farmersdelight:canvas',
+        F: 'gtceu:treated_wood_frame'
     });
 
-    event.custom({
-        type: 'youkaisfeasts:drying_rack',
-        category: 'misc',
-        cookingtime: 18000,
-        experience: 0.0,
-        ingredient: {
-            item: 'gtceu:silver_dust'
-        },
-        result: {
-            item: 'gtceu:small_silver_oxide_dust',
-            count: 2
-        }
-    });
-
-    event.custom({
-        type: 'youkaisfeasts:simple_basin',
-        input: {
-            item: 'minecraft:cactus'
-        },
-        output: {
-            amount: 50,
-            fluid: 'minecraft:water'
-        }
-    });
-
-    event.custom({
-        type: "farmersdelight:cutting",
-        ingredients: [
-            {
-                item: "minecraft:wither_rose"
-            }
-        ],
-        result: [
-            {
-                count: 1,
-                item: "farmersdelight:straw"
-            },
-            {
-                chance: 0.25,
-                item: "gtceu:tiny_dark_ash_dust"
-            }
-        ],
-        tool: {
-            tag: "forge:tools/knives"
-        }
-    });
-
-    event.custom({
-        type: "farmersdelight:cutting",
-        ingredients: [
-            {
-                item: "biomesoplenty:wilted_lily"
-            }
-        ],
-        result: [
-            {
-                count: 2,
-                item: "farmersdelight:straw"
-            },
-            {
-                chance: 0.5,
-                item: "farmersdelight:straw"
-            }
-        ],
-        tool: {
-            tag: "forge:tools/knives"
-        }
+    event.shaped(Item.of('farmersdelight:rope'), [
+        'S',
+        'S',
+        'S'
+    ], {
+        S: 'notreepunching:plant_string'
     });
 
 });

@@ -10,8 +10,13 @@ ItemEvents.modification(event => {
     });
     */
 
-    event.modify('biomesoplenty:dead_branch', item => {
-        item.burnTime = 200;
-    });
+//=============================================================    
+//             Burntime-modification
+//=============================================================    
+    const std_time = 200; // the standard burntime for 1 item in ticks
+
+    event.modify('biomesoplenty:dead_branch', item => {item.burnTime = std_time});
+    //event.modify('gtceu:wood_tar_bucket', item => {item.burnTime = 32*std_time; item.setCraftingRemainingItem('bucket')});
+    event.modify('gtceu:wood_tar_bucket', item => {item.burnTime = 32*std_time});
 
 });

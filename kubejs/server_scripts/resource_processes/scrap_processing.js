@@ -2,33 +2,6 @@ ServerEvents.recipes(event => {
 
     const greg = event.recipes.gtceu;
 
-
-    // =======================================================
-    //                   smelting & blasting recipes
-    // =======================================================
-
-    event.smelting('minecraft:iron_ingot', 'kubejs:scrap_metal', 0.7, 200);
-    event.smelting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 200);
-    event.smelting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 200);
-    event.smelting('2x minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 200);
-    event.smelting('gtceu:lead_nugget', 'pointblank:ammo357', 0.7, 200);
-
-    event.smelting('minecraft:iron_ingot', 'kubejs:shredded_scrap_metal', 0.7, 200);
-    event.smelting('minecraft:copper_ingot', 'kubejs:shredded_scrap_plumbing', 0.7, 200);
-    event.smelting('gtceu:tin_ingot', 'kubejs:shredded_scrap_cable', 0.7, 200);
-    event.smelting('2x minecraft:redstone', 'kubejs:shredded_scrap_electronics', 0.7, 200);
-
-    event.blasting('minecraft:iron_ingot', 'kubejs:scrap_metal', 0.7, 100);
-    event.blasting('minecraft:copper_ingot', 'kubejs:scrap_plumbing', 0.7, 100);
-    event.blasting('gtceu:tin_ingot', 'kubejs:scrap_cable', 0.7, 100);
-    event.blasting('2x minecraft:redstone', 'kubejs:scrap_electronics', 0.7, 100);
-    event.blasting('gtceu:lead_nugget', 'pointblank:ammo357', 0.7, 100);
-
-    event.blasting('minecraft:iron_ingot', 'kubejs:shredded_scrap_metal', 0.7, 100);
-    event.blasting('minecraft:copper_ingot', 'kubejs:shredded_scrap_plumbing', 0.7, 100);
-    event.blasting('gtceu:tin_ingot', 'kubejs:shredded_scrap_cable', 0.7, 100);
-    event.blasting('2x minecraft:redstone', 'kubejs:shredded_scrap_electronics', 0.7, 100);
-
     // =======================================================
     //                   forge hammer recipes
     // =======================================================
@@ -92,13 +65,13 @@ ServerEvents.recipes(event => {
     greg.forge_hammer('cobblestone_to_wasteland_undersoil')
         .itemInputs('minecraft:cobblestone')
         .itemOutputs('kubejs:wasteland_undersoil')
-        .duration(10)
+        .duration(16)
         .EUt(GTValues.VH[GTValues.LV]);
 
     greg.forge_hammer('wasteland_undersoil_to_wasteland_soil')
         .itemInputs('kubejs:wasteland_undersoil')
         .itemOutputs('kubejs:wasteland_soil')
-        .duration(10)
+        .duration(16)
         .EUt(GTValues.VH[GTValues.LV]);
 
     // =======================================================
@@ -113,7 +86,7 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_metal',
             '4x kubejs:shredded_scrap_metal'
         )
-        .duration(512)
+        .duration(256)
         .EUt(GTValues.V[GTValues.ULV]);
 
     greg.macerator('macerate_scrap_plumbing')
@@ -124,7 +97,7 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_plumbing',
             '4x kubejs:shredded_scrap_plumbing'
         )
-        .duration(512)
+        .duration(256)
         .EUt(GTValues.V[GTValues.ULV]);
 
     greg.macerator('macerate_scrap_cable')
@@ -135,7 +108,7 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_cable',
             '4x kubejs:shredded_scrap_cable'
         )
-        .duration(512)
+        .duration(256)
         .EUt(GTValues.V[GTValues.ULV]);
 
     greg.macerator('macerate_scrap_electronics')
@@ -146,14 +119,14 @@ ServerEvents.recipes(event => {
             'kubejs:shredded_scrap_electronics',
             '4x kubejs:shredded_scrap_electronics'
         )
-        .duration(512)
+        .duration(256)
         .EUt(GTValues.V[GTValues.ULV]);
 
     greg.macerator('macerate_ammo357')
         .itemInputs('pointblank:ammo357')
         .chancedOutput('gtceu:lead_dust', 1250, 0)
         .chancedOutput('minecraft:gunpowder', 1250, 0)
-        .duration(512)
+        .duration(256)
         .EUt(GTValues.V[GTValues.ULV]);
 
     // =======================================================
@@ -167,7 +140,7 @@ ServerEvents.recipes(event => {
         )
         .chancedOutput('gtceu:rubber_dust', 7500, 0)
         .chancedOutput('gtceu:copper_dust', 2500, 0)
-        .duration(256)
+        .duration(128)
         .EUt(GTValues.VH[GTValues.LV]);
 
     greg.centrifuge('centrifuged_wasteland_undersoil')
@@ -176,7 +149,7 @@ ServerEvents.recipes(event => {
         .chancedOutput('minecraft:gravel', 3750, 0)
         .chancedOutput('gtceu:quartz_sand_dust', 1250, 0)
         .chancedItemOutputLogic(ChanceLogic.XOR)
-        .duration(256)
+        .duration(128)
         .EUt(GTValues.VH[GTValues.LV]);
 
     greg.centrifuge('centrifuged_mirror_shards')

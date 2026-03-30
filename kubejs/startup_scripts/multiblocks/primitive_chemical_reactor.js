@@ -2,7 +2,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 
     event.create('primitive_chemical_reactor')
         .category('primitive')
-        .setMaxIOSize(3, 2, 2, 2)
+        .setMaxIOSize(3, 2, 3, 2)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.CHEMICAL);
 
@@ -17,14 +17,15 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .appearanceBlock(GCYMBlocks.CASING_INDUSTRIAL_STEAM)
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('FFF', 'SSS', ' S ', '   ', '   ', '   ')
-            .aisle('FSF', 'SXS', 'SPS', ' P ', ' P ', ' P ')
+            .aisle('FFF', 'SXS', 'SPS', ' P ', ' P ', ' P ')
             .aisle('FFF', 'SCS', ' S ', '   ', '   ', '   ')
             .where('C', Predicates.controller(Predicates.blocks(definition.get())))
-            .where('F', Predicates.blocks(GTBlocks.FIREBOX_BRONZE.get()))
+            .where('F', Predicates.blocks(GTBlocks.FIREBOX_BRONZE.get())
+                .or(Predicates.abilities(PartAbility.STEAM).setExactLimit(1)))
             .where('X', Predicates.blocks(GTBlocks.CASING_BRONZE_PIPE.get()))
             .where('S', Predicates.blocks(GCYMBlocks.CASING_INDUSTRIAL_STEAM.get())
-                .or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(0))
-                .or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(2).setPreviewCount(0))
+                .or(Predicates.abilities(PartAbility.STEAM_IMPORT_ITEMS).setExactLimit(1))
+                .or(Predicates.abilities(PartAbility.STEAM_EXPORT_ITEMS).setExactLimit(1))
                 .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(0))
                 .or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(2).setPreviewCount(0)))
             .where('P', Predicates.blocks(Block.getBlock('architects_palette:pipe')))
